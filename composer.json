@@ -1,0 +1,12 @@
+{
+    "name": "wcs/jedonne2heures",
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "AymenMech",
+            "email": "aymen.mechiche@gmail.com"
+        }
+    ]
+}
