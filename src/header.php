@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -16,7 +15,7 @@
 
 <style>
   .navbar-nav > li > a {
-    line-height: 40px;
+    line-height: 32px;
   }
 
   .nav-social {
@@ -25,7 +24,7 @@
   }
 
   img {
-    height: 40px;
+    height: 32px;
     opacity: 0.5;
   }
   img:hover{
