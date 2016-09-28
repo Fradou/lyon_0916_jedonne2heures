@@ -46,10 +46,11 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Comment ça marche</a></li>
-          <li><a href="#">Qui sommes-nous</a></li>
+          <li><a href="#">Je donne</a></li>
+          <li><a href="#">Je propose</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right nav-social">
+          <li><a href="#">Contactez-nous</a></li>
           <li><a href="#"><img src="../public/img/facebook.png" alt=""></a></li>
           <li><a href="#"><img  src="../public/img/twitter.png" alt=""></a></li>
           <li><a href="#"><img  src="../public/img/linkedin.png" alt=""></a></li>
