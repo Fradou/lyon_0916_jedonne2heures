@@ -15,6 +15,10 @@
 </head>
 
 <style>
+  .navbar-nav > li > a {
+    line-height: 40px;
+  }
+
   .nav-social {
     display: flex;
     flex-direction: row;
@@ -42,9 +46,9 @@
           <li><a href="#">Qui sommes-nous</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right nav-social">
-          <li><a href="#"><img src="img/facebook.png" alt=""></a></li>
-          <li><a href="#"><img  src="img/twitter.png" alt=""></a></li>
-          <li><a href="#"><img  src="img/linkedin.png" alt=""></a></li>
+          <li><a href="#"><img src="../public/img/facebook.png" alt=""></a></li>
+          <li><a href="#"><img  src="../public/img/twitter.png" alt=""></a></li>
+          <li><a href="#"><img  src="../public/img/linkedin.png" alt=""></a></li>
         </ul>
       </div>
     </div>
