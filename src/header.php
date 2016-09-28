@@ -26,6 +26,10 @@
 
   img {
     height: 40px;
+    opacity: 0.5;
+  }
+  img:hover{
+    opacity: 1;
   }
 </style>
 
