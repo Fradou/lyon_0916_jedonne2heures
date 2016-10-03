@@ -1,7 +1,7 @@
 
-CSS def
+// CSS def
 
-ALL
+// ALL
 
 .all_blsp {
 	height: 5vh;
@@ -9,7 +9,7 @@ ALL
 }
 
 
-HOME 
+// HOME 
 
 .home_blimg_startup {
 	margin-bottom: 5vh;
@@ -32,7 +32,7 @@ HOME
 }
 
 
-WHO
+// WHO
 
 .who_blocimg {
 }
@@ -61,7 +61,7 @@ WHO
 }
 
 
-HOW
+// HOW
 
 .how_form_ext {
 	height:80vh;
@@ -72,7 +72,7 @@ HOW
 }
 
 
-CSS tempo
+// CSS tempo
 
 #home_video_int {
 	height:100%;
