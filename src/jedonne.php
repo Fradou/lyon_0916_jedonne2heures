@@ -29,20 +29,20 @@ include 'include/header.php';
 
 		<div class="row all_blsp">Empty row de transition </div>
 
-		<div class="row">
-			<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="img_ambiance"> "Image d'ambiance"</div>
+		<div class="row how_blocimg_ext">
+			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_img_ambiance"> "Image d'ambiance"</div>
 		</div>
 
 		<div class="row all_blsp">Empty row de transition </div>
 
-		<div class="row" style="height:60vh">
-			<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="img_ambiance" style="height:100%"> "Bloc de texte presentation."</div>
+		<div class="row how_bloctxt_ext">
+			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> "Bloc de texte presentation."</div>
 		</div>
 
 		<div class="row all_blsp">Empty row de transition </div>
 
 		<div class="row how_form_ext">
-			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"> "Formulaire de souscription"</div>
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form"> "Formulaire de souscription"</div>
 		</div>
 
 		<div class="row all_blsp">Empty row de transition </div>
