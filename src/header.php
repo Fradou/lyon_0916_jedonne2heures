@@ -2,13 +2,18 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
+  <!-- accueil / carou / vid : comment gérer via boot ? superposition z axis ? -->
+
+  <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+
   <?php
-    include 'inc/links.php';
+    include_once 'inc/links.php';
   ?>
   <title>Je donne 2 heures</title>
 
-</head>
+
+ </head>
+
 
 <style>
   .navbar-nav > li > a {
@@ -27,8 +32,11 @@
   img:hover{
     opacity: 1;
   }
+
 </style>
 
+<body>
+  <header>
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -54,5 +62,4 @@
       </div>
     </div>
   </nav>
-
-<body>
+  </header>
