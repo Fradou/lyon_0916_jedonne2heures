@@ -9,8 +9,7 @@
   <?php
     include_once 'inc/links.php';
   ?>
-  <title>Je donne 2 heures</title>
-
+  <title><?php echo $pageTitle; ?> </title>
 
  </head>
 
