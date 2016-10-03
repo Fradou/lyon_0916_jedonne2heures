@@ -1,0 +1,143 @@
+
+// CSS def
+
+// ALL
+
+.all_blsp {
+	height: 5vh;
+
+}
+
+.navbar-nav > li > a {
+    line-height: 32px;
+}
+
+.nav-social {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 32px;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+
+// HOME 
+
+.home_blimg_startup {
+	margin-bottom: 5vh;
+}
+
+
+.home_btn_jqbar {
+
+}
+
+#home_btn_jqbar1 {
+}
+#home_btn_jqbar2 {
+}
+
+
+#home_video_ext {
+	height:60vh;
+}
+
+
+#home_partenaire_list{
+}
+
+
+// WHO
+
+.who_blocimg {
+}
+
+#who_blocimg_pic1 {
+}
+
+#who_blocimg_pic2 {
+}
+
+
+.who_bltxt {
+}
+
+#who_bltxt_ext {
+	height:80vh;
+}
+
+#who_bltxt_int {
+	height:100%;
+}
+
+
+#who_form_title {
+}
+#who_form_contact{
+}
+
+
+// HOW
+
+.how_blocimg_ext {
+}
+
+.how_blocimg_int {
+}
+
+#howp_img_{
+}
+
+#howb_img_{
+}
+
+
+.how_bloctxt_ext {
+	height:60vh
+}
+
+.how_bloctxt_int {
+	height:100%
+}
+
+#howp_bltxt {
+}
+
+#howb_bltxt {
+}
+
+
+.how_form_ext {
+	height:80vh;
+}
+
+.how_form_int {
+	height:100%;
+}
+
+#howp_form {
+}
+
+#howb_form {
+}
+
+
+// CSS tempo
+
+#home_video_int {
+	height:100%;
+}
+
+
+#home_startup_list {
+	height:auto;
+}
+
+#home_startup_title{
+}

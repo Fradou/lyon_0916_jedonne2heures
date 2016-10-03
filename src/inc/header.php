@@ -4,30 +4,12 @@
 <head>
   <meta charset="utf-8">
   <?php
-    include 'inc/links.php';
+    include 'links.php';
   ?>
-  <title>Je donne 2 heures</title>
+
+  <title><?php echo $pageTitle; ?> </title>
 
 </head>
-
-<style>
-  .navbar-nav > li > a {
-    line-height: 32px;
-  }
-
-  .nav-social {
-    display: flex;
-    flex-direction: row;
-  }
-
-  img {
-    height: 32px;
-    opacity: 0.5;
-  }
-  img:hover{
-    opacity: 1;
-  }
-</style>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
