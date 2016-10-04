@@ -9,10 +9,5 @@
 
 <script src="../public/js/smoothscroll.js"></script>
 
-<<<<<<< HEAD
-=======
-<script src="public/js/smoothscroll.js"></script>
-
 <!-- Fichier CSS custom -->
-<script src="public/css/main.css" rel="stylesheet" type="text/css"></script>
->>>>>>> 5719f84c63360227fa351fc176f2885e8d505ff2
+<link rel="stylesheet" href="../public/css/main.css" >
