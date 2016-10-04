@@ -1,6 +1,3 @@
-
-</body>
-
 <footer>
 
     <div class="container-fluid center-block" id="foo_list">
@@ -16,4 +13,5 @@
 
 </footer>
 
+</body>
 </html>

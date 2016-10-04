@@ -39,22 +39,22 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 
 !! Offset diffère un peu suivant la gestion des offset au milieu des partenaires -->
 
-			<div class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-2 col-md-2" > Partnr 1 - modèle base
+			<div class="home_blimg_startup home_blimg_startup1 col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-2 col-md-2" > Partnr 1 - modèle base
 			</div>
 
-			<div class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 2 - offspé a sm et md+
+			<div class="home_blimg_startup home_blimg_startup2 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 2 - offspé a sm et md+
 			</div>
 
-			<div class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 3 - offspé à md+
+			<div class="home_blimg_startup home_blimg_startup3 col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 3 - offspé à md+
 			</div>
 
-			<div class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" ><span> Partnr 4 - offspé à sm et md+</span>
+			<div class="home_blimg_startup home_blimg_startup4 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" ><div class="test"> Partnr 4 - offspé à sm et md+</div>
 			</div>
 
-			<div class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 5 - offspé à md+
+			<div class="home_blimg_startup home_blimg_startup5 col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 5 - offspé à md+
 			</div>
 
-			<div class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 6 - offspé à sm et md+
+			<div class="home_blimg_startup home_blimg_startup6 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 6 - offspé à sm et md+
 			</div>
 
 		</div>
