@@ -65,6 +65,5 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 	</div>
 
 <?php
-
-//include '../src/inc/footer.php';
+include_once '../src/inc/footer.php';
 ?>

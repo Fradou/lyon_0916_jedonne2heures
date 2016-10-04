@@ -1,4 +1,3 @@
-
 /* CSS def*/
 
 /* ALL */
@@ -16,11 +15,11 @@
 	flex-direction: row;
 }
 
-img {
+.nav-social img {
 	height: 32px;
 	opacity: 0.5;
 }
-img:hover{
+.nav-social img:hover{
 	opacity: 1;
 }
 
@@ -34,13 +33,18 @@ img:hover{
     flex-direction: row;
 }
 
-img {
-    height: 32px;
-    opacity: 0.5;
+#foo_list {
+	text-align: center;
 }
 
-img:hover{
-    opacity: 1;
+#foo_list ul {
+	list-style-type: none;
+	line-height: 25px;
+}
+
+.foo_social {
+	display: flex;
+	flex-direction: row;
 }
 
 
