@@ -1,23 +1,12 @@
 <?php
 $pageTitle = "Je donne";
-include 'include/header.php';
+include 'inc/header.php';
 ?>
 
-<!DOCTYPE html>
-
-<html>
-
 <head>
- 	<!--jquery -->
- 	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
- 	<!-- bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous" />
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<meta http-equiv="Content-type" content="text/html" charset="utf-8" />
 	<style>
 		div {
-			height:20vh;
 			border:5px solid black;
 		}
 	</style>
@@ -28,6 +17,16 @@ include 'include/header.php';
 	<div class="container-fluid">
 
 		<div class="row all_blsp">Empty row de transition </div>
+		<div class="row all_blsp_small">Small empry row de transition </div>
+
+		<div class="row">
+			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
+				<h1>Je donne du temps</h1>
+
+				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraité vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets. Sur Jd2H le temps c'est de l'argent alors n'investissez pas investissez-vous.
+				</p>
+			</div>
+		</div>
 
 		<div class="row how_blocimg_ext">
 			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_img_ambiance"> "Image d'ambiance"</div>
@@ -36,7 +35,13 @@ include 'include/header.php';
 		<div class="row all_blsp">Empty row de transition </div>
 
 		<div class="row how_bloctxt_ext">
-			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> "Bloc de texte presentation."</div>
+			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
+				<h2> Contributeur - Comment ça marche ?</h2>
+				<p>"Bloc de texte presentation."
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+				</p>
+			</div>
 		</div>
 
 		<div class="row all_blsp">Empty row de transition </div>
@@ -50,7 +55,7 @@ include 'include/header.php';
 	</div>
 
 <?php
-include 'include/footer.php';
+include 'inc/footer.php';
 ?>
 
 </body>

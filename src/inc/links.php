@@ -10,4 +10,4 @@
 <script src="public/js/smoothscroll.js"></script>
 
 <!-- Fichier CSS custom -->
-<script src="public/css/main.css" rel="stylesheet" type="text/css"></script>
+<link href="public/css/main.css" rel="stylesheet" type="text/css"></link>

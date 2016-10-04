@@ -4,8 +4,12 @@
 // ALL
 
 .all_blsp {
-	height: 5vh;
+	height: 10vh;
 
+}
+
+.all_blsp_small {
+	height: 2vh;
 }
 
 .navbar-nav > li > a {
@@ -24,6 +28,10 @@ img {
 
 img:hover{
     opacity: 1;
+}
+
+h1 {
+	text-align:center;
 }
 
 
