@@ -21,7 +21,7 @@ include 'inc/header.php';
 
 		<div class="row how_blocimg_ext">
 			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_img_ambiance"> 
-				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/jedonne.jpg">
+				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/Photo%20d'ambiance%20Offr'Heures.jpg">
 			</div>
 		</div>	
 
@@ -43,6 +43,9 @@ include 'inc/header.php';
 
 		<div class="row how_form_ext">
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">"Formulaire de souscription"
+			</div>
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
+				<?php include_once 'inc/formdonneurs.php'; ?>
 			</div>
 		</div>
 

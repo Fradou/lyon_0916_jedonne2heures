@@ -20,7 +20,9 @@ include 'inc/header.php';
 				<div class="row all_blsp_sm">Transrow</div>
 
 		<div class="row how_blocimg_ext">
-			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howb_img_ambiance"> "Image d'ambiance"</div>
+			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howb_img_ambiance">
+				<img class="how_blocimg_img" alt="Je propose un projet" src="../public/img/jedonne.jpg">
+			</div>
 		</div>
 
 		<div class="row all_blsp_sm">Transrow</div>
@@ -42,7 +44,11 @@ include 'inc/header.php';
 		<div class="row how_form_ext">
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howb_form"> "Formulaire de souscription"
 			</div>
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
+				<?php include_once 'inc/formprojets.php'; ?>
+			</div>
 		</div>
+
 
 		<div class="row all_blsp">Transrow</div>
 
