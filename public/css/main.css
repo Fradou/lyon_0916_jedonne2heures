@@ -15,11 +15,11 @@
 	flex-direction: row;
 }
 
-img {
+.nav-social img {
 	height: 32px;
 	opacity: 0.5;
 }
-img:hover{
+.nav-social img:hover{
 	opacity: 1;
 }
 
@@ -31,15 +31,6 @@ img:hover{
 .nav-social {
     display: flex;
     flex-direction: row;
-}
-
-img {
-    height: 32px;
-    opacity: 0.5;
-}
-
-img:hover {
-    opacity: 1;
 }
 
 #foo_list {
