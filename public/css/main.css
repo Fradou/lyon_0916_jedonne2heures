@@ -4,6 +4,10 @@
 /* ALL */
 
 .all_blsp {
+	height: 10vh;
+}
+
+.all_blsp_sm {
 	height: 5vh;
 }
 

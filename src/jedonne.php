@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Je donne";
+
 include 'inc/header.php';
 ?>
 
@@ -43,9 +44,5 @@ include 'inc/header.php';
 	</div>
 
 <?php
-<<<<<<< HEAD
-include 'inc/footer.php';
-=======
-//include '..src/inc/footer.php';
->>>>>>> 879e2b4eddc06ad4f36a9209e159d942ac336e80
+include '..src/inc/footer.php';
 ?>
