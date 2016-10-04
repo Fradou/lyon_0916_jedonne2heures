@@ -1,12 +1,28 @@
-
-/* CSS def */
+/* CSS def*/
 
 /* ALL */
 
 .all_blsp {
 	height: 5vh;
-
 }
+
+.navbar-nav > li > a {
+	 line-height: 32px;
+ }
+
+.nav-social {
+	display: flex;
+	flex-direction: row;
+}
+
+img {
+	height: 32px;
+	opacity: 0.5;
+}
+img:hover{
+	opacity: 1;
+}
+
 
 .navbar-nav > li > a {
     line-height: 32px;

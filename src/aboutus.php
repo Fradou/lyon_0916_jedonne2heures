@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Qui sommes nous ?";
-include 'inc/header.php';
+include_once 'inc/header.php';
 ?>
 
 <!DOCTYPE html>
@@ -26,12 +26,17 @@ include 'inc/header.php';
 
 <body>
 
+=======
+include_once '../src/inc/header.php';
+?>
+
+>>>>>>> 879e2b4eddc06ad4f36a9209e159d942ac336e80
 	<div class="container-fluid">
 
 		<div class="row all_blsp">Empty row de transition </div>
 
 		<div class="row who_blocimg">
-			<div class="col-xs-offset-1 col-xs-4 col-sm-offset-2 col-sm-3 col-md-offset-3 col-md-2" id="who_blocimg_pic1"> 
+			<div class="col-xs-offset-1 col-xs-4 col-sm-offset-2 col-sm-3 col-md-offset-3 col-md-2" id="who_blocimg_pic1">
 				<div> Photo 1 </div>
 				<div>
 					<h2>Guylaine Antonini</h2>
@@ -39,7 +44,7 @@ include 'inc/header.php';
 					<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img  src="../public/img/linkedin.png" alt=""></a>
 				</div>
 			</div>
-			<div class="col-xs-offset-2 col-xs-4 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2" id="who_blocimg_pic2"> 
+			<div class="col-xs-offset-2 col-xs-4 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2" id="who_blocimg_pic2">
 				<div> Photo 2 </div>
 				<div>
 					<h2>Nicolas Antonini</h2>
@@ -57,7 +62,7 @@ include 'inc/header.php';
 
 		<div class="row" id="who_form_title">
 			<h2>vous avez des questions ? Vous voulez nous rencontrer ?<br> Contactez-nous ! </h2>
-		</div> 
+		</div>
 		<div class="row" id="who_form_content">
 		</div>
 
@@ -66,9 +71,5 @@ include 'inc/header.php';
 	</div>
 
 <?php
-include 'inc/footer.php';
+include_once 'inc/footer.php';
 ?>
-
-</body>
-
-</html>
