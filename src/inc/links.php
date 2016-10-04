@@ -7,7 +7,7 @@
 <!-- Jquery google CDN 3.1.0 -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
-<script src="public/js/smoothscroll.js"></script>
+<script src="../public/js/smoothscroll.js"></script>
 
 <!-- Fichier CSS custom -->
-<script src="public/css/main.css" rel="stylesheet" type="text/css"></script>
+<link src="../public/css/main.css" rel="stylesheet" type="text/css"></link>

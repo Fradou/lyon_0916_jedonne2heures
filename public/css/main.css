@@ -1,7 +1,7 @@
 
-// CSS def
+/* CSS def */
 
-// ALL
+/* ALL */
 
 .all_blsp {
 	height: 5vh;
@@ -22,12 +22,24 @@ img {
     opacity: 0.5;
 }
 
-img:hover{
+img:hover {
     opacity: 1;
 }
 
+#foo_list {
+	text-align: center;
+}
 
-// HOME 
+#foo_list ul {
+	list-style-type: none;
+}
+
+#foo_social li {
+	display: inline-block;
+}
+
+
+/* HOME */
 
 .home_blimg_startup {
 	margin-bottom: 5vh;
@@ -53,7 +65,7 @@ img:hover{
 }
 
 
-// WHO
+/* WHO */
 
 .who_blocimg {
 }
@@ -83,7 +95,7 @@ img:hover{
 }
 
 
-// HOW
+/* HOW */
 
 .how_blocimg_ext {
 }
@@ -128,7 +140,7 @@ img:hover{
 }
 
 
-// CSS tempo
+/* CSS tempo */
 
 #home_video_int {
 	height:100%;

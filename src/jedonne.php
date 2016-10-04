@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Je donne";
-include 'include/header.php';
+include 'inc/header.php';
 ?>
 
 <!DOCTYPE html>

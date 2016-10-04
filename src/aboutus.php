@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Qui sommes nous ?";
-include 'include/header.php';
+include 'inc/header.php';
 ?>
 
 <!DOCTYPE html>

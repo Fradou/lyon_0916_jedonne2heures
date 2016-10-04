@@ -1,6 +1,6 @@
 <?php
 $pageTitle = "Je propose";
-include 'include/header.php';
+include 'inc/header.php';
 ?>
 
 <!DOCTYPE html>

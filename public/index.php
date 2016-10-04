@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Homepage"
-include 'include/header.php';
+$pageTitle = "Homepage";
+include '../src/inc/header.php';
 ?>
 
 
