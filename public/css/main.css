@@ -1,12 +1,29 @@
 
-// CSS def
+/* CSS def*/
 
-// ALL
+/* ALL */
 
 .all_blsp {
-	height: 10vh;
-
+	height: 5vh;
 }
+
+.navbar-nav > li > a {
+	 line-height: 32px;
+ }
+
+.nav-social {
+	display: flex;
+	flex-direction: row;
+}
+
+img {
+	height: 32px;
+	opacity: 0.5;
+}
+img:hover{
+	opacity: 1;
+}
+
 
 .all_blsp_small {
 	height: 2vh;
@@ -35,7 +52,7 @@ h1 {
 }
 
 
-// HOME 
+/* HOME */
 
 .home_blimg_startup {
 	margin-bottom: 5vh;
@@ -61,7 +78,7 @@ h1 {
 }
 
 
-// WHO
+/* WHO */
 
 .who_blocimg {
 }
@@ -91,7 +108,7 @@ h1 {
 }
 
 
-// HOW
+/* HOW */
 
 .how_blocimg_ext {
 }
@@ -136,7 +153,7 @@ h1 {
 }
 
 
-// CSS tempo
+/* CSS tempo */
 
 #home_video_int {
 	height:100%;

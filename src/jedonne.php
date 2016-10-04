@@ -3,17 +3,6 @@ $pageTitle = "Je donne";
 include 'inc/header.php';
 ?>
 
-<head>
-	<meta http-equiv="Content-type" content="text/html" charset="utf-8" />
-	<style>
-		div {
-			border:5px solid black;
-		}
-	</style>
-</head>
-
-<body>
-
 	<div class="container-fluid">
 
 		<div class="row all_blsp">Empty row de transition </div>
@@ -45,7 +34,6 @@ include 'inc/header.php';
 		</div>
 
 		<div class="row all_blsp">Empty row de transition </div>
-
 		<div class="row how_form_ext">
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form"> "Formulaire de souscription"</div>
 		</div>
@@ -55,9 +43,9 @@ include 'inc/header.php';
 	</div>
 
 <?php
+<<<<<<< HEAD
 include 'inc/footer.php';
+=======
+//include '..src/inc/footer.php';
+>>>>>>> 879e2b4eddc06ad4f36a9209e159d942ac336e80
 ?>
-
-</body>
-
-</html>
