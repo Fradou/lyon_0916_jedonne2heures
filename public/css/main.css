@@ -3,6 +3,10 @@
 
 /* ALL */
 
+body {
+padding-top: 10vh;
+}
+
 .all_blsp {
 	height: 5vh;
 }
@@ -47,7 +51,24 @@ img:hover{
 /* HOME */
 
 .home_blimg_startup {
+
+	border: 1px solid black;
+	width: 250px;
+	height: 175px;
 	margin-bottom: 5vh;
+	background-image:url("../../../img1.jpg");
+	background-repeat: round;
+
+}
+.home_blimg_startup:hover {
+	background-color: rgba(255,0,0,0.5);
+	border: 3px solid red;
+
+}
+.home_blimg_startup:hover {
+	background-color: rgba(255,0,0,0.5);
+	border: 3px solid red;
+
 }
 
 
