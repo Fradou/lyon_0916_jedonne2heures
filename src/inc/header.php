@@ -32,7 +32,7 @@
           <li><a href="../src/jepropose.php">Je propose</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right nav-social">
-          <li><a href="#">Contactez-nous</a></li>
+          <li><a href="../src/aboutus.php">Contactez-nous</a></li>
           <li><a href="#"><img src="../public/img/facebook.png" alt=""></a></li>
           <li><a href="#"><img  src="../public/img/twitter.png" alt=""></a></li>
           <li><a href="#"><img  src="../public/img/linkedin.png" alt=""></a></li>
