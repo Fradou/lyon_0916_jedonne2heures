@@ -17,7 +17,7 @@ include 'inc/header.php';
 			</div>
 		</div>
 
-				<div class="row all_blsp_sm">Transrow</div>
+		<div class="row all_blsp_sm">Transrow</div>
 
 		<div class="row how_blocimg_ext">
 			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_img_ambiance"> 
@@ -40,8 +40,10 @@ include 'inc/header.php';
 		</div>
 
 		<div class="row all_blsp">Transrow</div>
+
 		<div class="row how_form_ext">
-			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">"Formulaire de souscription"</div>
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">"Formulaire de souscription"
+			</div>
 		</div>
 
 		<div class="row all_blsp">Transrow</div>

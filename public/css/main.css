@@ -54,13 +54,18 @@ p {
 	text-align:justify;
 }
 
+
+footer {
+	height:15vh;
+	background-color: black;
+}
+
 #foo_list {
 	text-align: center;
 }
 
-#foo_list ul {
-	list-style-type: none;
-	line-height: 25px;
+#foo_list p {
+	text-align: center;
 }
 
 .foo_social {
