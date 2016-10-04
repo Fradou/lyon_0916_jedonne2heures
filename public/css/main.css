@@ -1,8 +1,21 @@
+
 /* CSS def*/
 
 /* ALL */
 
+body {
+padding-top: 10vh;
+}
+
 .all_blsp {
+	height: 10vh;
+}
+
+.all_blsp_md {
+	height: 7.5vh;
+}
+
+.all_blsp_sm {
 	height: 5vh;
 }
 
@@ -21,6 +34,7 @@
 	flex-direction: row;
 }
 
+
 .nav-social img {
 	height: 32px;
 	opacity: 0.5;
@@ -29,15 +43,26 @@
 	opacity: 1;
 }
 
-
-.navbar-nav > li > a {
-    line-height: 32px;
+h1 {
+	text-align:center;
+	margin-bottom:3vh;
 }
 
-.nav-social {
-    display: flex;
-    flex-direction: row;
-}
+h2 {
+ 	text-align:center;
+ 	margin-bottom:3vh;
+
+ }
+
+p {
+ 	text-align:justify;
+ }
+
+
+footer {
+ 	height:15vh;
+ 	background-color: black;
+ }
 
 .navbar-collapse {
 	background-color: white;
@@ -47,13 +72,17 @@
 	background-color: black;
 }
 
-#foo_list {
-	text-align: center;
+
+/* HOME */
+
+h1 {
+	text-align:center;
+	margin-bottom:3vh;
 }
 
-.foo_social {
-	display: flex;
-	flex-direction: row;
+h2 {
+	text-align:center;
+	margin-bottom:3vh;
 }
 
 .foo_social img {
@@ -65,11 +94,64 @@
 	opacity: 1;
 }
 
+p {
+	text-align:justify;
+}
 
-/* HOME */
+footer {
+	height:15vh;
+	background-color: black;
+}
+
+#foo_list {
+	text-align: center;
+}
+
+#foo_list p {
+	text-align: center;
+}
 
 .home_blimg_startup {
+	border: 1px solid black;
+	width: 250px;
+	height: 175px;
 	margin-bottom: 5vh;
+	background-repeat: round;
+}
+
+
+.home_blimg_startup:hover {
+	opacity:0.4;
+}
+#home_blimg_startup1 {
+	background-image:url("../img/teststartup.jpg");
+	background-repeat: round;
+}
+
+#home_blimg_startup2 {
+	background-image:url("../img/teststartup.jpg");
+	background-repeat: round;
+}
+#home_blimg_startup3 {
+	background-image:url("../img/teststartup.jpg");
+	background-repeat: round;
+}
+#home_blimg_startup4 {
+	background-image:url("../img/teststartup.jpg");
+	background-repeat: round;
+}
+#home_blimg_startup5 {
+	background-image:url("../img/teststartup.jpg");
+	background-repeat: round;
+}
+#home_blimg_startup6 {
+	background-image:url("../img/teststartup.jpg");
+	background-repeat: round;
+}
+
+.home_blimg_startup:hover {
+	opacity: rgba(255,0,0,0.2);
+	border: 3px solid red;
 }
 
 
@@ -136,6 +218,16 @@
 }
 
 .how_blocimg_int {
+	height:40vh;
+}
+
+.how_blocimg_img {
+	height:100%;
+	display: block;
+	align-content: center;
+	margin:auto;
+	width:auto;
+
 }
 
 #howp_img_{
@@ -146,7 +238,6 @@
 
 
 .how_bloctxt_ext {
-	height:60vh
 }
 
 .how_bloctxt_int {
@@ -159,9 +250,7 @@
 #howb_bltxt {
 }
 
-
 .how_form_ext {
-	height:80vh;
 }
 
 .how_form_int {

@@ -11,7 +11,7 @@
   ?>
   <title><?php echo $pageTitle; ?> </title>
 
- </head>
+</head>
 
 
 <body>
