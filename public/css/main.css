@@ -32,10 +32,12 @@ img:hover {
 
 #foo_list ul {
 	list-style-type: none;
+	line-height: 25px;
 }
 
-#foo_social li {
-	display: inline-block;
+.foo_social {
+	display: flex;
+	flex-direction: row;
 }
 
 

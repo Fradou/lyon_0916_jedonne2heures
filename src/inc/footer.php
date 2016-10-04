@@ -25,23 +25,13 @@
 <footer>
 
     <div class="container-fluid center-block" id="foo_list">
-        <div class="row visible-xs">
-            <div class="center-block">
-                <ul id="foo_social">
-                    <li><a href="#"><img src="../../public/img/facebook.png" alt=""></a></li>
-                    <li><a href="#"><img  src="../../public/img/twitter.png" alt=""></a></li>
-                    <li><a href="#"><img  src="../../public/img/linkedin.png" alt=""></a></li>
-                </ul>
-            </div>
+        <div class="row visible-xs foo_social">
+            <p><a href="#"><img src="../../public/img/facebook.png" alt=""></a><a href="#"><img  src="../../public/img/twitter.png" alt=""></a><a href="#"><img  src="../../public/img/linkedin.png" alt=""></a></p>
         </div>
         <div class="row">
-            <div>
-                <ul>
-                    <li><a href="#">Nous contacter</a></li>
-                    <li>Mentions légales</li>
-                    <li>© Copyright 2016 - jedonne2heures</li>
-                </ul>
-            </div>
+            <p><a href="#">Nous contacter</a></p>
+            <p>Mentions légales</p>
+            <p>© Copyright 2016 - jedonne2heures</p>
         </div>
     </div>
 
