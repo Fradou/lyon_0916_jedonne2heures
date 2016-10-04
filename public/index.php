@@ -23,7 +23,7 @@ include_once '../src/inc/header.php';
 		<div class="row all_blsp">Empty row de transition </div>
 
 		<div class="row" id="home_startup_title">
-			<h2>ET SI VOUS DONNIEZ DU TEMPS A CES ENTREPRISES, A CES PROJETS !</h2>
+			<h2>Et si vous donniez du temps a ces entreprises, a ces projets !</h2>
 			<h3>Découvrez les entrepreneurs et leurs projets. Choisissez l'aventure à laquelle vous donnerez de votre temps libre.</h3>
 		</div>
 
@@ -39,22 +39,22 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 
 !! Offset diffère un peu suivant la gestion des offset au milieu des partenaires -->
 
-			<div class="home_blimg_startup home_blimg_startup1 col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-2 col-md-2" > Partnr 1 - modèle base
+			<div id="home_blimg_startup1" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-2 col-md-2" > Partnr 1 - modèle base
 			</div>
 
-			<div class="home_blimg_startup home_blimg_startup2 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 2 - offspé a sm et md+
+			<div id="home_blimg_startup2" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 2 - offspé a sm et md+
 			</div>
 
-			<div class="home_blimg_startup home_blimg_startup3 col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 3 - offspé à md+
+			<div id="home_blimg_startup3" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 3 - offspé à md+
 			</div>
 
-			<div class="home_blimg_startup home_blimg_startup4 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" ><div class="test"> Partnr 4 - offspé à sm et md+</div>
+			<div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" ><div class="test"> Partnr 4 - offspé à sm et md+</div>
 			</div>
 
-			<div class="home_blimg_startup home_blimg_startup5 col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 5 - offspé à md+
+			<div id="home_blimg_startup5" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 5 - offspé à md+
 			</div>
 
-			<div class="home_blimg_startup home_blimg_startup6 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 6 - offspé à sm et md+
+			<div id="home_blimg_startup6" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 6 - offspé à sm et md+
 			</div>
 
 		</div>
@@ -63,6 +63,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 
 		<div class="row" id="home_partenaire_list">
 	</div>
+</div>
 
 <?php
 include_once '../src/inc/footer.php';

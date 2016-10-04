@@ -99,7 +99,6 @@ footer {
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
-	background-image:url("../../../img1.jpg");
 	background-repeat: round;
 }
 
@@ -107,25 +106,29 @@ footer {
 .home_blimg_startup:hover {
 	opacity:0.4;
 }
+#home_blimg_startup1 {
+	background-image:url("../img/teststartup.jpg");
+	background-repeat: round;
+}
 
-.home_blimg_startup2 {
-	background-image:url("../../../img1.jpg");
+#home_blimg_startup2 {
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
-.home_blimg_startup3 {
-	background-image:url("../../../img1.jpg");
+#home_blimg_startup3 {
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
-.home_blimg_startup4 {
-	background-image:url("../../../img1.jpg");
+#home_blimg_startup4 {
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
-.home_blimg_startup5 {
-	background-image:url("../../../img1.jpg");
+#home_blimg_startup5 {
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
-.home_blimg_startup6 {
-	background-image:url("../../../img1.jpg");
+#home_blimg_startup6 {
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 
