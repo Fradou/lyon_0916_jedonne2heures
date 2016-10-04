@@ -7,7 +7,9 @@
 }
 
 .navbar {
+	background-color: white;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
+	height: 10vh !important;
 }
 
 .navbar-nav > li > a {
@@ -37,13 +39,16 @@
     flex-direction: row;
 }
 
-#foo_list {
-	text-align: center;
+.navbar-collapse {
+	background-color: white;
 }
 
-#foo_list ul {
-	list-style-type: none;
-	line-height: 25px;
+.icon-bar {
+	background-color: black;
+}
+
+#foo_list {
+	text-align: center;
 }
 
 .foo_social {
