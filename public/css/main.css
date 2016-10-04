@@ -1,4 +1,3 @@
-
 /* CSS def*/
 
 /* ALL */
@@ -24,6 +23,14 @@
 	flex-direction: row;
 }
 
+.nav-social img {
+	height: 32px;
+	opacity: 0.5;
+}
+.nav-social img:hover{
+	opacity: 1;
+}
+
 .navbar-nav > li > a {
     line-height: 32px;
 }
@@ -45,6 +52,20 @@ h2 {
 
 p {
 	text-align:justify;
+}
+
+#foo_list {
+	text-align: center;
+}
+
+#foo_list ul {
+	list-style-type: none;
+	line-height: 25px;
+}
+
+.foo_social {
+	display: flex;
+	flex-direction: row;
 }
 
 
