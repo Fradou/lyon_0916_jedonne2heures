@@ -50,11 +50,18 @@ footer {
 	background-color: white;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
 	height: 10vh !important;
+	font-size: 1.4em;
 }
 
 .navbar-nav > li > a {
-	 line-height: 32px;
+	line-height: 50px;
+	color: black;
  }
+
+.navbar-brand img {
+	height: 10vh;
+	margin-top: -2vh;
+}
 
 .nav-social {
 	display: flex;
@@ -63,7 +70,7 @@ footer {
 
 
 .nav-social img {
-	height: 32px;
+	height: 6vh;
 	opacity: 0.5;
 }
 .nav-social img:hover{
