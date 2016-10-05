@@ -21,7 +21,7 @@ include 'inc/header.php';
 
 		<div class="row how_blocimg_ext">
 			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"> 
-				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/Photo%20d'ambiance%20Offr'Heures.jpg">
+				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/Photo%20d'ambiance%20Offr'Heures2.jpg">
 			</div>
 		</div>	
 
