@@ -68,6 +68,7 @@ footer {
 	background-color: white;
 }
 
+
 .icon-bar {
 	background-color: black;
 }
@@ -276,4 +277,11 @@ footer {
 }
 
 #home_startup_title{
+}
+
+@media screen and (max-width: 770px) {
+	.navbar-collapse {
+		box-shadow: 0 3px 3px rgba(0,0,0,0.40);
+	}
+
 }
