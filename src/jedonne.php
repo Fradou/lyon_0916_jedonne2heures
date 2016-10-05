@@ -6,7 +6,7 @@ include 'inc/header.php';
 
 	<div class="container-fluid">
 
-		<div class="row all_blsp">Transrow</div>
+		<div class="row all_blsp_sm"> Transrow </div>
 
 		<div class="row">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
@@ -20,12 +20,12 @@ include 'inc/header.php';
 		<div class="row all_blsp_sm">Transrow</div>
 
 		<div class="row how_blocimg_ext">
-			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_img_ambiance"> 
+			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"> 
 				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/Photo%20d'ambiance%20Offr'Heures.jpg">
 			</div>
 		</div>	
 
-		<div class="row all_blsp_sm">Transrow</div>
+		<div class="row all_blsp_sm" > Transrow </div>
 
 		<div class="row how_bloctxt_ext">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
@@ -49,7 +49,7 @@ include 'inc/header.php';
 			</div>
 		</div>
 
-		<div class="row all_blsp">Transrow</div>
+		<div class="row all_blsp">Transrow </div>
 
 	</div>
 
