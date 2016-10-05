@@ -4,7 +4,7 @@
 /* ALL */
 
 body {
-padding-top: 10vh;
+padding-top: 13vh;
 }
 
 h1 {
@@ -47,13 +47,13 @@ footer {
 
 .navbar {
 	background-color: white;
-	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
-	height: 10vh !important;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.40);
+	height: 13vh !important;
 	font-size: 1.4em;
 }
 
 .navbar-nav > li > a {
-	line-height: 50px;
+	line-height: 7vh;
 	color: black;
  }
 
@@ -122,16 +122,17 @@ footer {
 
 .home_blimg_startup {
 	border: 1px solid black;
+	border-radius: 16px;
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
 }
 .home_blimg_startup img {
 	vertical-align: middle;
-	width: 50%;
-	margin: 20px;
+	height: 60%;
+	margin-top: 10%;
 }
-.test{
+.home_blimg_startuplogo{
 	text-align: center;
 	opacity: 0;
 	height: 100%;
@@ -139,8 +140,10 @@ footer {
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
+	border-radius: 13px;
 }
-.test:hover{
+
+.home_blimg_startuplogo:hover{
 	opacity: 1;
 	height: 100%;
 	width: 113.8%;
