@@ -4,9 +4,9 @@ $pageTitle = "Je donne";
 include 'inc/header.php';
 ?>
 
-	<div class="container-fluid">
+	<div class="container-fluid" >
 
-		<div class="row all_blsp">Transrow</div>
+		<div class="row all_blsp" > Transrow </div>
 
 		<div class="row">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
@@ -19,16 +19,16 @@ include 'inc/header.php';
 
 		<div class="row all_blsp_sm">Transrow</div>
 
-		<div class="row how_blocimg_ext">
-			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_img_ambiance"> 
-				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/jedonne.jpg">
+		<div class="row how_blocimg_ext" >
+			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_img_ambiance" > 
+				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/jedonne.jpg" >
 			</div>
 		</div>	
 
-		<div class="row all_blsp_sm">Transrow</div>
+		<div class="row all_blsp_sm" > Transrow </div>
 
-		<div class="row how_bloctxt_ext">
-			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
+		<div class="row how_bloctxt_ext" >
+			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt" > 
 				<h2> Contributeur - Comment ça marche ?</h2>
 				<p>"Bloc de texte presentation."
 				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
@@ -46,7 +46,7 @@ include 'inc/header.php';
 			</div>
 		</div>
 
-		<div class="row all_blsp">Transrow</div>
+		<div class="row all_blsp">Transrow </div>
 
 	</div>
 

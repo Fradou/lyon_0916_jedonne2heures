@@ -52,13 +52,19 @@ h2 {
 
 p {
 	text-align:justify;
+	font-size: 3em;
 }
 
 
 footer {
-	height:15vh;
 	background-color: black;
 }
+
+.foo_mention {
+	height:15vh;
+}
+
+
 
 #foo_list {
 	text-align: center;
@@ -69,8 +75,13 @@ footer {
 }
 
 .foo_social {
-	display: flex;
-	flex-direction: row;
+	height:10vh;
+}
+
+.foo_social > a > img {
+	height:6vh;
+	margin-top:2vh;
+	margin-bottom:2vh;
 }
 
 
@@ -156,7 +167,6 @@ footer {
 
 
 .how_bloctxt_ext {
-	height:60vh
 }
 
 .how_bloctxt_int {
@@ -171,7 +181,6 @@ footer {
 
 
 .how_form_ext {
-	height:80vh;
 }
 
 .how_form_int {
