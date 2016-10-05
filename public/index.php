@@ -48,7 +48,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 			<a href="https://commeunearmoire.com/fr" target="_blank"><div id="home_blimg_startup3" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 3 - offspé à md+
 			</div></a>
 
-			<a href="https://www.tikaway.com/fr/" target="_blank"><div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" ><div class="test"> Partnr 4 - offspé à sm et md+</div>
+			<a href="https://www.tikaway.com/fr/" target="_blank"><div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" ><div class="test"><img src="../../logotikaway.png"><h5>Tikaway</h5></div>
 			</div></a>
 
 			<a href="http://www.skware.com/" target="_blank"><div id="home_blimg_startup5" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 5 - offspé à md+

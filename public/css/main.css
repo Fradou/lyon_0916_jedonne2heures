@@ -117,12 +117,39 @@ footer {
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
-	background-repeat: round;
+}
+.test{
+	text-align: center;
+	opacity: 0;
+	height: 100%;
+	width: 120%;
+	margin-left: -15px;
+	padding: 0;
+	background-color: rgba(255,255,255,0);
+}
+.test:hover{
+	opacity: 1;
+	height: 100%;
+	width: 113.8%;
+	margin-left: -15px;
+	padding: 0;
+	background-color: rgba(255,255,255,0.8);
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	-webkit-transition-property: opacity;
+	transition-property: opacity;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-moz-transition-timing-function: ease-out;
+	-o-transition-timing-function: ease-out;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
 }
 
-
 .home_blimg_startup:hover {
-	opacity:0.4;
+	background-color:rgba(255,255,255,0.6);
 }
 #home_blimg_startup1 {
 	background-image:url("../img/teststartup.jpg");
@@ -151,7 +178,7 @@ footer {
 }
 
 .home_blimg_startup:hover {
-	opacity: rgba(255,0,0,0.2);
+	background-color: rgba(255,0,0,0.2);
 	border: 3px solid red;
 }
 
