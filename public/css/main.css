@@ -7,6 +7,32 @@ body {
 padding-top: 10vh;
 }
 
+h1 {
+	text-align:center;
+	margin-bottom:3vh;
+}
+
+h2 {
+ 	text-align:center;
+ 	margin-bottom:3vh;
+
+ }
+
+p {
+ 	text-align:justify;
+ 	font-family: 'Source Sans Pro', sans-serif;
+ }
+
+
+footer {
+ 	height:auto;
+ 	background-color: black;
+ }
+
+ h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+ }
+
 .all_blsp {
 	height: 10vh;
 }
@@ -43,27 +69,6 @@ padding-top: 10vh;
 	opacity: 1;
 }
 
-h1 {
-	text-align:center;
-	margin-bottom:3vh;
-}
-
-h2 {
- 	text-align:center;
- 	margin-bottom:3vh;
-
- }
-
-p {
- 	text-align:justify;
- }
-
-
-footer {
- 	height:15vh;
- 	background-color: black;
- }
-
 .navbar-collapse {
 	background-color: white;
 }
@@ -73,35 +78,12 @@ footer {
 	background-color: black;
 }
 
-
-/* HOME */
-
-h1 {
-	text-align:center;
-	margin-bottom:3vh;
-}
-
-h2 {
-	text-align:center;
-	margin-bottom:3vh;
-}
-
-.foo_social img {
-	height: 32px;
-	opacity: 0.5;
-}
-
-.foo_social img:hover{
-	opacity: 1;
-}
-
-p {
-	text-align:justify;
-}
-
-footer {
+.foo_mention {
 	height:15vh;
-	background-color: black;
+}
+
+.foo_mention p {
+	margin-top:1.5vh;
 }
 
 #foo_list {
@@ -112,12 +94,32 @@ footer {
 	text-align: center;
 }
 
+.foo_social {
+	height:10vh;
+}
+
+.foo_social img:hover{
+	opacity: 1;
+}
+
+.foo_social > a > img {
+	height:6vh;
+	margin-top:2vh;
+	margin-bottom:2vh;
+	opacity: 0.5;
+}
+
+
+/* HOME */
+
+
 .home_blimg_startup {
 	border: 1px solid black;
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
 }
+
 .test{
 	text-align: center;
 	opacity: 0;
@@ -147,6 +149,7 @@ footer {
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
 }
+
 
 .home_blimg_startup:hover {
 	background-color:rgba(255,255,255,0.6);
@@ -204,6 +207,7 @@ footer {
 
 /* WHO */
 
+
 .who_blocimg {
 }
 
@@ -242,26 +246,14 @@ footer {
 
 /* HOW */
 
+
 .how_blocimg_ext {
 }
 
-.how_blocimg_int {
-	height:40vh;
-}
-
-.how_blocimg_img {
-	height:100%;
-	display: block;
-	align-content: center;
-	margin:auto;
-	width:auto;
-
-}
-
-#howp_img_{
-}
-
-#howb_img_{
+.how_blocimg_int img {
+	max-width: 70%;
+	height:auto;
+	margin:0% 15%;
 }
 
 
@@ -293,6 +285,7 @@ footer {
 
 
 /* CSS tempo */
+
 
 #home_video_int {
 	height:100%;
