@@ -31,7 +31,8 @@ padding-top: 10vh;
  }
 
 .navbar-brand img {
-	height: 7vh;
+	height: 10vh;
+	margin-top: -2vh;
 }
 
 .nav-social {
