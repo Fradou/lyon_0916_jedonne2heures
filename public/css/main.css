@@ -26,7 +26,8 @@ padding-top: 10vh;
 }
 
 .navbar-nav > li > a {
-	 line-height: 32px;
+	line-height: 50px;
+	color: black;
  }
 
 .nav-social {
