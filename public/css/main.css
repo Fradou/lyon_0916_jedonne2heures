@@ -30,6 +30,10 @@ padding-top: 10vh;
 	color: black;
  }
 
+.navbar-brand img {
+	height: 7vh;
+}
+
 .nav-social {
 	display: flex;
 	flex-direction: row;
