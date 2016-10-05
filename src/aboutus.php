@@ -16,7 +16,7 @@ include_once 'inc/header.php';
 		<div class="row who_blocimg">
 			<div class="col-xs-offset-1 col-xs-4 col-sm-offset-2 col-sm-3 col-md-offset-3 col-md-2" id="who_blocimg_pic1">
 				<div> Photo 1 </div>
-				<div>
+				<div class="who_blocsoc">
 					<h2>Guylaine Antonini</h2>
 					<a href="https://twitter.com/Guyylaine" target="_blank"><img  src="../public/img/twitter.png" alt=""></a>
 					<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img  src="../public/img/linkedin.png" alt=""></a>
@@ -24,7 +24,7 @@ include_once 'inc/header.php';
 			</div>
 			<div class="col-xs-offset-2 col-xs-4 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2" id="who_blocimg_pic2">
 				<div> Photo 2 </div>
-				<div>
+				<div class="who_blocsoc">
 					<h2>Nicolas Antonini</h2>
 					<a href="https://twitter.com/nicolasantonini" target="_blank"><img  src="../public/img/twitter.png" alt=""></a>
 					<a href="https://fr.linkedin.com/in/nicolasantonini" target="_blank"><img  src="../public/img/linkedin.png" alt=""></a>
