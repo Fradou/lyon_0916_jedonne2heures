@@ -24,7 +24,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../public/index.php">Je donne 2 heures</a>
+        <a class="navbar-brand" href="../public/index.php"><img src="../public/img/logo-jd2h-allblack.png" alt="jd2h logo"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
