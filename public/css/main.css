@@ -216,8 +216,14 @@ footer {
 
 
 #home_partenaire_list{
+	background-color: #EAEAEA;
 }
 
+#home_partenaire_list img {
+	height: 250px;
+	margin: auto;
+	padding-bottom: 10vh;
+}
 
 /* WHO */
 
