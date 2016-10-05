@@ -48,12 +48,12 @@ footer {
 .navbar {
 	background-color: white;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.25);
-	height: 10vh !important;
+	height: 12vh !important;
 	font-size: 1.4em;
 }
 
 .navbar-nav > li > a {
-	line-height: 6vh;
+	line-height: 7vh;
 	color: black;
  }
 
@@ -180,6 +180,11 @@ footer {
 #home_partenaire_list{
 }
 
+#home_partenaire_list img {
+	height: 250px;
+	margin: auto;
+	padding-bottom: 10vh;
+}
 
 /* WHO */
 
