@@ -46,16 +46,18 @@ padding-top: 10vh;
 h1 {
 	text-align:center;
 	margin-bottom:3vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
  	text-align:center;
  	margin-bottom:3vh;
-
+    font-family: 'Roboto', sans-serif;
  }
 
 p {
  	text-align:justify;
+	font-family: 'Source Sans Pro', sans-serif;
  }
 
 
