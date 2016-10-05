@@ -91,7 +91,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 
 		<div class="row all_blsp">Empty row de transition </div>
 
-		<div class="row center-block" id="home_partenaire_list">
+		<div class="row" id="home_partenaire_list">
 			<h2>NOS PARTENAIRES</h2>
 			<img src="img/logo_fondblanc.svg" class="img-responsive" alt="logo WCS">
 		</div>
