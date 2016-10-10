@@ -197,7 +197,7 @@ footer {
 
 .home_blimg_startup:hover {
 	background-color: rgba(255,0,0,0.2);
-	border: 3px solid red;
+	border: 3px solid #e60f33;
 }
 
 
@@ -205,9 +205,10 @@ footer {
 }
 
 #home_btn_jqbar1 {
-	background: darkred;
+	background: #e60f33;
 	width: 100%;
 	height: 7vh;
+	color: white;
 }
 #home_btn_jqbar1:hover{
 	cursor: pointer;

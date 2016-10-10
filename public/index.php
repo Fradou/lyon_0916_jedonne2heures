@@ -9,7 +9,11 @@ include_once '../src/inc/header.php';
 			</div>
 		</div>
 		<div class="row" >
-			<div class="home_btn_jqbar" id="home_btn_jqbar1" >Barre de transition jQuery</div>
+			<div class="home_btn_jqbar" id="home_btn_jqbar1" >
+				<p>
+					Comment ça marche ?
+				</p>
+			</div>
 		</div>
 		<div class="row all_blsp"> Empty row tampon au dessus de la vidéo ?</div>
 
