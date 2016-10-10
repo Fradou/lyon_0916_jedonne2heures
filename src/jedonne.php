@@ -19,7 +19,7 @@ include 'inc/header.php';
 		</div>
 
 		<div class="how_btn_inscript">
-			<a href="#inscriptb" class="btn btn-default">Je sais déjà comment ça marche.<br> Je m'inscris !</a>
+			<a href="#inscriptp" class="btn btn-default">Je sais déjà comment ça marche.<br>Je m'inscris!</a>
 			<p>Je ne sais pas comment ça marche, je continue de lire.</p>
 		</div>
 
@@ -35,7 +35,8 @@ include 'inc/header.php';
 
 		<div class="row how_bloctxt_ext">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt">
-				<h2>Offrir de votre temps libre<br>Je Donne 2 Heures, comment ça va marcher ?</h2>
+				<h2>Offrir de votre temps libre<br>
+					<small class="text-muted">Je Donne 2 Heures, comment ça va marcher ?</small></h2>
 				<p>
 					<ul>
 						<li> L'inscription sur <span>Je Donne 2 Heures</span> est gratuite. Vous accédez dés votre arrivée à un espace personnel dédié afin de vous présenter librement (vidéo, photos et textes).Vous décrivez vos compétences de façon déclarative, pas de dépôt CV, pas de références nécessaires c'est vous qui décidez.</li><br>
@@ -50,7 +51,7 @@ include 'inc/header.php';
 		<div class="row all_blsp">Transrow</div>
 
 		<div class="row how_form_ext">
-			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">"Formulaire de souscription"
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form"><a name="inscriptp"></a>
 			</div>
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
 				<?php include_once 'inc/formdonneurs.php'; ?>

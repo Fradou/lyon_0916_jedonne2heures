@@ -34,7 +34,8 @@ include 'inc/header.php';
 
 		<div class="row how_bloctxt_ext">
 			<div class="how_bloctxt_int col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt">
-				<h2> Entrepreneurs<br>Je Donne 2 Heures, comment ça va marcher ?</h2>
+				<h2> Entrepreneurs<br>
+					<small class="text-muted">Je Donne 2 Heures, comment ça va marcher ?</small></h2>
 				<p>
 					<ul>
 						<li>L'inscription sur <span>Je Donne 2 Heures</span> est gratuite.</li><br>
@@ -49,7 +50,7 @@ include 'inc/header.php';
 		<div class="row all_blsp">Transrow</div>
 
 		<div class="row how_form_ext">
-			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howb_form"> "Formulaire de souscription"<a name="inscriptb"></a>
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howb_form"><a name="inscriptb"></a>
 			</div>
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
 				<?php include_once 'inc/formprojets.php'; ?>
