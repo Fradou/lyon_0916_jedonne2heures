@@ -5,7 +5,7 @@
   <!-- accueil / carou / vid : comment gérer via boot ? superposition z axis ? -->
 
   <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
-
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <?php
     include_once 'links.php';
   ?>
