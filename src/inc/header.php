@@ -33,9 +33,9 @@
         </ul>
         <ul class="nav navbar-nav navbar-right nav-social">
           <li><a href="../src/aboutus.php">Contactez-nous</a></li>
-          <li><a href="#"><img src="../public/img/facebook.png" alt=""></a></li>
-          <li><a href="#"><img  src="../public/img/twitter.png" alt=""></a></li>
-          <li><a href="#"><img  src="../public/img/linkedin.png" alt=""></a></li>
+          <li><a href="https://www.facebook.com/jedonne2H/" onclick="window.open(this.href); return false;"><img src="../public/img/facebook.png" alt=""></a></li>
+          <li><a href="https://twitter.com/jedonne2h" onclick="window.open(this.href); return false;"><img  src="../public/img/twitter.png" alt=""></a></li>
+          <li><a href="https://fr.linkedin.com/in/jd-2h-45318312b" onclick="window.open(this.href); return false;"><img  src="../public/img/linkedin.png" alt=""></a></li>
         </ul>
       </div>
     </div>
