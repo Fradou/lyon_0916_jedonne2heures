@@ -4,6 +4,7 @@ include_once '../src/inc/header.php';
 ?>
 
 	<div class="container-fluid">
+
 		<div class="row">
 			<div class="carousel" >
 			</div>
@@ -15,6 +16,8 @@ include_once '../src/inc/header.php';
 				</p>
 			</div>
 		</div>
+
+
 		<div class="row all_blsp"> Empty row tampon au dessus de la vidéo ?</div>
 
 		<div class="row" id="home_video_ext">
