@@ -1,13 +1,13 @@
-<?php
-$pageTitle = "Qui sommes nous ?";
-include_once 'inc/header.php';
-?>
-    <!--<style>
-        div {
-            height:20vh;
-            border:5px solid black;
-        }
-    </style>-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<?php include_once '../src/inc/links.php';	?>
+	<title>Qui sommes-nous ?</title>
+</head>
+<body>
+
+<?php include_once '../src/inc/header.php'; ?>
 
 	<div class="container-fluid">
 
@@ -51,3 +51,6 @@ include_once 'inc/header.php';
 <?php
 include_once 'inc/footer.php';
 ?>
+</body>
+
+</html>
