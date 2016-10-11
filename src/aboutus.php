@@ -38,15 +38,17 @@ include_once 'inc/header.php';
 			</div>
 		</div>
 
-		<div class="row" id="who_form_title">
-			<h2>vous avez des questions ? Vous voulez nous rencontrer ?<br> Contactez-nous ! </h2>
-		</div>
-		<div class="row" id="who_form_content">
-		</div>
 
-		<div class="row all_blsp">Empty row de transition to footer </div>
+			<div class="row who_form_ext">
+				<div class="who_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="who_form"><h2>Vous avez des questions ? <br/>Vous voulez nous rencontrer ? <br/> Prendre une café </h2>
+				</div>
+				<div class="who_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
+					<?php include_once 'inc/formaboutus.php'; ?>
+				</div>
+			</div>
 
-	</div>
+
+
 
 <?php
 include_once 'inc/footer.php';
