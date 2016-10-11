@@ -6,8 +6,13 @@
  */
 
 $(document).ready(function () {
-    $("/* element cliquable*/").click(function() {
+    $("#home_btn_jqbar1").click(function() {
         $('html,body').animate({
-            scrollTop: $("/* element de destination*/").offset().top},'slow');
+            scrollTop: $("#home_btn_jqbar1").offset().top},'slow');
     });
+
+
 });
+
+
+

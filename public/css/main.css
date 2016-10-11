@@ -120,6 +120,7 @@ footer {
 /* HOME */
 
 
+
 .home_blimg_startup {
 	border: 1px solid black;
 	border-radius: 16px;
@@ -130,7 +131,7 @@ footer {
 .home_blimg_startup img {
 	vertical-align: middle;
 	height: 60%;
-	margin-top: 10%;
+	margin-top: 13%;
 }
 .home_blimg_startuplogo{
 	text-align: center;
@@ -178,7 +179,7 @@ footer {
 	background-repeat: round;
 }
 #home_blimg_startup3 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/COMMEUNEARMOIREJD2H.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup4 {
@@ -186,7 +187,7 @@ footer {
 	background-repeat: round;
 }
 #home_blimg_startup5 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/SKWAREJD2H.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup6 {
@@ -196,22 +197,36 @@ footer {
 
 .home_blimg_startup:hover {
 	background-color: rgba(255,0,0,0.2);
-	border: 3px solid red;
+	border: 3px solid #e60f33;
 }
 
 
 .home_btn_jqbar {
-
 }
 
 #home_btn_jqbar1 {
+	background: #e60f33;
+	width: 100%;
+	height: 7vh;
+	color: white;
+}
+#home_btn_jqbar1:hover{
+	cursor: pointer;
 }
 #home_btn_jqbar2 {
 }
 
 
 #home_video_ext {
-	height:60vh;
+	text-align: center;
+}
+#home_video_int{
+	height: 70vh;
+}
+#home_video_ext iframe{
+	width: 100% !important;
+	height: 100% !important;
+	border-radius: 10px;
 }
 
 
@@ -309,10 +324,12 @@ footer {
 /* CSS tempo */
 
 
-#home_video_int {
-	height:100%;
-}
+.carousel {
+	background-image:url("../img/SKWAREJD2H.jpg");
+	background-repeat: round;
+	height: 80vh;
 
+}
 
 #home_startup_list {
 	height:auto;
