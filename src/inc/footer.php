@@ -2,25 +2,22 @@
 
     <div class="container-fluid center-block" id="foo_list">
         <div class="row visible-xs visible-sm foo_social">
-            <a href="#">
-                <img src="../public/img/facebook.png" alt="">
+            <a href="https://www.facebook.com/jedonne2H/">
+                <img src="../public/img/facebook.png" alt="facebook">
             </a>
-            <a href="#">
-                <img  src="../public/img/twitter.png" alt="">
+            <a href="https://twitter.com/jedonne2h">
+                <img  src="../public/img/twitter.png" alt="twitter">
             </a>
-            <a href="#">
-                <img  src="../public/img/linkedin.png" alt="">
+            <a href="https://fr.linkedin.com/in/jd-2h-45318312b">
+                <img  src="../public/img/linkedin.png" alt="linkedin">
             </a>
         </div>
         <div class="row foo_mention">
             <p><a href="#">Nous contacter</a></p>
-            <p>Mentions légales</p>
-            <p>© Copyright 2016 - jedonne2heures</p>
+            <p><a href="#">Mentions légales</a></p>
+            <p><small>© Copyright 2016 - jedonne2heures</small></p>
         </div>
     </div>
 
 </footer>
 
-</body>
-
-</html>

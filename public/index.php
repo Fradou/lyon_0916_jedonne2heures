@@ -1,21 +1,24 @@
-<?php
-$pageTitle = "Homepage";
-include_once '../src/inc/header.php';
-?>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<?php include_once '../src/inc/links.php';	?>
+	<title>Homepage</title>
+</head>
+<body>
+
+<?php include_once '../src/inc/header.php'; ?>
 
 	<div class="container-fluid">
 
-		<div class="row">
+		<div class="row car">
 			<div class="carousel" >
 			</div>
 		</div>
-		<div class="row" >
-			<div class="home_btn_jqbar" id="home_btn_jqbar1" >
-				<p>
-					Comment ça marche ?
-				</p>
-			</div>
-		</div>
+
+		<?php include_once "../src/inc/transitionrow.php"; ?>
+
+
 
 
 		<div class="row all_blsp"> Empty row tampon au dessus de la vidéo ?</div>
@@ -116,3 +119,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 <?php
 include_once '../src/inc/footer.php';
 ?>
+
+</body>
+
+</html>
