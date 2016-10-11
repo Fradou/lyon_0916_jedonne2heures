@@ -6,24 +6,23 @@ include 'inc/header.php';
 
 	<div class="container-fluid">
 
-		<div class="row all_blsp_sm"> Transrow </div>
+		<div class="row all_blsp_xs"></div>
 
 		<div class="row">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
 				<h1>Je donne du temps</h1>
 
-				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraité vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets.<br>
-					Sur <span>Je Donne 2 Heures</span> le temps c'est de l'argent alors n'investissez pas investissez-vous!
+				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraité vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets. Sur <span>Je Donne 2 Heures</span> le temps c'est de l'argent alors n'investissez pas investissez-vous!
 				</p>
 			</div>
 		</div>
 
 		<div class="how_btn_inscript">
-			<a href="#inscriptp" class="btn btn-default">Je sais déjà comment ça marche.<br>Je m'inscris!</a>
-			<p>Je ne sais pas comment ça marche, je continue de lire.</p>
+			<a href="#inscriptp" class="btn btn-default">Je sais déjà comment ça marche, je m'inscris!</a>
+			<p class="text-muted">Je ne sais pas comment ça marche, je continue de lire.</p>
 		</div>
 
-		<div class="row all_blsp_sm">Transrow</div>
+		<div class="row all_blsp_sm"></div>
 
 		<div class="row how_blocimg_ext">
 			<div class="how_blocimg_int col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
@@ -31,7 +30,7 @@ include 'inc/header.php';
 			</div>
 		</div>	
 
-		<div class="row all_blsp_sm" > Transrow </div>
+		<div class="row all_blsp_sm" ></div>
 
 		<div class="row how_bloctxt_ext">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt">
@@ -58,7 +57,7 @@ include 'inc/header.php';
 			</div>
 		</div>
 
-		<div class="row all_blsp">Transrow </div>
+		<div class="row all_blsp"></div>
 
 	</div>
 
