@@ -1,5 +1,4 @@
 
-
   <header>
   <nav class="navbar navbar-fixed-top">
     <div class="container-fluid">
@@ -16,12 +15,12 @@
           <li><a href="../src/jedonne.php">Je donne</a></li>
           <li><a href="../src/jepropose.php">Je propose</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right nav-social">
-          <li><a href="../src/aboutus.php">Contactez-nous</a></li>
-          <li><a href="https://www.facebook.com/jedonne2H/" onclick="window.open(this.href); return false;"><img src="../public/img/facebook.png" alt=""></a></li>
-          <li><a href="https://twitter.com/jedonne2h" onclick="window.open(this.href); return false;"><img  src="../public/img/twitter.png" alt=""></a></li>
-          <li><a href="https://fr.linkedin.com/in/jd-2h-45318312b" onclick="window.open(this.href); return false;"><img  src="../public/img/linkedin.png" alt=""></a></li>
-        </ul>
+          <ul class="nav navbar-nav navbar-right nav-social">
+              <li><a href="../src/aboutus.php">Contactez-nous</a></li>
+              <li><a href="#" target="_blank"><img src="../public/img/facebook.png" alt="facebook"></a></li>
+              <li><a href="#" target="_blank"><img  src="../public/img/twitter.png" alt="twitter"></a></li>
+              <li><a href="#" target="_blank"><img  src="../public/img/linkedin.png" alt="linkedin"></a></li>
+          </ul>
       </div>
     </div>
   </nav>
