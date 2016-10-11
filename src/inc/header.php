@@ -4,9 +4,11 @@
 <head>
   <!-- accueil / carou / vid : comment gérer via boot ? superposition z axis ? -->
 
-  <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <?php
+
+    <?php
     include_once 'links.php';
   ?>
   <title><?php echo $pageTitle; ?> </title>
@@ -31,12 +33,12 @@
           <li><a href="../src/jedonne.php">Je donne</a></li>
           <li><a href="../src/jepropose.php">Je propose</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right nav-social">
-          <li><a href="../src/aboutus.php">Contactez-nous</a></li>
-          <li><a href="#"><img src="../public/img/facebook.png" alt=""></a></li>
-          <li><a href="#"><img  src="../public/img/twitter.png" alt=""></a></li>
-          <li><a href="#"><img  src="../public/img/linkedin.png" alt=""></a></li>
-        </ul>
+          <ul class="nav navbar-nav navbar-right nav-social">
+              <li><a href="../src/aboutus.php">Contactez-nous</a></li>
+              <li><a href="#" target="_blank"><img src="../public/img/facebook.png" alt="facebook"></a></li>
+              <li><a href="#" target="_blank"><img  src="../public/img/twitter.png" alt="twitter"></a></li>
+              <li><a href="#" target="_blank"><img  src="../public/img/linkedin.png" alt="linkedin"></a></li>
+          </ul>
       </div>
     </div>
   </nav>
