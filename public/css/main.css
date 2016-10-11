@@ -94,15 +94,18 @@ span {
 }
 
 .foo_mention {
-	height:15vh;
+	height:auto;
 }
 
 .foo_mention p {
 	margin-top:1.5vh;
+	color: white;
 }
 
 #foo_list {
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #foo_list p {
@@ -343,6 +346,14 @@ span {
 }
 
 #who_form_contact{
+}
+
+.who_form_ext{
+    margin-bottom: 80px;
+}
+
+#who_form{
+    margin-bottom: 20px;
 }
 
 
