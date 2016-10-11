@@ -14,8 +14,8 @@
         </div>
         <div class="row foo_mention">
             <p><a href="#">Nous contacter</a></p>
-            <p>Mentions légales</p>
-            <p>© Copyright 2016 - jedonne2heures</p>
+            <p><a href="#">Mentions légales</a></p>
+            <p><small>© Copyright 2016 - jedonne2heures</small></p>
         </div>
     </div>
 
