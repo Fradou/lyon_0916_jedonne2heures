@@ -5,7 +5,7 @@
         <form  method="post" action="formtreat.php">
           <div class="form-group">
             <label for="Nom et prenom">Nom et prenom</label>
-            <input type="text" class="form-control" name="nomcomplet" >
+            <input type="text" class="form-control" name="nomcomplet" required>
           </div>
           <div class="form-group">
             <label for="Société">Société (facultatif)</label>
@@ -13,15 +13,15 @@
           </div>
           <div class="form-group">
             <label for="Email">Votre email</label>
-            <input type="email" class="form-control"  name="email">
+            <input type="email" class="form-control"  name="email" required>
           </div>
           <div class="form-group">
             <label for="Sujet">Sujet</label>
-            <input type="text" class="form-control" name="sujet">
+            <input type="text" class="form-control" name="sujet" required>
           </div>
           <div class="form-group">
               <label for="Message">Message</label>
-              <input type="text" class="form-control" name="message">
+              <input type="text" class="form-control" name="message" required>
           </div>
 
           <div>
