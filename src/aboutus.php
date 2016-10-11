@@ -40,7 +40,7 @@
 						C'est en participant activement à la réussite des autres que vous recevrez en retour une multitude d'opportunités ! Aidez l'autre c'est grandir.</p>
 				</div>
 			</div>
-			
+
 
 			<div class="row who_form_ext">
 				<div class="who_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="who_form"><h2>Vous avez des questions ? <br/>Vous voulez nous rencontrer ? <br/> Prendre une café </h2>
