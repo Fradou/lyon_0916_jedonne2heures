@@ -120,6 +120,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 include_once '../src/inc/footer.php';
 ?>
 
+
 </body>
 
 </html>

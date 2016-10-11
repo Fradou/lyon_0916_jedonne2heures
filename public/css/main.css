@@ -58,7 +58,7 @@ span {
 	background-color: white;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.40);
 	min-height: 12vh;
-	font-size: 1.4em;
+	font-size: 1.1em;
 }
 
 .navbar-nav > li > a {
@@ -80,6 +80,7 @@ span {
 .nav-social img {
 	height: 6vh;
 	opacity: 0.5;
+	margin-top: 2.5vh;
 }
 .nav-social img:hover{
 	opacity: 1;
@@ -430,9 +431,19 @@ span {
 #home_startup_title{
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 767px) {
 	.navbar-collapse {
-		box-shadow: 0 3px 3px rgba(0,0,0,0.40);
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.40);
 	}
+}
 
+@media screen and (max-width: 810px) {
+	.navbar {
+		font-size: 1em !important;
+	}
+}
+@media screen and (max-width: 770px) {
+	.navbar {
+		font-size: 0.9em !important;
+	}
 }
