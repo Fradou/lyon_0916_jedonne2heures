@@ -1,19 +1,36 @@
-<?php
-$pageTitle = "Homepage";
-include_once '../src/inc/header.php';
-?>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<?php include_once '../src/inc/links.php';	?>
+	<title>Homepage</title>
+</head>
+<body>
+
+<?php include_once '../src/inc/header.php'; ?>
 
 	<div class="container-fluid">
 
-		<div class="row home_btn_jqbar" id="home_btn_jqbar1"> Barre de transition jQuery </div>
+		<div class="row car">
+			<div class="carousel" >
+			</div>
+		</div>
+
+		<?php include_once "../src/inc/transitionrow.php"; ?>
+
+
 
 
 		<div class="row all_blsp"> Empty row tampon au dessus de la vidéo ?</div>
 
 		<div class="row" id="home_video_ext">
 <!--Largeur : 10 en xs, 8 en sm, 6 en md & lg -->
-			<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="home_video_int">
-			Vidéo de présentation du concept
+			<div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8" id="home_video_int">
+			Vidéo de présentation du concept</br>
+
+
+					<iframe src="https://www.youtube.com/embed/7bFaw-IZ6Xo" frameborder="0" allowfullscreen></iframe>
+
 			</div>
 		</div>
 
@@ -40,32 +57,69 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 
 !! Offset diffère un peu suivant la gestion des offset au milieu des partenaires -->
 
-			<div id="home_blimg_startup1" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-2 col-md-2" > Partnr 1 - modèle base
-			</div>
+			<a href="https://www.mutum.com" target="_blank">
+				<div id="home_blimg_startup1" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-2 col-md-2" >
+					<div class="home_blimg_startuplogo">
+						<img src="img/logomutm.png">
+					</div>
+				</div>
+			</a>
 
-			<div id="home_blimg_startup2" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 2 - offspé a sm et md+
-			</div>
+			<a href="https://www.foodandyou.fr/" target="_blank">
+				<div id="home_blimg_startup2" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" >
+					<div class="home_blimg_startuplogo">
+						<img src="img/logofood&you.png">
+					</div>
+				</div>
+			</a>
 
-			<div id="home_blimg_startup3" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 3 - offspé à md+
-			</div>
+			<a href="https://commeunearmoire.com/fr" target="_blank">
+				<div id="home_blimg_startup3" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" >
+					<div class="home_blimg_startuplogo">
+						<img src="img/logocua.png">
+					</div>
+				</div>
+			</a>
 
-			<div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" ><div class="test"> Partnr 4 - offspé à sm et md+</div>
-			</div>
+			<a href="https://www.tikaway.com/fr/" target="_blank">
+				<div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-2 col-md-2" >
+					<div class="home_blimg_startuplogo">
+						<img src="img/logotikaway.png">
+					</div>
+				</div>
+			</a>
 
-			<div id="home_blimg_startup5" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" > Partnr 5 - offspé à md+
-			</div>
+			<a href="http://www.skware.com/" target="_blank">
+				<div id="home_blimg_startup5" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-4 col-md-offset-1 col-md-2" >
+					<div class="home_blimg_startuplogo">
+						<img src="img/loskware.jpg">
+					</div>
+				</div>
+			</a>
 
-			<div id="home_blimg_startup6" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" > Partnr 6 - offspé à sm et md+
-			</div>
+			<a href="http://www.2rives.tv/" target="_blank">
+				<div id="home_blimg_startup6" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-4 col-md-offset-1 col-md-2" >
+					<div class="home_blimg_startuplogo">
+						<img src="img/logo2rives.png">
+						<h5>2 Rives TV</h5>
+					</div>
+				</div>
+			</a>
 
 		</div>
 
 		<div class="row all_blsp">Empty row de transition </div>
 
 		<div class="row" id="home_partenaire_list">
-	</div>
+			<h2>NOS PARTENAIRES</h2>
+			<img src="img/logowild.png" class="img-responsive" alt="logo WCS">
+		</div>
 </div>
 
 <?php
 include_once '../src/inc/footer.php';
 ?>
+
+</body>
+
+</html>
