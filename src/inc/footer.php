@@ -21,6 +21,3 @@
 
 </footer>
 
-</body>
-
-</html>

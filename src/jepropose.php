@@ -1,8 +1,13 @@
-<?php
-$pageTitle = "Je propose";
+<!DOCTYPE html>
+<html>
 
-include 'inc/header.php';
-?>
+<head>
+	<?php include_once '../src/inc/links.php';	?>
+	<title>Je propose</title>
+</head>
+<body>
+
+<?php include_once '../src/inc/header.php'; ?>
 
 	<div class="container-fluid">
 
@@ -66,3 +71,6 @@ include 'inc/header.php';
 include_once 'inc/footer.php';
 ?>
 
+</body>
+
+</html>
