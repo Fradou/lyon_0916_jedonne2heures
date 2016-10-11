@@ -21,14 +21,22 @@ h2 {
 p {
  	text-align:justify;
  	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 1.35em;
+	font-size:1.35em;
  }
 
+ul {
+	font-size:1.35em;
+	text-align:justify;
+}
 
 footer {
  	height:auto;
  	background-color: black;
  }
+
+span {
+	font-style: italic;
+}
 
  h1, h2, h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
@@ -289,9 +297,9 @@ footer {
 }
 
 .how_blocimg_int img {
-	max-width: 70%;
+	width: 85%;
 	height:auto;
-	margin:0% 15%;
+    margin: 0% 7.5%;
 }
 
 
@@ -321,6 +329,23 @@ footer {
 #howb_form {
 }
 
+.how_btn_inscript {
+	text-align: center;
+	margin-top: 3.5vh;
+}
+
+.how_btn_inscript a {
+	font-size:1.35em;
+	margin-bottom:2vh;
+	background-color: #e60f33;
+	color:white;
+	padding: 1% 5%;
+
+}
+
+.how_btn_inscript p {
+	text-align:center;
+}
 
 /* CSS tempo */
 

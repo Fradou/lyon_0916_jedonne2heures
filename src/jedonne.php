@@ -12,29 +12,38 @@ include 'inc/header.php';
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
 				<h1>Je donne du temps</h1>
 
-				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraité vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets. Sur Jd2H le temps c'est de l'argent alors n'investissez pas investissez-vous.
+				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraité vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets.<br>
+					Sur <span>Je Donne 2 Heures</span> le temps c'est de l'argent alors n'investissez pas investissez-vous!
 				</p>
 			</div>
+		</div>
+
+		<div class="how_btn_inscript">
+			<a href="#inscriptp" class="btn btn-default">Je sais déjà comment ça marche.<br>Je m'inscris!</a>
+			<p>Je ne sais pas comment ça marche, je continue de lire.</p>
 		</div>
 
 		<div class="row all_blsp_sm">Transrow</div>
 
 		<div class="row how_blocimg_ext">
-			<div class="how_blocimg_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"> 
-				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/Photo%20d'ambiance%20Offr'Heures.jpg">
+			<div class="how_blocimg_int col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
+				<img class="how_blocimg_img" alt="Je donne du temps" src="../public/img/Photo%20d'ambiance%20Offr'Heures2.jpg">
 			</div>
 		</div>	
 
 		<div class="row all_blsp_sm" > Transrow </div>
 
 		<div class="row how_bloctxt_ext">
-			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
-				<h2> Contributeur - Comment ça marche ?</h2>
-				<p>"Bloc de texte presentation."
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt">
+				<h2>Offrir de votre temps libre<br>
+					<small class="text-muted">Je Donne 2 Heures, comment ça va marcher ?</small></h2>
+				<p>
+					<ul>
+						<li> L'inscription sur <span>Je Donne 2 Heures</span> est gratuite. Vous accédez dés votre arrivée à un espace personnel dédié afin de vous présenter librement (vidéo, photos et textes).Vous décrivez vos compétences de façon déclarative, pas de dépôt CV, pas de références nécessaires c'est vous qui décidez.</li><br>
+						<li>Vos informations sont confidentielles, elles sont invisibles pour les visiteurs du site et ne sont dévoilées aux Entrepreneurs qu'avec votre accord lors d'un processus de matching sécurisé.</li><br>
+						<li>Sur <span>Je Donne 2 Heures</span> tout est gratuit pour ceux qui désirent offrir leur temps libre. Aucun frais cachés ou supplémentaires ne vous sera jamais demandé. Vous donnez du temps pas de l'argent.</li><br>
+						<li><span>Je Donne 2 Heures</span> est une plateforme de mise en relation entre entrepreneurs, ou porteurs de projets et toute personne désirant offrir de son temps libre.</li>
+					</ul>
 				</p>
 			</div>
 		</div>
@@ -42,7 +51,7 @@ include 'inc/header.php';
 		<div class="row all_blsp">Transrow</div>
 
 		<div class="row how_form_ext">
-			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">"Formulaire de souscription"
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form"><a name="inscriptp"></a>
 			</div>
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
 				<?php include_once 'inc/formdonneurs.php'; ?>
