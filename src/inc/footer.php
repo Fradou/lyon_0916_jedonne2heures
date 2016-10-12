@@ -2,7 +2,7 @@
 
     <div class="container-fluid center-block" id="foo_list">
         <div class="row visible-xs visible-sm foo_social">
-            <a href="https://www.facebook.com/jedonne2H/">
+            <a href="https://www.facebook.com/jedonne2H">
                 <img src="../public/img/facebook.png" alt="facebook">
             </a>
             <a href="https://twitter.com/jedonne2h">
