@@ -11,7 +11,7 @@
 
 	<div class="container-fluid">
 
-		<div class="row all_blsp_sm">Transrow</div>
+		<div class="row all_blsp_xs"></div>
 
 		<div class="row">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
@@ -21,13 +21,13 @@
 				</p>
 			</div>
 		</div>
-		<div class="how_btn_inscript">
-			<a href="#inscriptb" class="btn btn-default">Je sais déjà comment ça marche.<br>Je m'inscris !</a>
-			<p>Je ne sais pas comment ça marche, je continue de lire.</p>
 
+		<div class="how_btn_inscript">
+			<a href="#inscriptb" class="btn btn-default how_btn_transon">Je sais déjà comment ça marche, je m'inscris !</a>
+			<p class="text-muted">Je ne sais pas comment ça marche, je continue de lire.</p>
 		</div>
 
-		<div class="row all_blsp_sm">Transrow</div>
+		<div class="row all_blsp_sm"></div>
 
 		<div class="row how_blocimg_ext">
 			<div class="how_blocimg_int col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
@@ -35,7 +35,7 @@
 			</div>
 		</div>
 
-		<div class="row all_blsp_sm">Transrow</div>
+		<div class="row all_blsp_sm"></div>
 
 		<div class="row how_bloctxt_ext">
 			<div class="how_bloctxt_int col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt">
@@ -52,18 +52,24 @@
 			</div>
 		</div>
 
-		<div class="row all_blsp">Transrow</div>
+		<div class="row all_blsp_xs how_btn_transoff"></div>
 
 		<div class="row how_form_ext">
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howb_form"><a name="inscriptb"></a>
 			</div>
+            <div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">
+                <h3>Inscrivez-vous!<br>
+                    <small class="text-muted">Vous êtes intéressés pour déposer un projet ?<br>
+                        Vous souhaitez vous tenir informé du lancement de <span>Je Donne 2 Heures</span> ?
+                    </small>
+                </h3>
+            </div>
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
 				<?php include_once 'inc/formprojets.php'; ?>
 			</div>
 		</div>
 
-
-		<div class="row all_blsp">Transrow</div>
+		<div class="row all_blsp"></div>
 
 	</div>
 

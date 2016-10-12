@@ -7,16 +7,6 @@ body {
     padding-top: 11vh;
 }
 
-h1 {
-	text-align:center;
-	margin-bottom:3vh;
-}
-
-h2 {
- 	text-align:center;
- 	margin-bottom:3vh;
- }
-
 p {
  	text-align:justify;
  	font-family: 'Source Sans Pro', sans-serif;
@@ -39,6 +29,8 @@ span {
 
  h1, h2, h3, h4, h5 {
     font-family: 'Roboto', sans-serif;
+	 text-align:center;
+	 margin-bottom:3vh;
  }
 
 .all_blsp {
@@ -51,6 +43,10 @@ span {
 
 .all_blsp_sm {
 	height: 5vh;
+}
+
+.all_blsp_xs {
+	height: 2.5vh;
 }
 
 .navbar {
@@ -74,7 +70,6 @@ span {
 	display: flex;
 	flex-direction: row;
 }
-
 
 .nav-social img {
 	height: 6vh;
@@ -430,11 +425,20 @@ span {
 	background-color: #e60f33;
 	color:white;
 	padding: 1% 5%;
+	border-radius:15px;
+}
 
+.how_btn_inscript a:hover {
+    background-color: #e60f338C;
+    color:white;
 }
 
 .how_btn_inscript p {
 	text-align:center;
+}
+
+.how_btn_inscript .btn {
+
 }
 
 /* CSS tempo */
@@ -472,4 +476,11 @@ span {
 	.navbar {
 		font-size: 0.9em !important;
 	}
+}
+
+
+@media screen and (max-width: 770px) {
+    .how_btn_inscript a {
+        font-size:0.9em;
+    }
 }
