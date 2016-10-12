@@ -25,5 +25,5 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 
 <!-- Google Font paragraphes et boutons SOURCE SANS PRO -->
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
 
