@@ -184,6 +184,25 @@ span {
 
 /* HOME */
 
+#home_startup_title{
+	text-align: center;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+}
+
+#home_startup_list {
+	text-align: center;
+	margin-left: -60px;
+}
+#home_startup_list a {
+	display:inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+	float:none;
+	text-align:left;
+	margin-bottom: 30px;
+}
+
 .home_blimg_startup {
 	text-align: center;
 	border: 1px solid black;
@@ -442,6 +461,14 @@ span {
 	width: 85%;
 	height:auto;
     margin: 0% 7.5%;
+	-moz-box-shadow: 3px 3px 5px 0px #000000;
+	-webkit-box-shadow: 3px 3px 5px 0px #000000;
+	-o-box-shadow: 3px 3px 5px 0px #000000;
+	box-shadow: 3px 3px 5px 0px #000000;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=135, Strength=5);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
 }
 
 .how_bloctxt_ext {
@@ -510,23 +537,11 @@ span {
 
 
 
-#home_startup_title{
-	text-align: center;
-	margin-top: 10vh;
-	margin-bottom: 10vh;
-}
+
 
 @media screen and (max-width: 1110px) {
 
-	#home_startup_list {
-		text-align: center;
-		margin-left: -60px;
-	}
-	#home_startup_list a {
-		display:inline-block;
-		float:none;
-		text-align:left;
-	}
+
 }
 
 @media screen and (max-width: 830px) {

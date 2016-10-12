@@ -15,7 +15,6 @@
               <option>Entre 2 jobs</option>
               <option>Indépendant</option>
               <option>A la retraite</option>
-              <option>Anarchiste</option>
             </select>
           </div>
           <div class="form-group">
