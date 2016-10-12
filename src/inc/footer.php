@@ -15,7 +15,7 @@
         <div class="row foo_mention">
             <p><a href="../src/aboutus.php">Nous contacter</a></p>
             <p><a href="#">Mentions légales</a></p>
-            <p><small>© Copyright 2016 - jedonne2heures</small></p>
+            <p><small>© Je Donne 2 Heures</small></p>
         </div>
     </div>
 
