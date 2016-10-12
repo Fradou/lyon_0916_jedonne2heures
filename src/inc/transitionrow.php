@@ -5,7 +5,7 @@
         <img src="../public/img/arrowdown.png" class="fa fa-angle-double-down">
     </div>
 
-    <div class="col-xs-offset-0 col-xs-4">
+    <div class="col-xs-offset-0 col-xs-4 home_h3">
         <h3>Comment ça marche ?</h3>
     </div>
 

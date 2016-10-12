@@ -285,6 +285,12 @@ span {
 	border: 3px solid #e60f33;
 }
 
+.home_h3 h3{
+	font-size:2.5vh;
+	padding-top: 5px;
+}
+
+
 /* Animation transition row*/
 
 .animated {
