@@ -133,8 +133,8 @@ span {
 	text-align: center;
 	border: 1px solid black;
 	border-radius: 16px;
-    padding-top: 25%;
-    height:auto;
+	width: 250px;
+	height: 175px;
 	margin-bottom: 5vh;
 }
 
@@ -144,11 +144,12 @@ span {
 	margin-top: 13%;
 }
 
+
 .home_blimg_startuplogo{
 	text-align: center;
 	opacity: 0;
 	height: 100%;
-	width: auto;
+	width: 120%;
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
@@ -182,33 +183,27 @@ span {
 
 #home_blimg_startup1 {
 	background-image:url("../img/teststartup.jpg");
-    background-size:cover;
-    background-position: top center;
+	background-repeat: round;
 }
 #home_blimg_startup2 {
 	background-image:url("../img/teststartup.jpg");
-    background-size:cover;
-    background-position: top center;
+	background-repeat: round;
 }
 #home_blimg_startup3 {
 	background-image:url("../img/COMMEUNEARMOIREJD2H.jpg");
-    background-size:cover;
-    background-position: top center;
+	background-repeat: round;
 }
 #home_blimg_startup4 {
 	background-image:url("../img/teststartup.jpg");
-    background-size:cover;
-    background-position: top center;
+	background-repeat: round;
 }
 #home_blimg_startup5 {
 	background-image:url("../img/SKWAREJD2H.jpg");
-    background-size:cover;
-    background-position: top center;
+	background-repeat: round;
 }
 #home_blimg_startup6 {
 	background-image:url("../img/teststartup.jpg");
-    background-size:cover;
-    background-position: top center;
+	background-repeat: round;
 }
 
 .home_blimg_startup:hover {
