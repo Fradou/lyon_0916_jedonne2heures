@@ -4,7 +4,7 @@
 /* ALL */
 
 body {
-padding-top: 11vh;
+    padding-top: 11vh;
 }
 
 p {
@@ -16,6 +16,7 @@ p {
 ul {
 	font-size:1.35em;
 	text-align:justify;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 footer {
@@ -28,10 +29,12 @@ span {
 }
 
  h1, h2, h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+	 font-family: 'Roboto', sans-serif;
 	 text-align:center;
 	 margin-bottom:3vh;
  }
+
+
 
 .all_blsp {
 	height: 10vh;
@@ -97,6 +100,7 @@ span {
 	color: white;
 }
 
+
 #foo_list {
 	text-align: center;
 	padding-top: 10px;
@@ -126,17 +130,20 @@ span {
 /* HOME */
 
 .home_blimg_startup {
+	text-align: center;
 	border: 1px solid black;
 	border-radius: 16px;
     padding-top: 25%;
     height:auto;
 	margin-bottom: 5vh;
 }
+
 .home_blimg_startup img {
 	vertical-align: middle;
 	height: 60%;
 	margin-top: 13%;
 }
+
 .home_blimg_startuplogo{
 	text-align: center;
 	opacity: 0;
@@ -169,16 +176,15 @@ span {
 	transition-timing-function: ease-out;
 }
 
-
 .home_blimg_startup:hover {
 	background-color:rgba(255,255,255,0.6);
 }
+
 #home_blimg_startup1 {
 	background-image:url("../img/teststartup.jpg");
     background-size:cover;
     background-position: top center;
 }
-
 #home_blimg_startup2 {
 	background-image:url("../img/teststartup.jpg");
     background-size:cover;
@@ -260,8 +266,6 @@ span {
 	animation-name: bounce;
 }
 
-.home_btn_jqbar {
-}
 
 #home_btn_jqbar1 h3 {
 	margin-top: 15px;
@@ -272,7 +276,7 @@ span {
 
 #home_btn_jqbar1 {
 	background: #e60f33;
-	height: 8vh;
+	height: 9vh;
 	color: white;
 	text-align: center;
 }
@@ -311,7 +315,15 @@ span {
 /* WHO */
 
 
-.who_blocimg {
+.who_blocimg{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.who_blocimg h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #who_blocimg_pic1 {
@@ -324,6 +336,11 @@ span {
 .who_bltxt {
 }
 
+.who_blocsoc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .who_blocsoc img {
 	height: 32px;
 	opacity: 0.5;
@@ -334,10 +351,11 @@ span {
 }
 
 #who_bltxt_ext {
-	height:80vh;
+    margin-bottom: 50px;
 }
 
-#who_bltxt_int {
+
+#who_bltxt_title {
 }
 
 #who_form_title {
@@ -351,9 +369,17 @@ span {
     margin-bottom: 80px;
 }
 
-#who_form{
-    margin-bottom: 20px;
+.who_form_ext h3{
 }
+
+#who_form{
+    margin-bottom: 30px;
+}
+
+.who_img_portrait{
+	margin-left: 15px;
+}
+
 
 
 /* HOW */
@@ -367,7 +393,6 @@ span {
 	height:auto;
     margin: 0% 7.5%;
 }
-
 
 .how_bloctxt_ext {
 }
@@ -434,17 +459,23 @@ span {
 }
 
 
-#home_startup_list {
-	height:auto;
-}
 
 #home_startup_title{
 	text-align: center;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
 
-@media screen and (max-width: 767px) {
-	.navbar-collapse {
-		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.40);
+@media screen and (max-width: 1110px) {
+
+	#home_startup_list {
+		text-align: center;
+		margin-left: -60px;
+	}
+	#home_startup_list a {
+		display:inline-block;
+		float:none;
+		text-align:left;
 	}
 }
 
@@ -453,6 +484,7 @@ span {
 		font-size: 1em !important;
 	}
 }
+
 @media screen and (max-width: 770px) {
 	.navbar {
 		font-size: 0.9em !important;
@@ -460,8 +492,18 @@ span {
 }
 
 
+@media screen and (max-width: 767px) {
+	.navbar-collapse {
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.40);
+	}
+}
+
+
+
+
 @media screen and (max-width: 770px) {
     .how_btn_inscript a {
         font-size:0.9em;
     }
 }
+
