@@ -10,6 +10,8 @@
 	<?php include_once '../src/inc/header.php'; ?>
 
 	<div class="container-fluid">
+		<div class="row all_blsp_xs"></div>
+
 		<div class="row all_blsp">
             <div class="who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
                 <h1>Qui sommes-nous ?</h1>
