@@ -4,7 +4,7 @@
 /* ALL */
 
 body {
-padding-top: 11vh;
+    padding-top: 11vh;
 }
 
 p {
@@ -16,6 +16,7 @@ p {
 ul {
 	font-size:1.35em;
 	text-align:justify;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 footer {
@@ -28,10 +29,14 @@ span {
 }
 
  h1, h2, h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+	 font-family: 'Roboto', sans-serif;
 	 text-align:center;
 	 margin-bottom:3vh;
  }
+
+h2{
+	font-size:;
+}
 
 .all_blsp {
 	height: 10vh;
@@ -96,6 +101,7 @@ span {
 	margin-top:1.5vh;
 	color: white;
 }
+
 
 #foo_list {
 	text-align: center;
@@ -307,7 +313,15 @@ span {
 /* WHO */
 
 
-.who_blocimg {
+.who_blocimg{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.who_blocimg h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #who_blocimg_pic1 {
@@ -320,6 +334,11 @@ span {
 .who_bltxt {
 }
 
+.who_blocsoc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .who_blocsoc img {
 	height: 32px;
 	opacity: 0.5;
@@ -330,10 +349,11 @@ span {
 }
 
 #who_bltxt_ext {
-	height:80vh;
+    margin-bottom: 50px;
 }
 
-#who_bltxt_int {
+
+#who_bltxt_title {
 }
 
 #who_form_title {
@@ -347,9 +367,17 @@ span {
     margin-bottom: 80px;
 }
 
-#who_form{
-    margin-bottom: 20px;
+.who_form_ext h3{
 }
+
+#who_form{
+    margin-bottom: 30px;
+}
+
+.who_img_portrait{
+	margin-left: 15px;
+}
+
 
 
 /* HOW */
@@ -363,7 +391,6 @@ span {
 	height:auto;
     margin: 0% 7.5%;
 }
-
 
 .how_bloctxt_ext {
 }

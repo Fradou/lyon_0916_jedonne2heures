@@ -22,8 +22,11 @@
 <link rel="stylesheet" href="../public/css/main.css" >
 
 <!-- Google Font title ROBOTO -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 
 <!-- Google Font paragraphes et boutons SOURCE SANS PRO -->
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
 
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="../public/img/je-donne-2-heures-favicon-ico.ico" />
+<link rel="icon" type="image/png" href="../public/img/je-donne-2-heures-favicon-16X16.png" />
