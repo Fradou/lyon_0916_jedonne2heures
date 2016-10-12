@@ -17,7 +17,7 @@
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="howp_bltxt">
 				<h1>Je propose un projet</h1>
 
-				<p>Vous êtes porteur d'un projet ? Vous êtes Entrepreneur et vous venez de démarrer ? Vous voulez faire grandir votre entreprise ? Vous avez des envies, des idées, des rêves et des besoins, mais pas encore tous les moyens. <span>Je Donne 2 Heures</span> est fait pour Vous ! Grâce à notre plateforme, le monde entier est là pour vous apporter son soutien. Soyez les premiers à être tenus au courant du lancement de notre plateforme et donner vie à vos plus beaux projets.
+				<p>Vous êtes porteur d'un projet ? Vous êtes entrepreneur et vous venez de démarrer ? Vous voulez faire grandir votre entreprise ? Vous avez des envies, des idées, des rêves et des besoins, mais pas encore tous les moyens. <span>Je Donne 2 Heures</span> est fait pour Vous ! Grâce à notre plateforme, le monde entier est là pour vous apporter son soutien. Soyez les premiers à être tenus au courant du lancement de notre plateforme et donner vie à vos plus beaux projets.
 				</p>
 			</div>
 		</div>
@@ -45,7 +45,7 @@
 					<ul>
 						<li>L'inscription sur <span>Je Donne 2 Heures</span> est gratuite.</li><br>
 						<li>Vous accédez dès votre arrivée à un espace personnel dédié, afin de présenter librement votre projet ou votre entreprise (vidéo, photos et textes).</li></br>
-						<li>Cet espace vous sert également à proposer vos projets et donc à solliciter l'aide du grand public.<br><span>Je Donne 2 Heures</span> vous offre votre premier projet. Par la suite, différentes formules payantes vous serons proposées.</li></br>
+						<li>Cet espace vous sert également à proposer vos projets et donc à solliciter l'aide du grand public.<span>Je Donne 2 Heures</span> vous offre votre premier projet. Par la suite, différentes formules payantes vous serons proposées.</li></br>
 						<li>Grâce à un processus de matching sécurisé, <span>Je Donne 2 Heures</span> vous met en relation avec les personnes qui désirent vous offrir de leur temps libre pour faire aboutir vos projets.</li></br>
 					</ul>
 				</p>

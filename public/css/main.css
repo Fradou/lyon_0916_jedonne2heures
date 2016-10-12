@@ -218,6 +218,7 @@ span {
 	margin-top: 13%;
 }
 
+
 .home_blimg_startuplogo{
 	text-align: center;
 	opacity: 0;
@@ -511,7 +512,7 @@ span {
 }
 
 .how_btn_inscript a:hover {
-    background-color: #e60f338C;
+    background-color: rgba(230, 15, 51, 0.51);
     color:white;
 }
 
