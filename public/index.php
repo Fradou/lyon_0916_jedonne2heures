@@ -21,7 +21,7 @@
 
 		<div class="all_blsp_sm"></div>
 <!--Largeur : 10 en xs, 8 en sm, 6 en md & lg -->
-		<div class="row">
+		<div class="row home_row_video">
 			<div class="col-xs-offset-1 col-xs-10">
 				<h2>Découvrez jedonne2heures.com en Vidéo</h2>
 			</div>

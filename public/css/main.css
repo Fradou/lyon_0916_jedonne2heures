@@ -4,19 +4,8 @@
 /* ALL */
 
 body {
-padding-top: 11vh;
+    padding-top: 11vh;
 }
-
-h1 {
-	text-align:center;
-	margin-bottom:3vh;
-}
-
-h2 {
- 	text-align:center;
- 	margin-bottom:3vh;
-
- }
 
 p {
  	text-align:justify;
@@ -27,6 +16,7 @@ p {
 ul {
 	font-size:1.35em;
 	text-align:justify;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 footer {
@@ -39,8 +29,12 @@ span {
 }
 
  h1, h2, h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+	 font-family: 'Roboto', sans-serif;
+	 text-align:center;
+	 margin-bottom:3vh;
  }
+
+
 
 .all_blsp {
 	height: 10vh;
@@ -52,6 +46,10 @@ span {
 
 .all_blsp_sm {
 	height: 5vh;
+}
+
+.all_blsp_xs {
+	height: 2.5vh;
 }
 
 .navbar {
@@ -75,7 +73,6 @@ span {
 	display: flex;
 	flex-direction: row;
 }
-
 
 .nav-social img {
 	height: 6vh;
@@ -102,6 +99,7 @@ span {
 	margin-top:1.5vh;
 	color: white;
 }
+
 
 #foo_list {
 	text-align: center;
@@ -314,7 +312,15 @@ span {
 /* WHO */
 
 
-.who_blocimg {
+.who_blocimg{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.who_blocimg h2 {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #who_blocimg_pic1 {
@@ -327,6 +333,11 @@ span {
 .who_bltxt {
 }
 
+.who_blocsoc{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .who_blocsoc img {
 	height: 32px;
 	opacity: 0.5;
@@ -337,10 +348,11 @@ span {
 }
 
 #who_bltxt_ext {
-	height:80vh;
+    margin-bottom: 50px;
 }
 
-#who_bltxt_int {
+
+#who_bltxt_title {
 }
 
 #who_form_title {
@@ -354,9 +366,17 @@ span {
     margin-bottom: 80px;
 }
 
-#who_form{
-    margin-bottom: 20px;
+.who_form_ext h3{
 }
+
+#who_form{
+    margin-bottom: 30px;
+}
+
+.who_img_portrait{
+	margin-left: 15px;
+}
+
 
 
 /* HOW */
@@ -370,7 +390,6 @@ span {
 	height:auto;
     margin: 0% 7.5%;
 }
-
 
 .how_bloctxt_ext {
 }
@@ -409,11 +428,20 @@ span {
 	background-color: #e60f33;
 	color:white;
 	padding: 1% 5%;
+	border-radius:15px;
+}
 
+.how_btn_inscript a:hover {
+    background-color: #e60f338C;
+    color:white;
 }
 
 .how_btn_inscript p {
 	text-align:center;
+}
+
+.how_btn_inscript .btn {
+
 }
 
 /* CSS tempo */
@@ -460,6 +488,7 @@ span {
 	}
 }
 
+
 @media screen and (max-width: 767px) {
 	.navbar-collapse {
 		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.40);
@@ -467,4 +496,11 @@ span {
 }
 
 
+
+
+@media screen and (max-width: 770px) {
+    .how_btn_inscript a {
+        font-size:0.9em;
+    }
+}
 
