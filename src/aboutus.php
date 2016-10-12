@@ -53,6 +53,7 @@
 				<?php include_once 'inc/formaboutus.php'; ?>
 			</div>
 		</div>
+	</div>
 
 <?php
 include_once 'inc/footer.php';
