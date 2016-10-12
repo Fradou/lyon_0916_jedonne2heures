@@ -34,10 +34,6 @@ span {
 	 margin-bottom:3vh;
  }
 
-h2{
-	font-size:;
-}
-
 .all_blsp {
 	height: 10vh;
 }
@@ -522,11 +518,7 @@ h2{
 	text-align: center;
 }
 
-@media screen and (max-width: 865px) {
-	.navbar {
-		font-size: 1em !important;
-	}
-}
+
 @media screen and (max-width: 830px) {
 	.navbar {
 		font-size: 0.9em !important;
