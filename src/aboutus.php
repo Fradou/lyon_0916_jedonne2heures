@@ -39,7 +39,7 @@
 
 
 			<div class="row who_bltxt" id="who_bltxt_ext">
-				<div class=" who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="who_bltxt_int">
+				<div class=" who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="who_bltxt_int">
 					<p>Le temps c'est de l'argent ! Grâce à Je Donne 2 Heures pas besoin d'Investir, Investissez-vous ! Je Donne 2 Heures permet à toutes et à tous de devenir acteur du développement de l'entrepreneuriat.
 						Donnez du sens à votre temps libre : offrez le à des Entrepreneurs et aidez les à donner vie à leurs projets.
 						C'est en participant activement à la réussite des autres que vous recevrez en retour une multitude d'opportunités ! Aider l'autre c'est grandir.</p>
