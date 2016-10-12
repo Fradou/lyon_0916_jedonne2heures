@@ -101,6 +101,7 @@ span {
 	color: white;
 }
 
+
 #foo_list {
 	text-align: center;
 	padding-top: 10px;
@@ -344,11 +345,11 @@ span {
 }
 
 #who_bltxt_ext {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 
-#who_bltxt_int {
+#who_bltxt_title {
 }
 
 #who_form_title {
@@ -366,7 +367,7 @@ span {
 }
 
 #who_form{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .who_img_portrait{
