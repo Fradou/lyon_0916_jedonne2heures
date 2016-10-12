@@ -53,36 +53,93 @@ span {
 .navbar {
 	background-color: white;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.40);
-	min-height: 12vh;
+	min-height: 11vh;
 	font-size: 1.1em;
 }
 
 .navbar-nav > li > a {
 	line-height: 7vh;
 	color: black;
+	text-align: center;
  }
 
 .navbar-brand img {
-	height: 10vh;
-	margin-top: -2vh;
+	height: 9vh;
+	margin-top: -1vh;
 }
 
-.nav-social {
+.nav_networks {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
-.nav-social img {
-	height: 6vh;
-	opacity: 0.5;
+.nav_networks img {
+	height: 40px;
 	margin-top: 2.5vh;
-}
-.nav-social img:hover{
-	opacity: 1;
+	padding: 1px;
 }
 
 .navbar-collapse {
 	background-color: white;
+	padding-bottom: 5px;
+}
+
+.nav_facebook {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.nav_facebook .facebook_top {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.nav_facebook:hover .facebook_top {
+	display: inline;
+}
+
+.nav_twitter {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.nav_twitter .twitter_top {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.nav_twitter:hover .twitter_top {
+	display: inline;
+}
+
+.nav_linkedin {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.nav_linkedin .linkedin_top {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.nav_linkedin:hover .linkedin_top {
+	display: inline;
 }
 
 .icon-bar {
@@ -128,19 +185,21 @@ span {
 /* HOME */
 
 
-
 .home_blimg_startup {
+	text-align: center;
 	border: 1px solid black;
 	border-radius: 16px;
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
 }
+
 .home_blimg_startup img {
 	vertical-align: middle;
 	height: 60%;
 	margin-top: 13%;
 }
+
 .home_blimg_startuplogo{
 	text-align: center;
 	opacity: 0;
@@ -173,15 +232,14 @@ span {
 	transition-timing-function: ease-out;
 }
 
-
 .home_blimg_startup:hover {
 	background-color:rgba(255,255,255,0.6);
 }
+
 #home_blimg_startup1 {
 	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
-
 #home_blimg_startup2 {
 	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
@@ -258,8 +316,6 @@ span {
 	animation-name: bounce;
 }
 
-.home_btn_jqbar {
-}
 
 #home_btn_jqbar1 h3 {
 	margin-top: 15px;
@@ -270,7 +326,7 @@ span {
 
 #home_btn_jqbar1 {
 	background: #e60f33;
-	height: 8vh;
+	height: 9vh;
 	color: white;
 	text-align: center;
 }
@@ -453,34 +509,65 @@ span {
 }
 
 
-#home_startup_list {
-	height:auto;
-}
 
 #home_startup_title{
 	text-align: center;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
+
+@media screen and (max-width: 1110px) {
+
+	#home_startup_list {
+		text-align: center;
+		margin-left: -60px;
+	}
+	#home_startup_list a {
+		display:inline-block;
+		float:none;
+		text-align:left;
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.navbar {
+		font-size: 0.9em !important;
+	}
+
+	.nav_networks img {
+		height: 30px !important;
+	}
+}
+
+@media screen and (max-width: 775px) {
+    .how_btn_inscript a {
+        font-size:0.9em;
+    }
+
+	.navbar {
+		font-size: 0.8em !important;
+	}
+	}
+
+
+@media screen and (max-width: 770px) {
+	.how_btn_inscript a {
+		font-size:0.9em;
+	}
+}
+
 
 @media screen and (max-width: 767px) {
 	.navbar-collapse {
 		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.40);
 	}
-}
 
-@media screen and (max-width: 810px) {
 	.navbar {
 		font-size: 1em !important;
 	}
-}
-@media screen and (max-width: 770px) {
-	.navbar {
-		font-size: 0.9em !important;
+
+	.nav_networks img {
+		height: 35px !important;
 	}
 }
 
-
-@media screen and (max-width: 770px) {
-    .how_btn_inscript a {
-        font-size:0.9em;
-    }
-}
