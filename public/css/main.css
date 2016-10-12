@@ -467,6 +467,49 @@ span {
 	margin-left: 15px;
 }
 
+.who_twitter_icon {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.who_twitter_icon .twitter_top{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.who_twitter_icon:hover .twitter_top{
+	display: inline;
+}
+
+.who_linkedin_icon {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.who_linkedin_icon .linkedin_top{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.who_linkedin_icon:hover .linkedin_top{
+	display: inline;
+}
+
+
+
+
+
+
 
 
 /* HOW */
