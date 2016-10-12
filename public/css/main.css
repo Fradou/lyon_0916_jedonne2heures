@@ -266,12 +266,15 @@ span {
 }
 
 #home_btn_jqbar1 h3 {
-	margin-top: 20px;
+	margin-top: 15px;
+}
+#home_btn_jqbar1 img {
+	margin-top: 5px;
 }
 
 #home_btn_jqbar1 {
 	background: #e60f33;
-	height: 9vh;
+	height: 8vh;
 	color: white;
 	text-align: center;
 }
@@ -429,6 +432,7 @@ span {
 }
 
 #home_startup_title{
+	text-align: center;
 }
 
 @media screen and (max-width: 767px) {
