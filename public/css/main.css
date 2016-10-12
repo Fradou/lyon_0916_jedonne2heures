@@ -80,7 +80,6 @@ span {
 	flex-direction: row;
 }
 
-
 .nav-social img {
 	height: 6vh;
 	opacity: 0.5;
@@ -397,7 +396,7 @@ span {
 	background-color: #e60f33;
 	color:white;
 	padding: 1% 5%;
-	border-radius:15px;
+	border-radius:15;
 
 }
 

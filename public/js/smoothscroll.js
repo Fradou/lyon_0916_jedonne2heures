@@ -10,6 +10,10 @@ $(document).ready(function () {
         $('html,body').animate({
             scrollTop: $("#home_btn_jqbar1").offset().top},'slow');
     });
+    $(".btn-default").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".btn-default").offset().top},'slow');
+    });
 
 
 });
