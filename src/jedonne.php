@@ -11,7 +11,7 @@
 
 	<div class="container-fluid">
 
-		<div class="row all_blsp_xs"></div>
+		<div class="row all_blsp_xs all_blsp_sm all_blsp_md"></div>
 
 		<div class="row">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="howp_bltxt">
