@@ -14,7 +14,9 @@
 		<div class="row all_blsp_xs all_blsp_sm all_blsp_md"></div>
 
 		<div class="row">
+
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="howp_bltxt">
+
 				<h1>Je donne du temps</h1>
 
 				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraités vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets. Sur <span>Je Donne 2 Heures</span>, le temps c'est de l'argent alors n'investissez pas, investissez-vous!
