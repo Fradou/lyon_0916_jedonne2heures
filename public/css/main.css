@@ -461,17 +461,21 @@ span {
 	margin-bottom: 10vh;
 }
 
+#home_startup_list {
+	text-align: center;
+	margin-left: -60px;
+}
+#home_startup_list a {
+	display:inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+	float:none;
+	text-align:left;
+}
+
 @media screen and (max-width: 1110px) {
 
-	#home_startup_list {
-		text-align: center;
-		margin-left: -60px;
-	}
-	#home_startup_list a {
-		display:inline-block;
-		float:none;
-		text-align:left;
-	}
+
 }
 
 @media screen and (max-width: 810px) {
