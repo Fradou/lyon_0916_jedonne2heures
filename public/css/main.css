@@ -67,16 +67,16 @@ span {
 	margin-top: -1vh;
 }
 
-#nav_networks {
+.nav_networks {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-#nav_networks img {
+.nav_networks img {
 	height: 40px;
 	margin-top: 2.5vh;
-	padding: 5px;
+	padding: 1px;
 }
 
 .navbar-collapse {
@@ -89,7 +89,7 @@ span {
 	height: 48px;
 	position: relative;
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 2px;
 }
 
 .nav_facebook .facebook_top {
@@ -108,7 +108,7 @@ span {
 	height: 48px;
 	position: relative;
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 2px;
 }
 
 .nav_twitter .twitter_top {
@@ -127,7 +127,7 @@ span {
 	height: 48px;
 	position: relative;
 	display: inline-block;
-	margin-right: 5px;
+	margin-right: 2px;
 }
 
 .nav_linkedin .linkedin_top {
@@ -387,7 +387,7 @@ span {
 }
 
 #who_bltxt_ext {
-	height:80vh;
+	padding-bottom: 10vh;
 }
 
 #who_bltxt_int {
@@ -495,12 +495,12 @@ span {
 	text-align: center;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 865px) {
 	.navbar {
 		font-size: 1em !important;
 	}
 }
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 830px) {
 	.navbar {
 		font-size: 0.9em !important;
 	}
@@ -510,8 +510,18 @@ span {
 	}
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 775px) {
     .how_btn_inscript a {
         font-size:0.9em;
     }
+
+	.navbar {
+		font-size: 0.8em !important;
+	}
+}
+
+@media screen and (max-width: 765px) {
+	.navbar {
+		font-size: 1em !important;
+	}
 }
