@@ -14,7 +14,7 @@
 		<div class="row all_blsp_sm"> Transrow </div>
 
 		<div class="row">
-			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt"> 
+			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_bltxt">
 				<h1>Je donne du temps</h1>
 
 				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraité vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets.<br>
