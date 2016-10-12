@@ -23,7 +23,6 @@
               <label for="Message">Message</label>
               <textarea class="form-control" rows="5" id="message"></textarea>
           </div>
-
           <div>
           <button type="submit" class="btn btn-default">Envoyer</button>
           </div>
