@@ -34,6 +34,7 @@
 					<a href="https://fr.linkedin.com/in/nicolasantonini" target="_blank"><img  src="../public/img/linkedin.png" alt=""></a>
 				</div>
 			</div>
+
 		</div>
 		<div class="row who_bltxt" id="who_bltxt_ext">
 			<div class=" who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="who_bltxt_int">
