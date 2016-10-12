@@ -261,8 +261,6 @@ span {
 	animation-name: bounce;
 }
 
-.home_btn_jqbar {
-}
 
 #home_btn_jqbar1 h3 {
 	margin-top: 15px;
@@ -273,7 +271,7 @@ span {
 
 #home_btn_jqbar1 {
 	background: #e60f33;
-	height: 8vh;
+	height: 9vh;
 	color: white;
 	text-align: center;
 }
