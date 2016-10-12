@@ -27,3 +27,6 @@
 <!-- Google Font paragraphes et boutons SOURCE SANS PRO -->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
 
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="../public/img/je-donne-2-heures-favicon-ico.ico" />
+<link rel="icon" type="image/png" href="../public/img/je-donne-2-heures-favicon-16X16.png" />
