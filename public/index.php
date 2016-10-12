@@ -2,7 +2,8 @@
 <html>
 
 <head>
-	<?php include_once '../src/inc/links.php';	?>
+	<?php include_once '../src/inc/links.php';
+	?>
 	<title>Homepage</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
 
 		<?php include_once "../src/inc/transitionrow.php"; ?>
 
-
+		<div class="all_blsp_sm"></div>
 <!--Largeur : 10 en xs, 8 en sm, 6 en md & lg -->
-		<div class="row">
+		<div class="row home_row_video">
 			<div class="col-xs-offset-1 col-xs-10">
 				<h2>Découvrez jedonne2heures.com en Vidéo</h2>
 			</div>
@@ -37,8 +38,10 @@
 
 
 		<div class="row" id="home_startup_title">
-			<h2>Et si vous donniez du temps a ces entreprises, a ces projets !</h2>
-			<h3>Découvrez les entrepreneurs et leurs projets. Choisissez l'aventure à laquelle vous donnerez de votre temps libre.</h3>
+			<div class="col-xs-offset-2 col-xs-8">
+				<h2>Et si vous donniez du temps a ces entreprises, a ces projets !</h2>
+				<h3>Découvrez les entrepreneurs et leurs projets. Choisissez l'aventure à laquelle vous donnerez de votre temps libre.</h3>
+			</div>
 		</div>
 
 		<div class="row" id="home_startup_list">
@@ -54,7 +57,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 !! Offset diffère un peu suivant la gestion des offset au milieu des partenaires -->
 
 			<a href="https://www.mutum.com" target="_blank">
-				<div id="home_blimg_startup1" class="home_blimg_startup col-xs-offset-2 col-xs-10 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2" >
+				<div id="home_blimg_startup1" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/logomutm.png">
 					</div>
@@ -78,7 +81,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 			</a>
 
 			<a href="https://www.tikaway.com/fr/" target="_blank">
-				<div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2" >
+				<div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/logotikaway.png">
 					</div>
