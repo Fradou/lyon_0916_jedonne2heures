@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="../public/css/main.css" >
 
 <!-- Google Font title ROBOTO -->
-<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
 
 <!-- Google Font paragraphes et boutons SOURCE SANS PRO -->
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
