@@ -59,7 +59,7 @@
 			</div>
             <div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">
                 <h3>Inscrivez-vous !<br>
-                    <small class="text-muted">Vous êtes intéressés pour déposer un projet ?<br>
+                    <small class="text-muted">Vous êtes intéressé pour déposer un projet ?<br>
                         Vous souhaitez vous tenir informé du lancement de <span>Je Donne 2 Heures</span> ?
                     </small>
                 </h3>
