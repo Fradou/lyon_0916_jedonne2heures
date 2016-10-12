@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="how_btn_inscript">
-			<a href="#inscriptp" class="btn btn-default">Je sais déjà comment ça marche, je m'inscris!</a>
+			<a href="#inscriptp" class="btn btn-default how_btn_transon">Je sais déjà comment ça marche, je m'inscris!</a>
 			<p class="text-muted">Je ne sais pas comment ça marche, je continue de lire.</p>
 		</div>
 
@@ -52,10 +52,17 @@
 			</div>
 		</div>
 
-		<div class="row all_blsp">Transrow</div>
+		<div class="row all_blsp_xs how_btn_transoff"></div>
 
 		<div class="row how_form_ext">
-			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form"><a name="inscriptp"></a>
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6"><a name="inscriptp"></a>
+			</div>
+			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="howp_form">
+				<h3>Inscrivez-vous!<br>
+					<small class="text-muted">Vous êtes intéressés pour donner du temps ?<br>
+					Vous souhaitez vous tenir informé du lancement de <span>Je Donne 2 Heures</span> ?
+					</small>
+				</h3>
 			</div>
 			<div class="how_form_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
 				<?php include_once 'inc/formdonneurs.php'; ?>
