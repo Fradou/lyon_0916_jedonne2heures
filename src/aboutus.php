@@ -10,14 +10,11 @@
 <?php include_once '../src/inc/header.php'; ?>
 
 	<div class="container-fluid">
-
 		<div class="row all_blsp">
             <div class=" who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6" id="who_bltxt_int">
                 <h1>Qui sommes-nous ?</h1>
             </div>
         </div>
-
-
 		<div class="row who_blocimg">
 			<div class="col-xs-offset-3 col-xs-6 col-sm-offset-2 col-sm-3 col-md-offset-3 col-md-2" id="who_blocimg_pic1">
 				<img src="../public/img/je-donne-2-heures-guylaine-antonini.png" class="img-responsive who_img_portrait" alt="Guylaine Antonini cofondatrice Je Donne 2 Heures">
@@ -36,8 +33,6 @@
 				</div>
 			</div>
 		</div>
-
-
 			<div class="row who_bltxt" id="who_bltxt_ext">
 				<div class=" who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="who_bltxt_int">
 					<p>Le temps c'est de l'argent ! Grâce à Je Donne 2 Heures pas besoin d'Investir, Investissez-vous ! Je Donne 2 Heures permet à toutes et à tous de devenir acteur du développement de l'entrepreneuriat.
