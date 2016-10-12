@@ -57,7 +57,7 @@ span {
 .navbar {
 	background-color: white;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.40);
-	min-height: 12vh;
+	min-height: 11vh;
 	font-size: 1.1em;
 }
 
@@ -67,8 +67,8 @@ span {
  }
 
 .navbar-brand img {
-	height: 10vh;
-	margin-top: -2vh;
+	height: 9vh;
+	margin-top: -1vh;
 }
 
 .nav-social {
