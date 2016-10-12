@@ -3,7 +3,7 @@
 
 <head>
 	<?php include_once '../src/inc/links.php';	?>
-	<title>Je donne</title>
+	<title>Je donne | Je Donne 2 Heures</title>
 </head>
 <body>
 

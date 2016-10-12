@@ -4,7 +4,7 @@
 <head>
 	<?php include_once '../src/inc/links.php';
 	?>
-	<title>Homepage</title>
+	<title>Accueil | Je Donne 2 Heures</title>
 </head>
 <body>
 
