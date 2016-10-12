@@ -125,13 +125,11 @@ span {
 
 /* HOME */
 
-
-
 .home_blimg_startup {
 	border: 1px solid black;
 	border-radius: 16px;
-	width: 250px;
-	height: 175px;
+    padding-top: 25%;
+    height:auto;
 	margin-bottom: 5vh;
 }
 .home_blimg_startup img {
@@ -143,7 +141,7 @@ span {
 	text-align: center;
 	opacity: 0;
 	height: 100%;
-	width: 120%;
+	width: auto;
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
@@ -177,28 +175,34 @@ span {
 }
 #home_blimg_startup1 {
 	background-image:url("../img/teststartup.jpg");
-	background-repeat: round;
+    background-size:cover;
+    background-position: top center;
 }
 
 #home_blimg_startup2 {
 	background-image:url("../img/teststartup.jpg");
-	background-repeat: round;
+    background-size:cover;
+    background-position: top center;
 }
 #home_blimg_startup3 {
 	background-image:url("../img/COMMEUNEARMOIREJD2H.jpg");
-	background-repeat: round;
+    background-size:cover;
+    background-position: top center;
 }
 #home_blimg_startup4 {
 	background-image:url("../img/teststartup.jpg");
-	background-repeat: round;
+    background-size:cover;
+    background-position: top center;
 }
 #home_blimg_startup5 {
 	background-image:url("../img/SKWAREJD2H.jpg");
-	background-repeat: round;
+    background-size:cover;
+    background-position: top center;
 }
 #home_blimg_startup6 {
 	background-image:url("../img/teststartup.jpg");
-	background-repeat: round;
+    background-size:cover;
+    background-position: top center;
 }
 
 .home_blimg_startup:hover {
@@ -406,7 +410,7 @@ span {
 }
 
 .how_btn_inscript a:hover {
-    background-color: #e60f338C;
+    background-color: rgba(230, 15, 51, 0.51);
     color:white;
 }
 
