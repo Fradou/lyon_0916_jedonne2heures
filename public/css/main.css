@@ -308,10 +308,11 @@ span {
 
 /* WHO */
 
+
 .who_blocimg{
     text-align: center;
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .who_blocimg h2 {
@@ -320,7 +321,6 @@ span {
 }
 
 #who_blocimg_pic1 {
-
 }
 
 #who_blocimg_pic2 {
@@ -328,6 +328,11 @@ span {
 
 
 .who_bltxt {
+}
+
+.who_blocsoc{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .who_blocsoc img {
@@ -358,15 +363,16 @@ span {
     margin-bottom: 80px;
 }
 
-.who_form_ext h2{
-    font-size: 25px;
-    line-height: 40px;
+.who_form_ext h3{
 }
 
 #who_form{
     margin-bottom: 20px;
 }
 
+.who_img_portrait{
+	margin-left: 15px;
+}
 
 
 
