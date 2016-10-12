@@ -29,10 +29,14 @@ span {
 }
 
  h1, h2, h3, h4, h5 {
-    font-family: 'Roboto', sans-serif;
+	 font-family: 'Roboto', sans-serif;
 	 text-align:center;
 	 margin-bottom:3vh;
  }
+
+h2{
+	font-size:;
+}
 
 .all_blsp {
 	height: 10vh;
@@ -387,7 +391,6 @@ span {
 	height:auto;
     margin: 0% 7.5%;
 }
-
 
 .how_bloctxt_ext {
 }
