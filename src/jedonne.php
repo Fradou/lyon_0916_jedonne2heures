@@ -45,7 +45,7 @@
 					<small class="text-muted">Je Donne 2 Heures, comment ça va marcher ?</small></h2>
 				<p>
 					<ul>
-						<li> L'inscription sur <span>Je Donne 2 Heures</span> est gratuite. Vous accédez dès votre arrivée à un espace personnel dédié, afin de vous présenter librement (vidéo, photos et textes).Vous décrivez vos compétences de façon déclarative, pas de dépôt de CV, pas de références nécessaires, c'est vous qui décidez.</li><br>
+						<li> L'inscription sur <span>Je Donne 2 Heures</span> est gratuite. Vous accédez dès votre arrivée à un espace personnel dédié, afin de vous présenter librement (vidéo, photos et textes). Vous décrivez vos compétences de façon déclarative, pas de dépôt de CV, pas de références nécessaires, c'est vous qui décidez.</li><br>
 						<li>Vos informations sont confidentielles, elles sont invisibles pour les visiteurs du site et ne sont dévoilées aux Entrepreneurs qu'avec votre accord lors d'un processus de matching sécurisé.</li><br>
 						<li>Sur <span>Je Donne 2 Heures</span> tout est gratuit pour ceux qui désirent offrir leur temps libre. Aucun frais caché ou supplémentaire ne vous sera jamais demandé. Vous donnez du temps pas de l'argent.</li><br>
 						<li><span>Je Donne 2 Heures</span> est une plateforme de mise en relation entre entrepreneurs, ou porteurs de projets et toute personne désirant offrir de son temps libre.</li>
