@@ -65,7 +65,7 @@ span {
 
 .navbar-brand img {
 	height: 9vh;
-	margin-top: -1vh;
+	margin-top: -0.9vh;
 }
 
 .nav_networks {
@@ -76,7 +76,7 @@ span {
 
 .nav_networks img {
 	height: 40px;
-	margin-top: 2.5vh;
+	margin-top: 3vh;
 	padding: 1px;
 }
 
@@ -633,22 +633,34 @@ span {
 	}
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 900px) {
+	.navbar-brand img {
+		height: 8vh;
+	}
 
-
-}
-
-@media screen and (max-width: 830px) {
 	.navbar {
 		font-size: 0.9em !important;
 	}
 
 	.nav_networks img {
 		height: 30px !important;
+		margin-top: 3.5vh;
+	}
+
+	.navbar {
+		min-height: 10vh;
+	}
+
+	.navbar-brand img {
+		margin-top: -0.5vh;
+	}
+
+	body {
+		padding-top: 10vh;
 	}
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 800px) {
 	.navbar {
 		font-size: 0.8em !important;
 	}
@@ -668,4 +680,3 @@ span {
 		height: 35px !important;
 	}
 }
-
