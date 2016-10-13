@@ -360,7 +360,8 @@ span {
 	text-align: center;
 }
 #home_video_int{
-	height: 70vh;
+	margin-top: 5vh;
+	height: 60vh;
 }
 #home_video_ext iframe{
 	width: 100% !important;
