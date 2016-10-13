@@ -196,8 +196,8 @@ span {
 }
 #home_startup_list a {
 	display:inline-block;
-	margin-left: 4%;
-	margin-right: 4%;
+	margin-left: 5%;
+	margin-right: 5%;
 	float:none;
 	text-align:left;
 	margin-bottom: 30px;
@@ -378,7 +378,8 @@ span {
 	text-align: center;
 }
 #home_video_int{
-	height: 70vh;
+	margin-top: 5vh;
+	height: 60vh;
 }
 #home_video_ext iframe{
 	width: 100% !important;
@@ -609,9 +610,15 @@ span {
 
 }
 
+@media screen and (min-width: 1600px) {
 
+	#home_startup_list a {
 
+		margin-left: 7%;
+		margin-right: 7%;
 
+	}
+}
 
 @media screen and (max-width: 1110px) {
 
