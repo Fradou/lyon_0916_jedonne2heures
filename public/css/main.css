@@ -43,7 +43,7 @@ span {
 }
 
 .all_blsp_sm {
-	height: 5vh;
+	height: 3vh;
 }
 
 .all_blsp_xs {
@@ -285,6 +285,24 @@ span {
 	border: 3px solid #e60f33;
 }
 
+.home_h3 h3{
+	font-size:2.5vh;
+	padding-top: 5px;
+}
+.h2_hmpg{
+	font-size:25px;
+}
+
+#partners_h2hmpg{
+	padding-top:20px;
+}
+
+.p_hmpg{
+	color: #777;
+	line-height: 25px;
+	text-align: center;
+}
+
 /* Animation transition row*/
 
 .animated {
@@ -375,9 +393,9 @@ span {
 }
 
 #home_partenaire_list img {
-	height: 250px;
+	height: 300px;
 	margin: auto;
-	padding-bottom: 10vh;
+	padding-bottom: 8vh;
 }
 
 
@@ -450,6 +468,49 @@ span {
 	margin-left: 15px;
 }
 
+.who_twitter_icon {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.who_twitter_icon .twitter_top{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 10;
+	z-index: 99;
+}
+.who_twitter_icon:hover .twitter_top{
+	display: inline;
+}
+
+.who_linkedin_icon {
+	width: 48px;
+	height: 48px;
+	position: relative;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.who_linkedin_icon .linkedin_top{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 10;
+	z-index: 99;
+}
+
+.who_linkedin_icon:hover .linkedin_top{
+	display: inline;
+}
+
+#whoh1_toppage{
+	margin-bottom:10vh;
+}
+
 
 
 /* HOW */
@@ -480,6 +541,7 @@ span {
 }
 
 #howp_bltxt {
+	vertical-align: center;
 }
 
 #howb_bltxt {
@@ -501,6 +563,7 @@ span {
 .how_btn_inscript {
 	text-align: center;
 	margin-top: 3.5vh;
+	margin-bottom:3vh;
 }
 
 .how_btn_inscript a {
@@ -523,6 +586,18 @@ span {
 
 .how_btn_inscript .btn {
 
+}
+.h1_toppage{
+	margin-top:10vh;
+}
+
+.h2_toppage{
+	margin-bottom: 5vh;
+}
+
+.p_toppage{
+	margin-top: 7vh;
+	margin-bottom: 3vh;
 }
 
 .how_btn_transon {
