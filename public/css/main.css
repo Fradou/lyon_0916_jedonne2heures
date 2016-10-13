@@ -43,7 +43,7 @@ span {
 }
 
 .all_blsp_sm {
-	height: 5vh;
+	height: 3vh;
 }
 
 .all_blsp_xs {
@@ -505,10 +505,9 @@ span {
 	display: inline;
 }
 
-
-
-
-
+#whoh1_toppage{
+	margin-bottom:10vh;
+}
 
 
 
@@ -540,6 +539,7 @@ span {
 }
 
 #howp_bltxt {
+	vertical-align: center;
 }
 
 #howb_bltxt {
@@ -583,6 +583,18 @@ span {
 
 .how_btn_inscript .btn {
 
+}
+.h1_toppage{
+	margin-top:10vh;
+}
+
+.h2_toppage{
+	margin-bottom: 5vh;
+}
+
+.p_toppage{
+	margin-top: 7vh;
+	margin-bottom: 3vh;
 }
 
 /* CSS tempo */

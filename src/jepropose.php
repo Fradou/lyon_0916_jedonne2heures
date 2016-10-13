@@ -15,10 +15,9 @@
 
 		<div class="row">
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="howp_bltxt">
-				<h1>Je propose un projet</h1>
-
-				<p>Vous êtes porteur d'un projet ? Vous êtes entrepreneur et vous venez de démarrer ? Vous voulez faire grandir votre entreprise ? Vous avez des envies, des idées, des rêves et des besoins, mais pas encore tous les moyens. <span>Je Donne 2 Heures</span> est fait pour Vous ! Grâce à notre plateforme, le monde entier est là pour vous apporter son soutien. Soyez les premiers à être tenus au courant du lancement de notre plateforme et donner vie à vos plus beaux projets.
-				</p>
+				<h1 class="h1_toppage">Je propose un projet <br/></h1>
+                <h2 class="h2_toppage"> <small>Vous êtes porteur d'un projet ? Vous êtes entrepreneur et vous venez de démarrer ? Vous voulez faire grandir votre entreprise ? </small></h2>
+				<p class="p_toppage">Vous avez des envies, des idées, des rêves et des besoins, mais pas encore tous les moyens.<span>Je Donne 2 Heures</span> est fait pour Vous ! Grâce à notre plateforme, le monde entier est là pour vous apporter son soutien. Soyez les premiers à être tenus au courant du lancement de notre plateforme et donner vie à vos plus beaux projets. </p>
 			</div>
 		</div>
 
