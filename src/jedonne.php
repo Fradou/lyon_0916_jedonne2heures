@@ -24,9 +24,11 @@
 			</div>
 		</div>
 
-		<div class="how_btn_inscript">
+		<div class="row how_btn_inscript">
 			<a href="#inscriptp" class="btn btn-default how_btn_transon">Je sais déjà comment ça marche, je m'inscris!</a>
-			<p class="text-muted">Je ne sais pas comment ça marche, je continue de lire.</p>
+			<div class="col-xs-offset-1 col-xs-10">
+				<p class="text-muted">Je ne sais pas comment ça marche, je continue de lire.</p>
+			</div>
 		</div>
 
 		<div class="row all_blsp_sm"></div>

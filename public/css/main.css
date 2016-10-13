@@ -556,19 +556,8 @@ span {
 }
 
 @media screen and (max-width: 775px) {
-    .how_btn_inscript a {
-        font-size:0.9em;
-    }
-
 	.navbar {
 		font-size: 0.8em !important;
-	}
-	}
-
-
-@media screen and (max-width: 770px) {
-	.how_btn_inscript a {
-		font-size:0.9em;
 	}
 }
 
