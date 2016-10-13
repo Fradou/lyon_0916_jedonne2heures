@@ -538,11 +538,12 @@ span {
 
 @media screen and (min-width: 1600px) {
 
-#home_startup_list a {
+	#home_startup_list a {
 
-	margin-left: 7%;
-	margin-right: 7%;
+		margin-left: 7%;
+		margin-right: 7%;
 
+	}
 }
 
 @media screen and (max-width: 1110px) {
