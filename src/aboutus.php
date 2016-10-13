@@ -3,7 +3,7 @@
 
 <head>
 	<?php include_once '../src/inc/links.php';	?>
-	<title>Qui sommes-nous ?</title>
+	<title>Qui sommes-nous ? | Je Donne 2 Heures</title>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 
 		<div class="row all_blsp">
             <div class="who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
-                <h1>Qui sommes-nous ?</h1>
+                <h1 class="h1_toppage" id="whoh1_toppage">Qui sommes-nous ?</h1>
             </div>
         </div>
 		<div class="row who_blocimg">
@@ -22,19 +22,30 @@
 				<img src="../public/img/je-donne-2-heures-guylaine-antonini.png" class="img-responsive who_img_portrait" alt="Guylaine Antonini cofondatrice Je Donne 2 Heures">
 				<div class="who_blocsoc">
 					<h2>Guylaine Antonini</h2>
-					<a href="https://twitter.com/Guyylaine" target="_blank"><img  src="../public/img/twitter.png" alt=""></a>
-					<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img  src="../public/img/linkedin.png" alt=""></a>
+					<div class="who_twitter_icon">
+						<a href="https://twitter.com/Guylaine" target="_blank"><img src="../public/img/twitter-red.png"  class="twitter_top" alt="twitter black guylaine je donne 2 heures"></a>
+						<a href="https://twitter.com/Guylaine" target="_blank"><img src="../public/img/twitter-black.png" alt="Twitter guylaine Je Donne 2 Heures"></a>
+					</div>
+					<div class="who_linkedin_icon">
+						<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img src="../public/img/linkedin-red.png"  class="linkedin_top" alt="linkedin"></a>
+						<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img src="../public/img/linkedin-black.png" alt="Linkedin Guylaine Je Donne 2 Heures"></a>
+					</div>
 				</div>
 			</div>
 			<div class="col-xs-offset-3 col-xs-6 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2" id="who_blocimg_pic2">
                 <img src="../public/img/je-donne-2-heures-nicolas-antonini.png" class="img-responsive who_img_portrait" alt="Nicolas Antonini cofondateur Je Donne 2 Heures">
 				<div class="who_blocsoc">
 					<h2>Nicolas Antonini</h2>
-					<a href="https://twitter.com/nicolasantonini" target="_blank"><img  src="../public/img/twitter.png" alt=""></a>
-					<a href="https://fr.linkedin.com/in/nicolasantonini" target="_blank"><img  src="../public/img/linkedin.png" alt=""></a>
+					<div class="who_twitter_icon">
+						<a href="https://twitter.com/nicolasantonini" target="_blank"><img src="../public/img/twitter-red.png"  class="twitter_top" alt="twitter black guylaine je donne 2 heures"></a>
+						<a href="https://twitter.com/nicolasantonini" target="_blank"><img src="../public/img/twitter-black.png" alt="Twitter Nicolas Je Donne 2 heures"></a>
+					</div>
+					<div class="who_linkedin_icon">
+						<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img src="../public/img/linkedin-red.png"  class="linkedin_top" alt="linkedin"></a>
+						<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img src="../public/img/linkedin-black.png" alt="Linkedin Nicolas Je Donne 2 Heures"></a>
+					</div>
 				</div>
 			</div>
-
 		</div>
 		<div class="row who_bltxt" id="who_bltxt_ext">
 			<div class=" who_bltxt col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="who_bltxt_int">
@@ -61,3 +72,5 @@ include_once 'inc/footer.php';
 </body>
 
 </html>
+
+

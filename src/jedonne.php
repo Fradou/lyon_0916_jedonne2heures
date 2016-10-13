@@ -3,7 +3,7 @@
 
 <head>
 	<?php include_once '../src/inc/links.php';	?>
-	<title>Je donne</title>
+	<title>Je donne | Je Donne 2 Heures</title>
 </head>
 <body>
 
@@ -17,10 +17,9 @@
 
 			<div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="howp_bltxt">
 
-				<h1>Je donne du temps</h1>
-
-				<p>Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraités vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez donner du sens à votre temps libre et accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets. Sur <span>Je Donne 2 Heures</span>, le temps c'est de l'argent alors n'investissez pas, investissez-vous!
-				</p>
+				<h1 class="h1_toppage">Je donne du temps </h1>
+				<h2 class="h2_toppage"><small>Vous voulez donner du sens à votre temps libre !</small></h2>
+				<p class="p_toppage">Étudiants, Salariés, Entre deux jobs, Indépendants ou Retraités, vous êtes convaincus que l'Entrepreneuriat est le moteur de l'Économie de demain. Vous voulez accompagner les Entrepreneurs pour faire naître ou grandir leurs plus belles idées et leurs plus beaux projets. Sur <span>Je Donne 2 Heures</span>, le temps c'est de l'argent alors n'investissez pas, investissez-vous!</p>
 			</div>
 		</div>
 
