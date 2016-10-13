@@ -146,6 +146,12 @@ span {
 	background-color: black;
 }
 
+.foo_mention a{
+	text-decoration: none;
+	color: white;
+	font-size:0.8em;
+}
+
 .foo_mention {
 	height:auto;
 }
@@ -154,7 +160,6 @@ span {
 	margin-top:1.5vh;
 	color: white;
 }
-
 
 #foo_list {
 	text-align: center;
@@ -180,7 +185,10 @@ span {
 	margin-bottom:2vh;
 	opacity: 0.5;
 }
-
+.foo_copyright{
+	font-size:1.8vh;
+	padding-top:1vh;
+}
 
 /* HOME */
 
