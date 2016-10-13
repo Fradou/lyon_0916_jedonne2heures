@@ -57,7 +57,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 !! Offset diffère un peu suivant la gestion des offset au milieu des partenaires -->
 
 			<a href="https://www.mutum.com" target="_new">
-				<div id="home_blimg_startup1" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2 col-lg-offset-2 col-lg-2" >
+				<div id="home_blimg_startup1" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/logomutm.png">
 					</div>
@@ -65,7 +65,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 			</a>
 
 			<a href="https://www.foodandyou.fr/" target="_blank">
-				<div id="home_blimg_startup2" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2 col-lg-offset-2 col-lg-2" >
+				<div id="home_blimg_startup2" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/logofood&you.png">
 					</div>
@@ -73,7 +73,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 			</a>
 
 			<a href="https://commeunearmoire.com/fr" target="_blank">
-				<div id="home_blimg_startup3" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2 col-lg-offset-2 col-lg-2" >
+				<div id="home_blimg_startup3" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/logocua.png">
 					</div>
@@ -81,7 +81,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 			</a>
 
 			<a href="https://www.tikaway.com/fr/" target="_blank">
-				<div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-2 col-md-2 col-lg-offset-2 col-lg-2" >
+				<div id="home_blimg_startup4" class="home_blimg_startup col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/logotikaway.png">
 					</div>
@@ -89,7 +89,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 			</a>
 
 			<a href="http://www.skware.com/" target="_blank">
-				<div id="home_blimg_startup5" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2 col-lg-offset-2 col-lg-2" >
+				<div id="home_blimg_startup5" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3 col-md-offset-1 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/loskware.jpg">
 					</div>
@@ -97,7 +97,7 @@ A voir : faire deux niveaux de bootstrap pour gerer le medium/ large et faire de
 			</a>
 
 			<a href="http://www.2rives.tv/" target="_blank">
-				<div id="home_blimg_startup6" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3	 col-md-offset-1 col-md-2 col-lg-offset-2 col-lg-2" >
+				<div id="home_blimg_startup6" class="home_blimg_startup  col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-3	 col-md-offset-1 col-md-2" >
 					<div class="home_blimg_startuplogo">
 						<img src="img/logo2rives.png">
 						<h5>2 Rives TV</h5>
