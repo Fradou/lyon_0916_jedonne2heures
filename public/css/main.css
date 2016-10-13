@@ -479,7 +479,7 @@ span {
 	display: none;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 10;
 	z-index: 99;
 }
 .who_twitter_icon:hover .twitter_top{
@@ -498,9 +498,10 @@ span {
 	display: none;
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 10;
 	z-index: 99;
 }
+
 .who_linkedin_icon:hover .linkedin_top{
 	display: inline;
 }
