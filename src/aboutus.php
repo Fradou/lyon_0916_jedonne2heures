@@ -23,8 +23,8 @@
 				<div class="who_blocsoc">
 					<h2>Guylaine Antonini</h2>
 					<div class="who_twitter_icon">
-						<a href="https://twitter.com/Guylaine" target="_blank"><img src="../public/img/twitter-red.png"  class="twitter_top" alt="twitter black guylaine je donne 2 heures"></a>
-						<a href="https://twitter.com/Guylaine" target="_blank"><img src="../public/img/twitter-black.png" alt="Twitter guylaine Je Donne 2 Heures"></a>
+						<a href="https://twitter.com/Guyylaine" target="_blank"><img src="../public/img/twitter-red.png"  class="twitter_top" alt="twitter black guylaine je donne 2 heures"></a>
+						<a href="https://twitter.com/Guyylaine" target="_blank"><img src="../public/img/twitter-black.png" alt="Twitter guylaine Je Donne 2 Heures"></a>
 					</div>
 					<div class="who_linkedin_icon">
 						<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img src="../public/img/linkedin-red.png"  class="linkedin_top" alt="linkedin"></a>
@@ -41,8 +41,8 @@
 						<a href="https://twitter.com/nicolasantonini" target="_blank"><img src="../public/img/twitter-black.png" alt="Twitter Nicolas Je Donne 2 heures"></a>
 					</div>
 					<div class="who_linkedin_icon">
-						<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img src="../public/img/linkedin-red.png"  class="linkedin_top" alt="linkedin"></a>
-						<a href="https://fr.linkedin.com/in/guylaineantonini" target="_blank"><img src="../public/img/linkedin-black.png" alt="Linkedin Nicolas Je Donne 2 Heures"></a>
+						<a href="https://fr.linkedin.com/in/nicolasantonini" target="_blank"><img src="../public/img/linkedin-red.png"  class="linkedin_top" alt="linkedin"></a>
+						<a href="https://fr.linkedin.com/in/nicolasantonini" target="_blank"><img src="../public/img/linkedin-black.png" alt="Linkedin Nicolas Je Donne 2 Heures"></a>
 					</div>
 				</div>
 			</div>
