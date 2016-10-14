@@ -48,7 +48,7 @@
 					<ul>
 						<li>L'inscription sur <span>Je Donne 2 Heures</span> est gratuite.</li><br>
 						<li>Vous accédez dès votre arrivée à un espace personnel dédié, afin de présenter librement votre projet ou votre entreprise (vidéo, photos et textes).</li></br>
-						<li>Cet espace vous sert également à proposer vos projets et donc à solliciter l'aide du grand public.<span>Je Donne 2 Heures</span> vous offre votre premier projet. Par la suite, différentes formules payantes vous serons proposées.</li></br>
+						<li>Cet espace vous sert également à proposer vos projets et donc à solliciter l'aide du grand public.<span> Je Donne 2 Heures</span> vous offre votre premier projet. Par la suite, différentes formules payantes vous serons proposées.</li></br>
 						<li>Grâce à un processus de matching sécurisé, <span>Je Donne 2 Heures</span> vous met en relation avec les personnes qui désirent vous offrir de leur temps libre pour faire aboutir vos projets.</li></br>
 					</ul>
 				</p>
