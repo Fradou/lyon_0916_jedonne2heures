@@ -23,7 +23,6 @@
               <label for="Message">Message</label>
               <textarea class="form-control" rows="5" id="message" required></textarea>
           </div>
-          <p class="p_txt_form">En m'inscrivant, j'accepte de recevoir des nouvelles de <span>Je Donne 2 Heures.</span></p>
           <div>
           <button type="submit" class="btn btn-default">Envoyer</button>
           </div>
