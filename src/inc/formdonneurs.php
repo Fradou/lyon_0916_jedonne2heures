@@ -19,7 +19,7 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="Temps à donner">Par mois, je peux donner un max de (heures)</label>
+            <label for="Temps à donner">Par mois, je peux donner un maximum de (heures)</label>
             <select name="tempsadonner" class="form-control" required>
               <option>1</option>
               <option>2</option>
