@@ -1,0 +1,24 @@
+front_homepage:
+    path: /
+    defaults: { _controller: "Jd2hBundle:Front:homepage"}
+    methods: GET
+
+front_quisommes:
+    path: /
+    defaults: { _controller: "Jd2hBundle:Front:quisommenous"}
+    methods: GET
+
+front_homepage:
+    path: /
+    defaults: { _controller: "Jd2hBundle:Front:homepage"}
+    methods: GET
+
+front_homepage:
+    path: /
+    defaults: { _controller: "Jd2hBundle:Front:homepage"}
+    methods: GET
+
+front_homepage:
+    path: /
+    defaults: { _controller: "Jd2hBundle:Front:homepage"}
+    methods: GET

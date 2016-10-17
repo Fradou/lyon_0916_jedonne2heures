@@ -1,0 +1,8 @@
+jd2h_front:
+    resource: "@Jd2hBundle/Resources/config/routing/front.yml"
+    prefix:    /front
+
+
+jd2h_homepage:
+    path:     /
+    defaults: { _controller: Jd2hBundle:Default:index }

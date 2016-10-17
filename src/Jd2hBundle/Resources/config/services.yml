@@ -1,0 +1,4 @@
+services:
+#    jd2h.example:
+#        class: Jd2hBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

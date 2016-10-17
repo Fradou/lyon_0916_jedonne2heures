@@ -1,0 +1,3 @@
+jd2h:
+    resource: "@Jd2hBundle/Resources/config/routing.yml"
+    prefix:   /
