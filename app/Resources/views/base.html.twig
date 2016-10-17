@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Jquery google CDN 3.1.0 -->
@@ -11,14 +12,14 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-        <!-- SmoothScroll script for index -->
-        <script src="../public/js/smoothscroll.js"></script>
 
+        <!-- SmoothScroll script for index -->
+        <script src="{{ asset('js/smoothscroll.js')}}"></script>
         <!-- Youtube load video on click script for index -->
-        <script src="../public/js/smoothscroll.js"></script>
+        <script src="{{ asset('js/videoload.js')}}"></script>
 
         <!-- Fichier CSS custom -->
-        <link rel="stylesheet" href="../public/css/main.css" >
+        <link rel="stylesheet" href="{{ asset('/css/main.css')}}" >
 
         <!-- Google Font title ROBOTO -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
@@ -27,15 +28,86 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="../public/img/je-donne-2-heures-favicon-ico.ico" />
-        <link rel="icon" type="image/png" href="../public/img/je-donne-2-heures-favicon-16X16.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/img/je-donne-2-heures-favicon-ico.ico')}}" />
+        <link rel="icon" type="image/png" href="{{ asset('/img/je-donne-2-heures-favicon-16X16.png')}}" />
+
+
+
         <link href="{{ asset('css/main.css')}}">
+
+
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
-        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
+
+
+        <header>
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid nav_container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="{{ path('front_homepage') }}"><img src="{{ asset('/img/je-donne-2-heures-logo-header2.png')}}" alt="jd2h logo"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="{{ path('front_jedonne') }}">Je donne</a></li>
+                            <li><a href="{{ path('front_jepropose')}}">Je propose</a></li>
+                        </ul>
+                        <div class="aboutus">
+                            <ul class="nav navbar-nav nav-social" id="nav_aboutus">
+                                <li><a href="{{ path('front_quisommesnous') }}">Qui sommes-nous ?</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="nav navbar-nav navbar-right nav-social nav_networks">
+                            <div class="nav_facebook">
+                                <a href="https://www.facebook.com/jedonne2H/" target="_blank"><img src="{{ asset('/img/facebook-red.png')}}"  class="facebook_top" alt="facebook"></a>
+                                <a href="https://www.facebook.com/jedonne2H/" target="_blank"><img src="{{ asset('/img/facebook-black.png')}}" alt="facebook"></a>
+                            </div>
+                            <div class="nav_twitter">
+                                <a href="https://twitter.com/jedonne2h" target="_blank"><img src="{{ asset('/img/twitter-red.png')}}"  class="twitter_top" alt="twitter"></a>
+                                <a href="https://twitter.com/jedonne2h" target="_blank"><img src="{{ asset('/img/twitter-black.png')}}" alt="twitter"></a>
+                            </div>
+                            <div class="nav_linkedin">
+                                <a href="https://fr.linkedin.com/in/jd-2h-45318312b" target="_blank"><img src="{{ asset('/img/linkedin-red.png')}}"  class="linkedin_top" alt="linkedin"></a>
+                                <a href="https://fr.linkedin.com/in/jd-2h-45318312b" target="_blank"><img src="{{ asset('/img/linkedin-black.png')}}" alt="linkedin"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </header>
+
         {% block body %}{% endblock %}
+
+        <footer>
+            <div class="container-fluid center-block" id="foo_list">
+                <div class="row visible-xs visible-sm foo_social">
+                    <a href="https://www.facebook.com/jedonne2H" target="_blank">
+                        <img src="{{ asset('img/facebook.png')}}" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/jedonne2h" target="_blank">
+                        <img  src="{{ asset('/img/twitter.png')}}" alt="twitter">
+                    </a>
+                    <a href="https://fr.linkedin.com/in/jd-2h-45318312b" target="_blank">
+                        <img  src="{{ asset('/img/linkedin.png')}}" alt="linkedin">
+                    </a>
+                </div>
+                <div class="row foo_mention">
+                    <p><a href="{{ path('front_quisommesnous') }}">Nous contacter</a></p>
+                    <p><a href="#">Mentions légales</a></p>
+                    <p class="foo_copyright"><small>© Je Donne 2 Heures</small></p>
+                </div>
+            </div>
+        </footer>
+
         {% block javascripts %}{% endblock %}
+
     </body>
 </html>
