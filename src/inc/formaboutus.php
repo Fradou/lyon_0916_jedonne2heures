@@ -4,7 +4,7 @@
       <div class="col-xs-offset-1 col-xs-7 col-md-offset-2 col-md-8">
         <form  method="post" action="formtreat.php">
           <div class="form-group">
-            <label for="Nom et prenom">Nom et prenom</label>
+            <label for="Nom et prenom">Nom et prénom</label>
             <input type="text" class="form-control" name="nomcomplet" required>
           </div>
           <div class="form-group">
