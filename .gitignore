@@ -1,5 +1,4 @@
 
-
 /vendor/
 app/bootstrap.php.cache
 app/cache/*
@@ -10,3 +9,6 @@ app/logs/*
 /app/phpunit.xml.dist
 bin/
 web/bundles/
+/app/phpunit.xml
+/build/
+/composer.phar
