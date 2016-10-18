@@ -1,0 +1,25 @@
+{%  extends "base.html.twig" %}
+
+{%  block title %}Cette page n'existe pas | Je Donne 2 Heures{% endblock %}
+
+{% block body %}
+
+    <div class="row all_blsp"></div>
+
+    <h1>Page non trouvée</h1>
+
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        {# ... #}
+    {% endif %}
+    <div class="container-fluid">
+        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-offset-8 col-md-offset-3 col-md-offset-6">
+                La page que vous avez demandée n'a pas pu être trouvée ! Vérifiez que vous n'avez pas fait d'erreur dans l'adresse ou <a href="{{ path('front_homepage') }}">retournez à la page d'accueil</a>.
+        </div>
+    </div>
+
+    <div class="row all_blsp"></div>
+    <div class="row all_blsp"></div>
+    <div class="row all_blsp"></div>
+    <div class="row all_blsp"></div>
+    <div class="row all_blsp"></div>
+{% endblock %}

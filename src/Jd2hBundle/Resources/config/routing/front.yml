@@ -3,22 +3,17 @@ front_homepage:
     defaults: { _controller: "Jd2hBundle:Front:homepage"}
     methods: GET
 
-front_quisommes:
-    path: /
-    defaults: { _controller: "Jd2hBundle:Front:quisommenous"}
+front_quisommesnous:
+    path: /quisommesnous
+    defaults: { _controller: "Jd2hBundle:Front:quisommesnous"}
     methods: GET
 
-front_homepage:
-    path: /
-    defaults: { _controller: "Jd2hBundle:Front:homepage"}
+front_jedonne:
+    path: /jedonne
+    defaults: { _controller: "Jd2hBundle:Front:jedonne"}
     methods: GET
 
-front_homepage:
-    path: /
-    defaults: { _controller: "Jd2hBundle:Front:homepage"}
-    methods: GET
-
-front_homepage:
-    path: /
-    defaults: { _controller: "Jd2hBundle:Front:homepage"}
+front_jepropose:
+    path: /jepropose
+    defaults: { _controller: "Jd2hBundle:Front:jepropose"}
     methods: GET
