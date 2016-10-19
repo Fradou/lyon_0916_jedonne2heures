@@ -270,27 +270,27 @@ span {
 }
 
 #home_blimg_startup1 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup2 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup3 {
-	background-image:url("../bundles/framework/img/COMMEUNEARMOIREJD2H.jpg");
+	background-image:url("../img/COMMEUNEARMOIREJD2H.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup4 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup5 {
-	background-image:url("../bundles/framework/img/SKWAREJD2H.jpg");
+	background-image:url("../img/SKWAREJD2H.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup6 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 
@@ -624,7 +624,7 @@ span {
 	height: 80vh;
 }
 .carousel {
-	background:url("../bundles/framework/img/SKWAREJD2H.jpg") no-repeat center;
+	background:url("../img/SKWAREJD2H.jpg") no-repeat center;
 	height: 80vh;
 
 }
