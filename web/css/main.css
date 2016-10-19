@@ -149,7 +149,7 @@ span {
 .foo_mention a{
 	text-decoration: none;
 	color: white;
-	font-size:0.8em;
+	font-size:0,9em;
 }
 
 .foo_mention {
@@ -186,13 +186,22 @@ span {
 	opacity: 0.5;
 }
 .foo_copyright{
-	font-size:1.8vh;
+	font-size:1.6vh;
 	padding-top:1vh;
+	color: white;
 }
 
 .p_txt_form{
 	font-size: 13px;
 	color: #333;
+}
+
+#foo_sitemap {
+	padding-left: 10px;
+}
+
+#foo_mentionsl {
+	padding-right: 10px;
 }
 
 
