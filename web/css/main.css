@@ -673,6 +673,7 @@ span {
 	}
 	.navbar-collapse.collapse.in {
 		display: block !important;
+		margin-top: 3vh;
 	}
 	.navbar-header .collapse, .navbar-toggle {
 		display:block !important;
@@ -692,7 +693,6 @@ span {
 	}
 	.navbar-nav {
 		float: none!important;
-		margin-top: 4vh;
 		display: flex;
 		flex-direction: column;
 	}
