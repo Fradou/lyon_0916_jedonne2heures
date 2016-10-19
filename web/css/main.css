@@ -712,3 +712,16 @@ span {
 		height: 35px !important;
 	}
 }
+
+@media (max-width: 767px) {
+	.container-fluid {
+		padding-bottom: unset !important;
+	}
+	.navbar-collapse {
+		padding-bottom: 2vh;
+		max-height: unset !important;
+	}
+	.navbar-collapse.in {
+		overflow-y: unset;
+	}
+}
