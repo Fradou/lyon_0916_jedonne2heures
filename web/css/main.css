@@ -22,6 +22,8 @@ ul {
 footer {
  	height:auto;
  	background-color: black;
+	padding-top:30px;
+	padding-bottom: 35px;
  }
 
 span {
@@ -33,6 +35,11 @@ span {
 	 text-align:center;
 	 margin-bottom:3vh;
  }
+
+ h1{
+	 font-weight: 900;
+ }
+
 
 .all_blsp {
 	height: 10vh;
@@ -186,8 +193,8 @@ span {
 	opacity: 0.5;
 }
 .foo_copyright{
-	font-size:1.6vh;
-	padding-top:1vh;
+	font-size:1.8vh;
+	padding-top: 25px;
 	color: white;
 }
 
@@ -309,8 +316,9 @@ span {
 }
 
 .home_h3 h3{
-	font-size:2.5vh;
+	font-size:2.1vh;
 	padding-top: 5px;
+	font-weight: 500;
 }
 .h2_hmpg{
 	font-size:25px;
@@ -421,12 +429,27 @@ span {
 	padding-bottom: 8vh;
 }
 
+hr{
+	border:none;
+	display: inline-block;
+	width:90px;
+	height:8px;
+	background: black;
+	margin:10 auto 10px;
 
+}
 
 /* WHO */
 
+.how_je_donne {
 
-.who_blocimg{
+	background:url("../img/je-donne-2-heures-je-donne-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
+
+.who_blocimg {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -530,10 +553,39 @@ span {
 	display: inline;
 }
 
+
 #whoh1_toppage{
-	margin-bottom:10vh;
+	margin-bottom:8vh;
 }
 
+.who_h2{
+	font-weight: 900;
+	margin-top: 70px;
+}
+
+.who_h3{
+	font-weight: 300;
+	color: grey;
+	font-size: 22px;
+	margin-bottom: 45px;
+}
+
+.icon_je_donne{
+	margin:auto;
+	margin-bottom: 30px;
+}
+
+.txt_list{
+	margin-bottom: 30px;
+}
+
+.block_icons_je_donne{
+	padding:auto;
+}
+
+#who_h3_je_donne{
+	margin-bottom: 70px;
+}
 
 
 /* HOW */
@@ -565,12 +617,15 @@ span {
 
 #howp_bltxt {
 	vertical-align: center;
+	text-align: center;
 }
 
 #howb_bltxt {
 }
 
 .how_form_ext {
+	background-color: #EAEAEA;
+	margin-top: 35px;
 }
 
 .how_form_int {
@@ -612,10 +667,15 @@ span {
 }
 .h1_toppage{
 	margin-top:10vh;
+	font-size: 37px;
+	letter-spacing: - 2px;
 }
 
 .h2_toppage{
+	margin-top: 5px;
 	margin-bottom: 5vh;
+	font-size:25px;
+	color:grey;
 }
 
 .p_toppage{
