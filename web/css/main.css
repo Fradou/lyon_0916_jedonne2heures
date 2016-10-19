@@ -668,9 +668,6 @@ span {
 }
 
 @media (max-width: 770px) {
-	.container-fluid {
-		padding-bottom: 7vh;
-	}
 	.navbar-collapse.collapse {
 		display: none !important;
 	}
@@ -679,6 +676,10 @@ span {
 	}
 	.navbar-header .collapse, .navbar-toggle {
 		display:block !important;
+	}
+	.navbar-collapse {
+		padding-bottom: 2vh;
+		max-height: unset !important;
 	}
 	.navbar-header {
 		float:none;
@@ -711,12 +712,13 @@ span {
 	.nav_networks img {
 		height: 35px !important;
 	}
+	.navbar-collapse.in {
+		overflow-y: unset;
+		padding-bottom: 3vh;
+	}
 }
 
 @media (max-width: 767px) {
-	.container-fluid {
-		padding-bottom: unset !important;
-	}
 	.navbar-collapse {
 		padding-bottom: 2vh;
 		max-height: unset !important;
