@@ -236,7 +236,7 @@ span {
 .home_blimg_startup {
 	text-align: center;
 	border: 1px solid black;
-	border-radius: 16px;
+	/*border-radius: 16px;*/
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
@@ -257,7 +257,7 @@ span {
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
-	border-radius: 13px;
+	/*border-radius: 13px;*/
 }
 
 .home_blimg_startuplogo:hover{
@@ -317,22 +317,24 @@ span {
 
 .home_h3 h3{
 	font-size:2.1vh;
-	padding-top: 5px;
+	padding-top: 10px;
 	font-weight: 500;
 }
 .h2_hmpg{
-	font-size:25px;
+	font-weight:900;
+	font-size: 37px;
+}
+
+.h3_hmpg{
+	font-weight: 300;
+	color: grey;
+	font-size: 22px;
 }
 
 #partners_h2hmpg{
-	padding-top:20px;
+	padding-top:4vh;
 }
 
-.p_hmpg{
-	color: #777;
-	line-height: 25px;
-	text-align: center;
-}
 
 /* Animation transition row*/
 
@@ -393,7 +395,7 @@ span {
 }
 
 #home_btn_jqbar1 {
-	background: #e60f33;
+	background: #333;
 	height: 9vh;
 	color: white;
 	text-align: center;
@@ -418,14 +420,20 @@ span {
 	border-radius: 10px;
 }
 
+.home_startup_title_img{
+	background-color: #EAEAEA;
+	padding-top: 2px;
+	padding-bottom: 15px;
+}
+
 
 #home_partenaire_list{
-	background-color: #EAEAEA;
+	text-align: center;
 }
 
 #home_partenaire_list img {
 	height: 300px;
-	margin: auto;
+	margin: 15px auto;
 	padding-bottom: 8vh;
 }
 
@@ -436,8 +444,17 @@ hr{
 	height:8px;
 	background: black;
 	margin:10 auto 10px;
-
 }
+
+.hr_video_hp{
+	text-align: center;
+}
+
+
+
+
+
+
 
 /* WHO */
 
@@ -616,7 +633,6 @@ hr{
 }
 
 #howp_bltxt {
-	vertical-align: center;
 	text-align: center;
 }
 
