@@ -395,7 +395,7 @@ span {
 }
 
 #home_btn_jqbar1 {
-	background: #333;
+	background: #e60f33;
 	height: 9vh;
 	color: white;
 	text-align: center;
@@ -459,8 +459,14 @@ hr{
 /* WHO */
 
 .how_je_donne {
-
 	background:url("../img/je-donne-2-heures-je-donne-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
+
+.how_je_propose {
+	background:url("../img/je-donne-2-heures-je-propose-2.jpg") no-repeat center fixed;
 	height: 50vh;
 	position: relative;
 	background-size: cover;
@@ -482,7 +488,6 @@ hr{
 
 #who_blocimg_pic2 {
 }
-
 
 .who_bltxt {
 }
@@ -593,10 +598,10 @@ hr{
 }
 
 .txt_list{
-	margin-bottom: 30px;
+	margin-bottom: 45px;
 }
 
-.block_icons_je_donne{
+.block_icons_who{
 	padding:auto;
 }
 
