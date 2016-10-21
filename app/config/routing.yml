@@ -1,3 +1,7 @@
 jd2h:
     resource: "@Jd2hBundle/Resources/config/routing.yml"
     prefix:   /
+
+admin:
+    path:     /admin
+    defaults: { _controller: Jd2hBundle:Security:admin }
