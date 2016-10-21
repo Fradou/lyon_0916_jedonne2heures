@@ -490,6 +490,7 @@ hr{
 }
 
 .who_bltxt {
+	text-align: center;
 }
 
 .who_blocsoc{
@@ -577,7 +578,6 @@ hr{
 
 
 #whoh1_toppage{
-	margin-bottom:8vh;
 }
 
 .who_h2{
