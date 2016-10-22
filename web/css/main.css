@@ -270,27 +270,27 @@ span {
 }
 
 #home_blimg_startup1 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup2 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup3 {
-	background-image:url("../bundles/framework/img/COMMEUNEARMOIREJD2H.jpg");
+	background-image:url("../img/COMMEUNEARMOIREJD2H.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup4 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup5 {
-	background-image:url("../bundles/framework/img/SKWAREJD2H.jpg");
+	background-image:url("../img/SKWAREJD2H.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup6 {
-	background-image:url("../bundles/framework/img/teststartup.jpg");
+	background-image:url("../img/teststartup.jpg");
 	background-repeat: round;
 }
 
@@ -643,24 +643,19 @@ span {
 	.navbar-brand img {
 		height: 8vh;
 	}
-
 	.navbar {
 		font-size: 0.9em !important;
 	}
-
 	.nav_networks img {
 		height: 30px !important;
 		margin-top: 3.5vh;
 	}
-
 	.navbar {
 		min-height: 10vh;
 	}
-
 	.navbar-brand img {
 		margin-top: -0.5vh;
 	}
-
 	body {
 		padding-top: 10vh;
 	}
@@ -672,17 +667,63 @@ span {
 	}
 }
 
-
-@media screen and (max-width: 767px) {
-	.navbar-collapse {
-		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.40);
+@media (max-width: 770px) {
+	.navbar-collapse.collapse {
+		display: none !important;
 	}
-
+	.navbar-collapse.collapse.in {
+		display: block !important;
+		margin-top: 3vh;
+	}
+	.navbar-header .collapse, .navbar-toggle {
+		display:block !important;
+	}
+	.navbar-collapse {
+		padding-bottom: 2vh;
+		max-height: unset !important;
+	}
+	.navbar-header {
+		float:none;
+	}
+	.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-nav {
+		float: none!important;
+		display: flex;
+		flex-direction: column;
+	}
+	.nav_networks {
+		margin-top: -2vh !important;
+		flex-direction: row;
+	}
+	#nav_aboutus {
+		margin-top: 0 !important;
+	}
+	.navbar-right {
+		margin-right: -20px;
+	}
 	.navbar {
 		font-size: 1em !important;
 	}
-
 	.nav_networks img {
 		height: 35px !important;
+	}
+	.navbar-collapse.in {
+		overflow-y: unset;
+		padding-bottom: 3vh;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar-collapse {
+		padding-bottom: 2vh;
+		max-height: unset !important;
+	}
+	.navbar-collapse.in {
+		overflow-y: unset;
 	}
 }
