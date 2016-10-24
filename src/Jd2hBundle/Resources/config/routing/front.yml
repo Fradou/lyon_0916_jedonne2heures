@@ -27,3 +27,9 @@ front_mentionslegales:
     path: /mentionslegales
     defaults: { _controller: "Jd2hBundle:Front:mentionslegales"}
     methods: GET
+
+front_plandusite:
+    path: /plandusite
+    defaults: { _controller: "Jd2hBundle:Front:plandusite"}
+    methods: GET
+
