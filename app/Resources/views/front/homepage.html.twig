@@ -4,10 +4,54 @@
 
 {% block body %}
 
-<div class="container-fluid">
 
-    <div class="row car">
-        <div class="carousel">
+
+    <div id="home_carousel_conteneur">
+        <div id="home_carousel">
+            <div id="home_carousel_slide1" class="home_carousel_slide">
+                <div class="home_carousel_visu">
+                    <div class="home_carousel_presentation">
+                        <h3>Skware</h3>
+                        <p>Des étagères intelligentes et connectées</p>
+                    </div>
+                </div>
+            </div>
+            <div id="home_carousel_slide2" class="home_carousel_slide">
+                <div class="home_carousel_visu">
+                    <div class="home_carousel_presentation">
+                        <h3>Comme Une Armoire</h3>
+                        <p>Une équipe qui sait se mettre en boîtes pour faire de la place chez vous !</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home_carousel_navi" >
+                <div class="home_carousel_nav-span">
+                    <span class="home_carousel_navigation">1</span>
+                    <span class="home_carousel_navigation">2</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid home_carousel_container-fluid">
+    <div class="row home_carousel_over">
+        <div class="col-xs-12 home_carousel_logo-over">
+            <img class="home_carousel_img-logo" src="{{ asset('img/clock-jd2h-white-border.png') }}" alt="Logo je donne 2 heures" >
+        </div>
+        <div class="col-xs-12 home_carousel_block-over  bl home_carousel_title-over">
+            <h2 class="home_carousel_slogan">Le 1er site de crowdtiming arrive prochainement</h2>
+            <h3 class="home_carousel_inscription">Inscrivez-vous aujourd'hui</h3>
+        </div>
+        <div class="col-xs-12 home_carousel_block-over home_carousel_jedonne-over">
+            <h2 class="home_carousel_title">JE DONNE DU TEMPS</h2>
+            <p>Je souhaite donner de mon temps libre pour aider une entreprise à naitre et à grandir.</p>
+            <a href="" class="home_carousel_btn_lien">Je donne</a>
+        </div>
+        <div class="col-xs-12 home_carousel_block-over bl home_carousel_jepropose-over">
+            <h2 class="home_carousel_title">JE PROPOSE UN PROJET</h2>
+            <p>Je suis Entrepreneur, j'ai besoin d'aide pour me lancer, développer mon activité et réaliser mes projets.</p>
+            <a href="" class="home_carousel_btn_lien">Je propose</a>
         </div>
     </div>
 
@@ -129,4 +173,8 @@
 
 
 
+{% endblock %}
+
+{% block javascripts %}
+<script src="{{ asset('js/car.js') }}"></script>
 {% endblock %}
