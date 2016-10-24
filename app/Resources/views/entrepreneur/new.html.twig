@@ -1,14 +1,35 @@
 {% block body %}
-    <h1>Entrepreneur creation</h1>
+    <div class="how_form_int col-xs-offset-2 col-xs-8 col-md-offset-4 col-md-4">
+        {{ form_start(form) }}
+            <div class="form-group">
+                {{ form_row(form.name, {label:'Nom :', 'attr':{'class' : 'form-control'} })}}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.firstName, {label:'Prénom :', 'attr':{'class' : 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.mailAdress, {label:'Email :', 'attr':{'class' : 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.activity, {label:'Société ou Nom de votre projet :', 'attr':{'class' : 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.position, {label:'Ma fonction :', 'attr':{'class' : 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.company, {label:"Mon secteur d'activité :", 'attr':{'class' : 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.town, {label:'Ville', 'attr':{'class' : 'form-control'}}) }}
+            </div>
+            <div class="form-group">
+                {{ form_row(form.country, {label:'Pays', 'attr':{'class' : 'form-control'}}) }}
+            </div>
 
-    {{ form_start(form) }}
-        {{ form_widget(form) }}
-        <input type="submit" value="Create" />
-    {{ form_end(form) }}
+            <div class="row all_blsp_xs"></div>
 
-    <ul>
-        <li>
-            <a href="{{ path('front_homepage') }}">Back to the list</a>
-        </li>
-    </ul>
+            <input type="submit" value="S'inscrire" />
+        {{ form_end(form) }}
+            <div class="row all_blsp_md"></div>
+    </div>
 {% endblock %}
