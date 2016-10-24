@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Entrepreneurs list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Firstname</th>
+                <th>Mailadress</th>
+                <th>Town</th>
+                <th>Country</th>
+                <th>Company</th>
+                <th>Position</th>
+                <th>Activity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entrepreneur in entrepreneurs %}
+            <tr>
+                <td><a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">{{ entrepreneur.id }}</a></td>
+                <td>{{ entrepreneur.name }}</td>
+                <td>{{ entrepreneur.firstName }}</td>
+                <td>{{ entrepreneur.mailAdress }}</td>
+                <td>{{ entrepreneur.town }}</td>
+                <td>{{ entrepreneur.country }}</td>
+                <td>{{ entrepreneur.company }}</td>
+                <td>{{ entrepreneur.position }}</td>
+                <td>{{ entrepreneur.activity }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('entrepreneur_new') }}">Create a new entrepreneur</a>
+        </li>
+    </ul>
+{% endblock %}
