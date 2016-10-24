@@ -1,8 +1,20 @@
 jd2h_front:
     resource: "@Jd2hBundle/Resources/config/routing/front.yml"
-    prefix:    /front
+    prefix:    / #front
+
+# jd2h_homepage:
+#    path:     /
+#    defaults: { _controller: Jd2hBundle:Default:index }
 
 
-jd2h_homepage:
-    path:     /
-    defaults: { _controller: Jd2hBundle:Default:index }
+jd2h_donneur:
+    resource: "@Jd2hBundle/Resources/config/routing/donneur.yml"
+    prefix:   /donneur
+
+jd2h_entrepreneur:
+    resource: "@Jd2hBundle/Resources/config/routing/entrepreneur.yml"
+    prefix:   /entrepreneur
+
+jd2h_backoffice:
+    resource: "@Jd2hBundle/Resources/config/routing/back.yml"
+    prefix :  /back

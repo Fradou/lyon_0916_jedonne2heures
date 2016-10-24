@@ -1,0 +1,24 @@
+entrepreneur_index:
+    path:     /
+    defaults: { _controller: "Jd2hBundle:Entrepreneur:index" }
+    methods:  GET
+
+entrepreneur_show:
+    path:     /{id}/show
+    defaults: { _controller: "Jd2hBundle:Entrepreneur:show" }
+    methods:  GET
+
+entrepreneur_new:
+    path:     /new
+    defaults: { _controller: "Jd2hBundle:Entrepreneur:new" }
+    methods:  [GET, POST]
+
+entrepreneur_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "Jd2hBundle:Entrepreneur:edit" }
+    methods:  [GET, POST]
+
+entrepreneur_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "Jd2hBundle:Entrepreneur:delete" }
+    methods:  DELETE

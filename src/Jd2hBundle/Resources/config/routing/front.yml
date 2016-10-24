@@ -11,11 +11,16 @@ front_quisommesnous:
 front_jedonne:
     path: /jedonne
     defaults: { _controller: "Jd2hBundle:Front:jedonne"}
-    methods: GET
+    methods: [GET, POST]
 
 front_jepropose:
     path: /jepropose
     defaults: { _controller: "Jd2hBundle:Front:jepropose"}
+    methods: [GET, POST]
+
+front_inscriptok:
+    path: /inscriptionvalide
+    defaults: { _controller: "Jd2hBundle:Front:inscriptionok"}
     methods: GET
 
 front_mentionslegales:
