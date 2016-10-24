@@ -7,27 +7,27 @@ elem : null,
 timer : null,
 
   init : function (elem){
-    this.nbSlide = elem.find(".slide").length;
-    elem.find(".nav span").click(function(){car.gotoSlide($(this).text()); })
+    this.nbSlide = elem.find(".home_carousel_slide").length;
+    elem.find(".home_carousel_navi span").click(function(){car.gotoSlide($(this).text()); })
     elem.find(".prev").click(function(){car.prev($()); })
     elem.find(".next").click(function(){car.next($()); })
 
               //initialisation du carousel
               this.elem = elem;
-              elem.find(".slide").hide();
-              elem.find(".slide:first").show();
-              this.elemCurrent = elem.find(".slide:first");
-              this.elem.find(".nav span:first").addClass("active");
+              elem.find(".home_carousel_slide").hide();
+              elem.find(".home_carousel_slide:first").show();
+              this.elemCurrent = elem.find(".home_carousel_slide:first");
+              this.elem.find(".home_carousel_navi span:first").addClass("active");
               this.timer = window.setInterval("car.next()", 5000 );
             },
       gotoSlide : function(num){
         if (num == this.nbCurrent) {return false;}
         this.elemCurrent.fadeOut();
-        this.elem.find("#slide"+num).fadeIn();
-        this.elem.find(".nav span").removeClass("active");
-        this.elem.find(".nav span:eq("+(num-1)+")").addClass("active");
+        this.elem.find("#home_carousel_slide"+num).fadeIn();
+        this.elem.find(".home_carousel_navi span").removeClass("active");
+        this.elem.find(".home_carousel_navi span:eq("+(num-1)+")").addClass("active");
         this.nbCurrent = num;
-        this.elemCurrent = this.elem.find("#slide"+num);
+        this.elemCurrent = this.elem.find("#home_carousel_slide"+num);
         //alert(num);
       },
 
@@ -49,5 +49,5 @@ timer : null,
 }
 
 $(function() {
-car.init($("#carousel"));
+car.init($("#home_carousel_conteneur"));
 });
