@@ -1,0 +1,15 @@
+{% block body %}
+    <h1>Donneur creation</h1>
+
+    {{ form_start(form) }}
+        {{ form_label(form.name, "Nom", {'label_attr':{'class' :'foo' }})}}
+        {{ form_widget(form) }}
+        <input type="submit" value="Create" />
+    {{ form_end(form) }}
+
+    <ul>
+        <li>
+            <a href="{{ path('front_homepage') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}
