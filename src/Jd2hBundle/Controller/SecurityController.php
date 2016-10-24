@@ -17,6 +17,6 @@ class SecurityController extends Controller
 {
     public function adminAction()
     {
-        return $this->render('back/office.html.twig');
+        return $this->render('back/consultation.html.twig');
     }
 }
