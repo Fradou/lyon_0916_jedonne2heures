@@ -22,14 +22,14 @@
         <link rel="stylesheet" href="{{ asset('/css/main.css')}}" >
 
         <!-- Google Font title ROBOTO -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
         <!-- Google Font paragraphes et boutons SOURCE SANS PRO -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/img/je-donne-2-heures-favicon-ico.ico')}}" />
-        <link rel="icon" type="image/png" href="{{ asset('/img/je-donne-2-heures-favicon-16X16.png')}}" />
+        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/je-donne-2-heures-favicon-ico.ico')}}" />
+        <link rel="icon" type="image/png" href="{{ asset('/je-donne-2-heures-favicon-16X16.png')}}" />
 
 
 
@@ -51,7 +51,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="{{ path('front_homepage') }}"><img src="{{ asset('/img/je-donne-2-heures-logo-header2.png')}}" alt="jd2h logo"></a>
+                        <a class="navbar-brand" href="{{ path('front_homepage') }}"><img src="{{ asset('/img/logo-header-je-donne-2-heures-2.png')}}" alt="jd2h logo"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
@@ -92,8 +92,8 @@
                 </div>
                 <div class="row foo_mention">
                     <p><a href="{{ path('front_quisommesnous') }}">Nous contacter</a></p>
-                    <p><a href="#">Mentions légales</a></p>
-                    <p class="foo_copyright"><small>© Je Donne 2 Heures</small></p>
+                    <p><a href="#" id="foo_mentionsl">Mentions légales</a> | <a href="#" id="foo_sitemap">Plan du site</a> </p>
+                    <p class="foo_copyright"><small>Copyright © 2016 - Je Donne 2 Heures. Tous droits réservés. </small></p>
                 </div>
             </div>
         </footer>

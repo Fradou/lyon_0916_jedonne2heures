@@ -22,6 +22,8 @@ ul {
 footer {
  	height:auto;
  	background-color: black;
+	padding-top:30px;
+	padding-bottom: 35px;
  }
 
 span {
@@ -33,6 +35,11 @@ span {
 	 text-align:center;
 	 margin-bottom:3vh;
  }
+
+ h1{
+	 font-weight: 900;
+ }
+
 
 .all_blsp {
 	height: 10vh;
@@ -97,7 +104,7 @@ span {
 .foo_mention a{
 	text-decoration: none;
 	color: white;
-	font-size:0.8em;
+	font-size:0,9em;
 }
 
 .foo_mention {
@@ -135,12 +142,21 @@ span {
 }
 .foo_copyright{
 	font-size:1.8vh;
-	padding-top:1vh;
+	padding-top: 25px;
+	color: white;
 }
 
 .p_txt_form{
 	font-size: 13px;
 	color: #333;
+}
+
+#foo_sitemap {
+	padding-left: 10px;
+}
+
+#foo_mentionsl {
+	padding-right: 10px;
 }
 
 
@@ -168,7 +184,6 @@ span {
 .home_blimg_startup {
 	text-align: center;
 	border: 1px solid black;
-	border-radius: 16px;
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
@@ -189,7 +204,7 @@ span {
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
-	border-radius: 13px;
+
 }
 
 .home_blimg_startuplogo:hover{
@@ -248,22 +263,25 @@ span {
 }
 
 .home_h3 h3{
-	font-size:2.5vh;
-	padding-top: 5px;
+	font-size:2.4vh;
+	padding-top: 10px;
+	font-weight: 500;
 }
 .h2_hmpg{
-	font-size:25px;
+	font-weight:900;
+	font-size: 37px;
+}
+
+.h3_hmpg{
+	font-weight: 300;
+	color: grey;
+	font-size: 22px;
 }
 
 #partners_h2hmpg{
-	padding-top:20px;
+	padding-top:4vh;
 }
 
-.p_hmpg{
-	color: #777;
-	line-height: 25px;
-	text-align: center;
-}
 
 /* Animation transition row*/
 
@@ -346,26 +364,62 @@ span {
 #home_video_ext iframe{
 	width: 100% !important;
 	height: 100% !important;
-	border-radius: 10px;
+
+}
+
+.home_startup_title_img{
+	background-color: #EAEAEA;
+	padding-top: 2px;
+	padding-bottom: 15px;
 }
 
 
 #home_partenaire_list{
-	background-color: #EAEAEA;
+	text-align: center;
 }
 
 #home_partenaire_list img {
 	height: 300px;
-	margin: auto;
+	margin: 15px auto;
 	padding-bottom: 8vh;
 }
+
+hr{
+	border:none;
+	display: inline-block;
+	width:90px;
+	height:8px;
+	background: #E60F33;
+	margin:10 auto 10px;
+}
+
+.hr_video_hp{
+	text-align: center;
+}
+
+
+
+
 
 
 
 /* WHO */
 
+.how_je_donne {
+	background:url("../img/je-donne-2-heures-je-donne-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
 
-.who_blocimg{
+.how_je_propose {
+	background:url("../img/je-donne-2-heures-je-propose-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
+
+.who_blocimg {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -382,8 +436,8 @@ span {
 #who_blocimg_pic2 {
 }
 
-
 .who_bltxt {
+	text-align: center;
 }
 
 .who_blocsoc{
@@ -417,6 +471,7 @@ span {
 
 .who_form_ext{
     margin-bottom: 80px;
+	background-color: #EAEAEA;
 }
 
 .who_form_ext h3{
@@ -431,9 +486,41 @@ span {
 }
 
 #whoh1_toppage{
-	margin-bottom:10vh;
 }
 
+.who_h2{
+	font-weight: 900;
+	margin-top: 70px;
+}
+
+#contactus{
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.who_h3{
+	font-weight: 300;
+	color: grey;
+	font-size: 22px;
+	margin-bottom: 45px;
+}
+
+.icon_je_donne{
+	margin:auto;
+	margin-bottom: 30px;
+}
+
+.txt_list{
+	margin-bottom: 45px;
+}
+
+.block_icons_who{
+	padding:auto;
+}
+
+#who_h3_je_donne{
+	margin-bottom: 70px;
+}
 
 
 /* HOW */
@@ -464,13 +551,15 @@ span {
 }
 
 #howp_bltxt {
-	vertical-align: center;
+	text-align: center;
 }
 
 #howb_bltxt {
 }
 
 .how_form_ext {
+	background-color: #EAEAEA;
+	margin-top: 35px;
 }
 
 .how_form_int {
@@ -512,10 +601,15 @@ span {
 }
 .h1_toppage{
 	margin-top:10vh;
+	font-size: 37px;
+	letter-spacing: - 2px;
 }
 
 .h2_toppage{
+	margin-top: 5px;
 	margin-bottom: 5vh;
+	font-size:25px;
+	color:grey;
 }
 
 .p_toppage{
@@ -539,6 +633,7 @@ span {
 		margin-right: 7%;
 
 	}
+
 }
 
 @media screen and (max-width: 900px) {
