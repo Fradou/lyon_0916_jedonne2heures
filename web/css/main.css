@@ -82,71 +82,19 @@ span {
 }
 
 .nav_networks img {
-	height: 40px;
-	margin-top: 3vh;
+	height: 32px;
+	opacity: 0.5;
+	margin-top: 3.5vh;
 	padding: 1px;
+}
+
+.nav_networks img:hover {
+	opacity: 1;
 }
 
 .navbar-collapse {
 	background-color: white;
 	padding-bottom: 5px;
-}
-
-.nav_facebook {
-	width: 48px;
-	height: 48px;
-	position: relative;
-	display: inline-block;
-	margin-right: 2px;
-}
-
-.nav_facebook .facebook_top {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 99;
-}
-.nav_facebook:hover .facebook_top {
-	display: inline;
-}
-
-.nav_twitter {
-	width: 48px;
-	height: 48px;
-	position: relative;
-	display: inline-block;
-	margin-right: 2px;
-}
-
-.nav_twitter .twitter_top {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 99;
-}
-.nav_twitter:hover .twitter_top {
-	display: inline;
-}
-
-.nav_linkedin {
-	width: 48px;
-	height: 48px;
-	position: relative;
-	display: inline-block;
-	margin-right: 2px;
-}
-
-.nav_linkedin .linkedin_top {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 99;
-}
-.nav_linkedin:hover .linkedin_top {
-	display: inline;
 }
 
 .icon-bar {
@@ -538,46 +486,6 @@ hr{
 	margin-left: 15px;
 }
 
-.who_twitter_icon {
-	width: 48px;
-	height: 48px;
-	position: relative;
-	display: inline-block;
-	margin-right: 2px;
-}
-
-.who_twitter_icon .twitter_top{
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 10;
-	z-index: 99;
-}
-.who_twitter_icon:hover .twitter_top{
-	display: inline;
-}
-
-.who_linkedin_icon {
-	width: 48px;
-	height: 48px;
-	position: relative;
-	display: inline-block;
-	margin-right: 2px;
-}
-
-.who_linkedin_icon .linkedin_top{
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 10;
-	z-index: 99;
-}
-
-.who_linkedin_icon:hover .linkedin_top{
-	display: inline;
-}
-
-
 #whoh1_toppage{
 }
 
@@ -764,7 +672,7 @@ hr{
 	}
 	.navbar-collapse.collapse.in {
 		display: block !important;
-		margin-top: 3vh;
+		margin-top: 4vh;
 	}
 	.navbar-header .collapse, .navbar-toggle {
 		display:block !important;
@@ -784,12 +692,12 @@ hr{
 	}
 	.navbar-nav {
 		float: none!important;
-		display: flex;
-		flex-direction: column;
+		display: flex !important;
+		flex-direction: column !important;
 	}
 	.nav_networks {
 		margin-top: -2vh !important;
-		flex-direction: row;
+		flex-direction: row !important;
 	}
 	#nav_aboutus {
 		margin-top: 0 !important;
@@ -816,5 +724,67 @@ hr{
 	}
 	.navbar-collapse.in {
 		overflow-y: unset;
+	}
+}
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1) {
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-collapse.collapse.in {
+		display: block !important;
+		margin-top: 4vh;
+		text-align: center;
+	}
+	.navbar-header .collapse, .navbar-toggle {
+		display:block !important;
+	}
+	.navbar-collapse {
+		padding-bottom: 2vh;
+		max-height: unset !important;
+	}
+	.navbar-header {
+		float: none;
+	}
+	.navbar-nav {
+		float: none!important;
+	}
+	#myNavbar li {
+		width: 100% !important;
+	}
+	#myNavbar {
+		display: flex !important;
+		flex-flow: column wrap !important;
+		flex-wrap: wrap !important;
+	}
+	.navbar-right {
+		float: none !important;
+		margin-right: 0 !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.nav_networks {
+		margin-top: -2vh !important;
+		flex-direction: row !important;
+	}
+	#nav_aboutus {
+		margin-top: 0 !important;
+	}
+	.navbar {
+		font-size: 1em !important;
+	}
+	.nav_networks img {
+		height: 35px !important;
+	}
+	.navbar-collapse.in {
+		overflow-y: unset;
+		padding-bottom: 3vh;
 	}
 }
