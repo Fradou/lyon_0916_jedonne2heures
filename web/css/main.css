@@ -183,7 +183,6 @@ span {
 
 .home_blimg_startup {
 	text-align: center;
-	border: 1px solid black;
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
@@ -195,7 +194,6 @@ span {
 	margin-top: 13%;
 }
 
-
 .home_blimg_startuplogo{
 	text-align: center;
 	opacity: 0;
@@ -204,7 +202,6 @@ span {
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
-
 }
 
 .home_blimg_startuplogo:hover{
