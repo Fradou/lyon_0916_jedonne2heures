@@ -184,7 +184,6 @@ span {
 .home_blimg_startup {
 	text-align: center;
 	border: 1px solid black;
-	/*border-radius: 16px;*/
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
@@ -205,7 +204,7 @@ span {
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
-	/*border-radius: 13px;*/
+
 }
 
 .home_blimg_startuplogo:hover{
@@ -365,7 +364,7 @@ span {
 #home_video_ext iframe{
 	width: 100% !important;
 	height: 100% !important;
-	border-radius: 10px;
+
 }
 
 .home_startup_title_img{
@@ -636,6 +635,7 @@ hr{
 		margin-right: 7%;
 
 	}
+
 }
 
 @media screen and (max-width: 900px) {
