@@ -506,6 +506,11 @@ hr{
 	margin-bottom: 45px;
 }
 
+.margin_txt{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 .block_icons_who{
 	padding:auto;
 }
