@@ -773,6 +773,7 @@ hr{
 	left: 0;
 	width: 100%;
 	height: 80vh;
+	z-index: 2;
 }
 
 
@@ -845,7 +846,8 @@ hr{
 	width: 75px;
 	margin-bottom: -25px;
 	position: relative;
-	z-index: 8;
+	z-index: 3;
+
 }
 .home_carousel_container-fluid {
 	text-align: center;
@@ -853,7 +855,6 @@ hr{
 .home_carousel_block-over {
 	position: relative;
 	background-color: white;
-	z-index: 4
 }
 
 .home_carousel_jedonne-over p , .home_carousel_jepropose-over p{
@@ -876,6 +877,9 @@ hr{
 }
 
 @media screen and (min-width : 976px) {
+	.home_carousel_slide{
+		z-index: 0;
+	}
 
 	.home_carousel_jedonne-over p , .home_carousel_jepropose-over p{
 		margin: 0;
@@ -888,10 +892,8 @@ hr{
 
 	.home_carousel_logo-over {
 		position: absolute;
-		right: 2%;
-		top: 20%;
-		width: 37%;
-
+		left: 40%;
+		top: -50px;
 	}
 
 	.home_carousel_title-over {
