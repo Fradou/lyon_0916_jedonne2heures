@@ -18,10 +18,9 @@ security:
             security: false
 
         main:
-                    anonymous: ~
-                    http_basic: ~
+            anonymous: ~
+            http_basic: ~
             # activate different ways to authenticate
-
             # http_basic: ~
             # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
 

@@ -1,0 +1,24 @@
+donneur_index:
+    path:     /
+    defaults: { _controller: "Jd2hBundle:Donneur:index" }
+    methods:  GET
+
+donneur_show:
+    path:     /{id}/show
+    defaults: { _controller: "Jd2hBundle:Donneur:show" }
+    methods:  GET
+
+donneur_new:
+    path:     /new
+    defaults: { _controller: "Jd2hBundle:Donneur:new" }
+    methods:  [GET, POST]
+
+donneur_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "Jd2hBundle:Donneur:edit" }
+    methods:  [GET, POST]
+
+donneur_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "Jd2hBundle:Donneur:delete" }
+    methods:  DELETE
