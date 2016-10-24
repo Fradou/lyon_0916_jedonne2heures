@@ -943,6 +943,21 @@ hr{
 
 
 @media screen and (max-width: 975px) {
+
+	.how_je_donne {
+		background:url("../img/je-donne-2-heures-je-donne-responsive.jpg") no-repeat center fixed;
+		height: 50vh;
+		position: relative;
+		background-size: cover;
+	}
+
+	.how_je_propose {
+		background:url("../img/je-donne-2-heures-je-propose-responsive.jpg") no-repeat center 10 fixed;
+		height: 50vh;
+		position: relative;
+		background-size: cover;
+	}
+
 	.home_carousel_presentation {
 		top: 55%;
 		height: 45%;
