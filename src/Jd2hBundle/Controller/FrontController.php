@@ -27,6 +27,11 @@ class FrontController extends Controller {
             return $this->render('front/jepropose.html.twig');
         }
 
+    public function mentionslegalesAction()
+        {
+        return $this->render('front/mentionslegales.html.twig');
+        }
+
     public function errorAction()
         {
             return $this->render('front/error404.html.twig');

@@ -17,3 +17,8 @@ front_jepropose:
     path: /jepropose
     defaults: { _controller: "Jd2hBundle:Front:jepropose"}
     methods: GET
+
+front_mentionslegales:
+    path: /mentionslegales
+    defaults: { _controller: "Jd2hBundle:Front:mentionslegales"}
+    methods: GET
