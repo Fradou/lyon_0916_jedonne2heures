@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Donneur</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ donneur.id }}</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>{{ donneur.name }}</td>
+            </tr>
+            <tr>
+                <th>Firstname</th>
+                <td>{{ donneur.firstName }}</td>
+            </tr>
+            <tr>
+                <th>Mailadress</th>
+                <td>{{ donneur.mailAdress }}</td>
+            </tr>
+            <tr>
+                <th>Town</th>
+                <td>{{ donneur.town }}</td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>{{ donneur.country }}</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>{{ donneur.status }}</td>
+            </tr>
+            <tr>
+                <th>Hour</th>
+                <td>{{ donneur.hour }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('donneur_index') }}">Back to the list</a>
+        </li>
+        <li>
+            <a href="{{ path('donneur_edit', { 'id': donneur.id }) }}">Edit</a>
+        </li>
+        <li>
+            {{ form_start(delete_form) }}
+                <input type="submit" value="Delete">
+            {{ form_end(delete_form) }}
+        </li>
+    </ul>
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Donneurs list</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Firstname</th>
+                <th>Mailadress</th>
+                <th>Town</th>
+                <th>Country</th>
+                <th>Status</th>
+                <th>Hour</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for donneur in donneurs %}
+            <tr>
+                <td><a href="{{ path('donneur_show', { 'id': donneur.id }) }}">{{ donneur.id }}</a></td>
+                <td>{{ donneur.name }}</td>
+                <td>{{ donneur.firstName }}</td>
+                <td>{{ donneur.mailAdress }}</td>
+                <td>{{ donneur.town }}</td>
+                <td>{{ donneur.country }}</td>
+                <td>{{ donneur.status }}</td>
+                <td>{{ donneur.hour }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('donneur_show', { 'id': donneur.id }) }}">show</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('donneur_edit', { 'id': donneur.id }) }}">edit</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('donneur_new') }}">Create a new donneur</a>
+        </li>
+    </ul>
+{% endblock %}
