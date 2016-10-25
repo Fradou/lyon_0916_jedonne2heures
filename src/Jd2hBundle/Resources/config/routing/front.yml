@@ -22,3 +22,14 @@ front_inscriptok:
     path: /inscriptionvalide
     defaults: { _controller: "Jd2hBundle:Front:inscriptionok"}
     methods: GET
+
+
+testRedirection:
+    path: /redirection
+    defaults: { _controller: "Jd2hBundle:Default:redirection"}
+    methods: GET
+
+testMail:
+    path: /sendMail
+    defaults: { _controller: "Jd2hBundle:Default:sendMail"}
+    methods: POST
