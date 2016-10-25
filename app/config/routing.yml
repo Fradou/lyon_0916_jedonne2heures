@@ -5,3 +5,7 @@ jd2h:
 admin:
     path:     /admin
     defaults: { _controller: Jd2hBundle:Security:admin }
+
+login:
+    path: /login
+    defaults: { _controller: Jd2hBundle:Security:login}
