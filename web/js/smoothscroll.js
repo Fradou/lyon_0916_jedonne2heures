@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
     $(".how_btn_transon").click(function() {
         $('html,body').animate({
-            scrollTop: $(".how_btn_transoff").offset().top - $(".navbar").height()},1000);
+            scrollTop: $(".how_form_ext").offset().top - $(".navbar").height()},1000);
     });
 
 
