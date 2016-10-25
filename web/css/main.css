@@ -730,13 +730,13 @@ hr{
 	color: #E60F33;
 }
 
-#home_carousel h2, .home_carousel_over h2{
-	font-size: 1.4em;
-	font-weight: 600;
-}
-
 .home_carousel_inscription{
 	margin-top: -15px;
+}
+
+#home_carousel h2, .home_carousel_over h2{
+	font-size: 1.4em;
+	font-weight: 500;
 }
 
 #home_carousel h3, .home_carousel_over h3{
@@ -860,9 +860,11 @@ hr{
 .home_carousel_jedonne-over p , .home_carousel_jepropose-over p{
 	text-align: center;
 	margin: 4vh 0;
+	font-size: 1.1em;
+}
+.home_carousel_block-over h2{
 	font-size: 1.2em;
 }
-
 .home_carousel_over{
 	margin-top: -45px;
 
@@ -871,9 +873,18 @@ hr{
 	text-align: center;
 	padding: 0 20px;
 }
-@media screen and (max-width : 1100px) and (min-width: 976px)  {
-	.home_carousel_jepropose-over h2{
+@media screen and (max-width : 1310px) and (min-width: 976px)  {
+	.home_carousel_jepropose-over h2, .home_carousel_jedonne-over h2{
+		font-size: 1.4em;
+	}
+	.home_carousel_jedonne-over p, .home_carousel_jepropose-over p{
 		font-size: 0.9em;
+	}
+	.home_carousel_jedonne-over a, .home_carousel_jepropose-over a{
+		font-size: 1em ;
+	}
+	.home_carousel_title-over h1, h2{
+		font-size: 1em;
 	}
 }
 
