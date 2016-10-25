@@ -9,3 +9,6 @@ admin:
 login:
     path: /login
     defaults: { _controller: Jd2hBundle:Security:login}
+
+logout:
+    path: /logout
