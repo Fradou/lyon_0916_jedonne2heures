@@ -340,9 +340,12 @@ span {
 
 #home_btn_jqbar1 {
 	background: #e60f33;
+	margin-top: 4vh;
 	height: 9vh;
 	color: white;
 	text-align: center;
+	position: relative;
+	z-index:5;
 }
 #home_btn_jqbar1:hover{
 	cursor: pointer;
