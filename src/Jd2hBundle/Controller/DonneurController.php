@@ -42,6 +42,24 @@ class DonneurController extends Controller
             $em->persist($donneur);
             $em->flush($donneur);
 
+            /*
+             * Envoie mail-auto de validation d'inscription
+             */
+
+            $mailer = $this->container->get('mailer');
+            $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 587, 'ssl')
+                ->setUsername('projet.jd2h@gmail.com')
+                ->setPassword('projetjd2h!2016');
+            $mailer = \Swift_Mailer::newInstance($transport);
+            $message = \Swift_Message::newInstance()
+                ->setSubject('Inscription a Je donne 2 heures')
+                ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
+                ->setTo('aymen.mechiche@gmail.com')
+                ->setBody('Test envoie de mail');
+
+            $mailer->send($message);
+
+
             return $this->redirectToRoute('donneur_show', array('id' => $donneur->getId()));
         }
 
