@@ -330,7 +330,6 @@ span {
 	animation-name: bounce;
 }
 
-
 #home_btn_jqbar1 h3 {
 	margin-top: 15px;
 }
@@ -340,9 +339,12 @@ span {
 
 #home_btn_jqbar1 {
 	background: #e60f33;
+	margin-top: 4vh;
 	height: 9vh;
 	color: white;
 	text-align: center;
+	position: relative;
+	z-index:5;
 }
 #home_btn_jqbar1:hover{
 	cursor: pointer;
@@ -730,9 +732,7 @@ hr{
 	color: #E60F33;
 }
 
-.home_carousel_inscription{
-	margin-top: -15px;
-}
+
 
 #home_carousel h2, .home_carousel_over h2{
 	font-size: 1.4em;
@@ -776,6 +776,7 @@ hr{
 	left: 0;
 	width: 100%;
 	height: 80vh;
+	z-index: 2;
 }
 
 
@@ -846,15 +847,18 @@ hr{
 	width: 75px;
 	margin-bottom: -25px;
 	position: relative;
-	z-index: 8;
+	z-index: 3;
+
 }
 .home_carousel_container-fluid {
 	text-align: center;
+	margin-top: -30px;
 }
 .home_carousel_block-over {
 	position: relative;
 	background-color: white;
-	z-index: 4;
+	margin-top: -50px;
+
 }
 
 .home_carousel_jedonne-over p , .home_carousel_jepropose-over p{
@@ -873,9 +877,11 @@ hr{
 	text-align: center;
 	padding: 0 20px;
 }
+
+
 @media screen and (max-width : 1310px) and (min-width: 976px)  {
 	.home_carousel_jepropose-over h2, .home_carousel_jedonne-over h2{
-		font-size: 1.4em;
+		font-size: 1em;
 	}
 	.home_carousel_jedonne-over p, .home_carousel_jepropose-over p{
 		font-size: 0.9em;
@@ -889,6 +895,12 @@ hr{
 }
 
 @media screen and (min-width : 976px) {
+	.home_carousel_inscription{
+		margin-top: -15px;
+	}
+	.home_carousel_slide{
+		z-index: 0;
+	}
 
 	.home_carousel_jedonne-over p , .home_carousel_jepropose-over p{
 		margin: 0;
@@ -900,9 +912,8 @@ hr{
 
 	.home_carousel_logo-over {
 		position: absolute;
-		right: 2%;
-		top: 20%;
-		width: 37%;
+		left: 40%;
+		top: -50px;
 	}
 
 	.home_carousel_title-over {
@@ -978,8 +989,8 @@ hr{
 	}
 
 	.home_carousel_presentation {
-		top: 55%;
-		height: 45%;
+		top: 65%;
+		height: 35%;
 	}
 	.home_carousel_jedonne-over h2{
 		font-size: 25px;
@@ -998,6 +1009,13 @@ hr{
 		margin-top: 30px;
 	}
 
+
+}
+@media screen and (max-width: 550px){
+	.home_carousel_presentation {
+		top: 55%;
+		height: 45%;
+	}
 
 }
 
