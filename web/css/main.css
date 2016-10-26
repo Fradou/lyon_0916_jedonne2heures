@@ -353,6 +353,10 @@ span {
 #home_btn_jqbar2 {
 }
 
+.home_btn_jqbar {
+	margin-left: -15px;
+	margin-right: -15px;
+}
 
 #home_video_ext {
 	text-align: center;
