@@ -254,4 +254,33 @@ class Entrepreneur
     {
         return $this->activity;
     }
+    /**
+     * @var string
+     */
+    private $mailAdress;
+
+
+    /**
+     * Set mailAdress
+     *
+     * @param string $mailAdress
+     *
+     * @return Entrepreneur
+     */
+    public function setMailAdress($mailAdress)
+    {
+        $this->mailAdress = $mailAdress;
+
+        return $this;
+    }
+
+    /**
+     * Get mailAdress
+     *
+     * @return string
+     */
+    public function getMailAdress()
+    {
+        return $this->mailAdress;
+    }
 }

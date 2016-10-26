@@ -225,4 +225,33 @@ class Donneur
     {
         return $this->hour;
     }
+    /**
+     * @var string
+     */
+    private $mailAdress;
+
+
+    /**
+     * Set mailAdress
+     *
+     * @param string $mailAdress
+     *
+     * @return Donneur
+     */
+    public function setMailAdress($mailAdress)
+    {
+        $this->mailAdress = $mailAdress;
+
+        return $this;
+    }
+
+    /**
+     * Get mailAdress
+     *
+     * @return string
+     */
+    public function getMailAdress()
+    {
+        return $this->mailAdress;
+    }
 }
