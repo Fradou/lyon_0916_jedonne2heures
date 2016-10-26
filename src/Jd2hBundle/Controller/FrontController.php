@@ -44,7 +44,7 @@ class FrontController extends Controller {
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Inscription à Je donne 2 heures')
                     ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
-                    ->setTo($donneur->getMailAdress())
+                    ->setTo($donneur->getMailAddress())
                     ->setBody(
                         '<html>' .
                         '<head></head>' .
