@@ -42,21 +42,19 @@ class FrontController extends Controller {
                  */
 
                 $mailer = $this->container->get('mailer');
-                $message = \Swift_Message::newInstance();
-                $message->setSubject('Inscription à Je donne 2 heures')
-                            ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
-                            ->setTo($donneur->getMailAdress())
-                            ->setBody(
-                            '<html>' .
-                            '<head></head>' .
-                            '<body>' .
-                            '<h1>' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
-                            '</h1>' .
-                            '</body>' .
-                            '</html>',
-                            'text/html');
-
-
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('Inscription à Je donne 2 heures')
+                    ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
+                    ->setTo($donneur->getMailAddress())
+                    ->setBody(
+                        '<html>' .
+                        '<head></head>' .
+                        '<body>' .
+                        '<h1>' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
+                        '</h1>' .
+                        '</body>' .
+                        '</html>',
+                        'text/html');
 
 
                 $mailer->send($message);
@@ -70,6 +68,7 @@ class FrontController extends Controller {
                 'donneur' => $donneur,
                 'form' => $form->createView(),
             ));
+            // return $this->render('front/jedonne.html.twig');
         }
 
     public function jeproposeAction(Request $request)
@@ -83,6 +82,22 @@ class FrontController extends Controller {
                 $em->persist($entrepreneur);
                 $em->flush($entrepreneur);
 
+
+                $mailer = $this->container->get('mailer');
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('Inscription à Je donne 2 heures')
+                    ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
+                    ->setTo($entrepreneur->getMailAddress())
+                    ->setBody(
+                        '<html>' .
+                        '<head></head>' .
+                        '<body>' .
+                        '<h1>' . ucfirst($entrepreneur->getFirstName()) . ' ' .ucfirst($entrepreneur->getName()) .
+                        '</h1>' .
+                        '</body>' .
+                        '</html>',
+                        'text/html');
+                $mailer->send($message);
                 return $this->redirectToRoute('front_inscriptok', array('id' => $entrepreneur->getId()));
             }
 
@@ -90,6 +105,7 @@ class FrontController extends Controller {
                 'entrepreneur' => $entrepreneur,
                 'form' => $form->createView(),
             ));
+            // return $this->render('front/jepropose.html.twig');
         }
 
     public function mentionslegalesAction()
