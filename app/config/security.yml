@@ -5,11 +5,12 @@ security:
     # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
     providers:
         in_memory:
-            memory:
-                users:
-                    admin:
-                        password:  $2y$12$DpPwHRZgGkyxgtdY9GS2Sukz38R9uGe9ZfeuhdwQPHz7ZJjPSUPwe
-                        roles: 'ROLE_ADMIN'
+            memory: ~
+
+        our_db_provider:
+            entity:
+                class: Jd2hBundle:User
+                property: username
 
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
@@ -26,6 +27,10 @@ security:
             logout:
                 path: logout
                 target: /
+            pattern:    ^/
+            http_basic: ~
+            provider: our_db_provider
+
             # activate different ways to authenticate
             # http_basic: ~
             # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
@@ -34,6 +39,9 @@ security:
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
     encoders:
         Symfony\Component\Security\Core\User\User:
+            algorithm: bcrypt
+            cost: 12
+        Jd2hBundle\Entity\User:
             algorithm: bcrypt
             cost: 12
 
