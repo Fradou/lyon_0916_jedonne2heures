@@ -51,10 +51,11 @@ class FrontController extends Controller {
                         '<body>' .
                         '<h1>' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
                         '</h1>' .
+                        '<img src="/web/img/logo-header-je-donne-2-heures-2.png">Here is the message itself</img>' .
                         '</body>' .
                         '</html>',
-                        'text/html')
-                        ->addPart('<img src="/web/img/">Here is the message itself</img>', 'text/html');
+                        'text/html');
+
 
                 $mailer->send($message);
 
