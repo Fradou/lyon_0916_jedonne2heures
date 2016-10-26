@@ -1,13 +1,3 @@
-#back_entrepreneur:
-#    path:     /entrepreneur
- #   defaults: { _controller: "Jd2hBundle:Back:entrepreneur" }
-  #  methods:  GET
-
-#back_donneur:
- #   path:     /donneur
-  #  defaults: { _controller: "Jd2hBundle:Back:donneur" }
-   # methods:  GET
-
 admin:
     path:     /admin
     defaults: { _controller: "Jd2hBundle:Back:admin" }
