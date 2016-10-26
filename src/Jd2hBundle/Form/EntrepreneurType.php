@@ -14,7 +14,7 @@ class EntrepreneurType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('name')->add('firstName')->add('mailAdress')->add('town')
+        $builder->add('name')->add('firstName')->add('mailAddress')->add('town')
             ->add('country', ChoiceType::class, array ('choices' => array('France'=>'France', 'Europe' => 'Europe', 'Reste du monde' => 'Reste du monde')))
             ->add('company')
             ->add('position', ChoiceType::class, array ('choices' => array('Fondateur'=>'Fondateur', 'Porteur de projet'=>'Porteur de projet', 'Dirigeant' => 'Dirigeant', 'Autre' => 'Autre')))
