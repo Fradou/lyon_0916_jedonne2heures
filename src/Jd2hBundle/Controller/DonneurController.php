@@ -28,7 +28,7 @@ class DonneurController extends Controller
     }
 
     /**
-     * Creates a new donneur entity.
+     * Creates a new donneur entity. for back only !
      *
      */
     public function newAction(Request $request)
@@ -41,9 +41,6 @@ class DonneurController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->persist($donneur);
             $em->flush($donneur);
-
-
-
 
             return $this->redirectToRoute('donneur_show', array('id' => $donneur->getId()));
         }
