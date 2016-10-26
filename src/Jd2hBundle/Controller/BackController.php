@@ -1,48 +1,41 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: apprenti
+ * Date: 21/10/16
+ * Time: 11:45
+ */
 
 namespace Jd2hBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Request;
-use Jd2hBundle\Entity\Donneur;
-use Jd2hBundle\Entity\Entrepreneur;
 
-/**
- * Donneur controller.
- *
- */
 class BackController extends Controller
 {
-    /**
-     * Lists all donneur entities.
-     *
-     */
-    public function donneurAction()
+    public function loginAction()
     {
-        $em = $this->getDoctrine()->getManager();
+        $authenticationUtils = $this->get('security.authentication_utils');
 
-        $donneurs = $em->getRepository('Jd2hBundle:Donneur')->findAll();
+        // get the login error if there is one
+        $error = $authenticationUtils->getLastAuthenticationError();
 
-        return $this->render('donneur/index.html.twig', array(
-            'donneurs' => $donneurs,
+        // last username entered by the user
+        $lastUsername = $authenticationUtils->getLastUsername();
+
+        return $this->render('back/login.html.twig', array(
+            'last_username' => $lastUsername,
+            'error'         => $error,
         ));
     }
-    /**
-     * Lists all entrepreneur entities.
-     *
-     */
-    public function entrepreneurAction()
+
+    public function adminAction()
     {
-        $em = $this->getDoctrine()->getManager();
-
-        $entrepreneurs = $em->getRepository('Jd2hBundle:Entrepreneur')->findAll();
-
-        return $this->render('entrepreneur/index.html.twig', array(
-            'entrepreneurs' => $entrepreneurs,
-        ));
+        return $this->render('back/consultation.html.twig');
     }
 
     public function userAction()
     {
     }
 }
+
+
