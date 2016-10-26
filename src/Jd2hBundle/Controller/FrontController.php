@@ -40,6 +40,7 @@ class FrontController extends Controller {
                 /*
                  * Envoie mail-auto de validation d'inscription
                  */
+
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance()
                     ->setSubject('Inscription à Je donne 2 heures')
@@ -53,8 +54,8 @@ class FrontController extends Controller {
                         '</h1>' .
                         '</body>' .
                         '</html>',
-                        'text/html')
-                        ->addPart('<img src="/web/img/">Here is the message itself</img>', 'text/html');
+                        'text/html');
+
 
                 $mailer->send($message);
 
@@ -67,6 +68,7 @@ class FrontController extends Controller {
                 'donneur' => $donneur,
                 'form' => $form->createView(),
             ));
+            // return $this->render('front/jedonne.html.twig');
         }
 
     public function jeproposeAction(Request $request)
@@ -80,6 +82,22 @@ class FrontController extends Controller {
                 $em->persist($entrepreneur);
                 $em->flush($entrepreneur);
 
+
+                $mailer = $this->container->get('mailer');
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('Inscription à Je donne 2 heures')
+                    ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
+                    ->setTo($entrepreneur->getMailAddress())
+                    ->setBody(
+                        '<html>' .
+                        '<head></head>' .
+                        '<body>' .
+                        '<h1>' . ucfirst($entrepreneur->getFirstName()) . ' ' .ucfirst($entrepreneur->getName()) .
+                        '</h1>' .
+                        '</body>' .
+                        '</html>',
+                        'text/html');
+                $mailer->send($message);
                 return $this->redirectToRoute('front_inscriptok', array('id' => $entrepreneur->getId()));
             }
 
@@ -87,6 +105,7 @@ class FrontController extends Controller {
                 'entrepreneur' => $entrepreneur,
                 'form' => $form->createView(),
             ));
+            // return $this->render('front/jepropose.html.twig');
         }
 
     public function mentionslegalesAction()
