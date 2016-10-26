@@ -28,7 +28,7 @@ class DonneurController extends Controller
     }
 
     /**
-     * Creates a new donneur entity. for back only !
+     * Creates a new donneur entity, for back only !
      *
      */
     public function newAction(Request $request)
