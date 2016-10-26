@@ -10,7 +10,7 @@ function youTubes_makeDynamic() {
         var ytKey; var tmp = $ytFrame.attr('src').split(/\//); tmp = tmp[tmp.length - 1]; tmp = tmp.split('?'); ytKey = tmp[0];
         var $ytLoader = $('<div class="ytLoader">');
         $ytLoader.append($('<img class="cover" src="https://i.ytimg.com/vi/'+ytKey+'/hqdefault.jpg">'));
-        $ytLoader.append($('<img class="playBtn" src="play_button.png">'));
+
         $ytLoader.data('$ytFrame',$ytFrame);
         $ytFrame.replaceWith($ytLoader);
         $ytLoader.click(function () {
