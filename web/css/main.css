@@ -104,7 +104,7 @@ span {
 .foo_mention a{
 	text-decoration: none;
 	color: white;
-	font-size:0,9em;
+	font-size:0.9em;
 }
 
 .foo_mention {
@@ -389,7 +389,7 @@ hr{
 	width:90px;
 	height:8px;
 	background: #E60F33;
-	margin:10 auto 10px;
+	margin: auto 10px;
 }
 
 .hr_video_hp{
@@ -601,7 +601,7 @@ hr{
 .h1_toppage{
 	margin-top:10vh;
 	font-size: 37px;
-	letter-spacing: - 2px;
+	letter-spacing: -2px;
 }
 
 .h2_toppage{
@@ -823,7 +823,7 @@ hr{
 	height: 35%;
 	text-align: center;
 	text-shadow: 0 1px 1px rgba(0,0,0,0.618);
-	font-size: 1 em;
+	font-size: 1em;
 	background-color: rgba(0,0,0,0.75);
 	padding-bottom: 20px;
 	color: white;
@@ -881,7 +881,7 @@ hr{
 
 @media screen and (max-width : 1310px) and (min-width: 976px)  {
 	.home_carousel_jepropose-over h2, .home_carousel_jedonne-over h2{
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 	.home_carousel_jedonne-over p, .home_carousel_jepropose-over p{
 		font-size: 0.9em;
@@ -1018,6 +1018,7 @@ hr{
 	}
 
 }
+
 
 /* ----------- iPad mini ----------- */
 
