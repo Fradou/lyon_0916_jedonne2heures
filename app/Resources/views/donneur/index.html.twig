@@ -1,7 +1,7 @@
 {% extends 'back/baseback.html.twig' %}
 
 {% block body %}
-    <h1>Donneurs list</h1>
+    <h1>Liste des donneurs</h1>
 
     <table>
         <thead>
@@ -31,10 +31,10 @@
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('donneur_show', { 'id': donneur.id }) }}">show</a>
+                            <a href="{{ path('donneur_show', { 'id': donneur.id }) }}">Voir</a>
                         </li>
                         <li>
-                            <a href="{{ path('donneur_edit', { 'id': donneur.id }) }}">edit</a>
+                            <a href="{{ path('donneur_edit', { 'id': donneur.id }) }}">Modifier</a>
                         </li>
                     </ul>
                 </td>
@@ -45,7 +45,7 @@
 
     <ul>
         <li>
-            <a href="{{ path('donneur_new') }}">Create a new donneur</a>
+            <a href="{{ path('donneur_new') }}">Créer un nouveau donneur</a>
         </li>
     </ul>
 {% endblock %}

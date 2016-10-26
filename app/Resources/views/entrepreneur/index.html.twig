@@ -1,7 +1,7 @@
 {% extends 'back/baseback.html.twig' %}
 
 {% block body %}
-    <h1>Entrepreneurs list</h1>
+    <h1>Liste des entrepreneurs</h1>
 
     <table>
         <thead>
@@ -33,10 +33,10 @@
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">show</a>
+                            <a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">Voir</a>
                         </li>
                         <li>
-                            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">edit</a>
+                            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">Modifier</a>
                         </li>
                     </ul>
                 </td>
@@ -47,7 +47,7 @@
 
     <ul>
         <li>
-            <a href="{{ path('entrepreneur_new') }}">Create a new entrepreneur</a>
+            <a href="{{ path('entrepreneur_new') }}">Créer un nouvel entrepreneur</a>
         </li>
     </ul>
 {% endblock %}
