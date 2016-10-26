@@ -6,7 +6,9 @@
     <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
 {% endif %}
 
-<form action="{{ path('login') }}" method="post">
+<form action="{{ path('login') }}" method="post" class="login_form">
+    <p>Connexion à l'espace administration</p>
+
     <label for="username">Utilisateur :</label>
     <input type="text" id="username" name="_username" value="{{ last_username }}" />
 
