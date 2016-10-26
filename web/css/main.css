@@ -761,6 +761,7 @@ hr{
 .home_carousel_btn_lien:hover {
 	background-color: rgba(230, 15, 51, 0.51);
 	color: white;
+	text-decoration: none;
 }
 
 #home_carousel {
@@ -982,7 +983,7 @@ hr{
 	}
 
 	.how_je_propose {
-		background:url("../img/je-donne-2-heures-je-propose-responsive.jpg") no-repeat center 10 fixed;
+		background:url("../img/je-donne-2-heures-je-propose-responsive.jpg") no-repeat center fixed;
 		height: 50vh;
 		position: relative;
 		background-size: cover;
