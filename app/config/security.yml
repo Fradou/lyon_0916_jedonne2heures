@@ -21,11 +21,11 @@ security:
         main:
             anonymous: ~
             form_login:
-                login_path: login
-                check_path: login
+                login_path: back_login
+                check_path: back_login
                 target_path_parameter: redirect_url
             logout:
-                path: logout
+                path: back_logout
                 target: /
             pattern:    ^/
             http_basic: ~
