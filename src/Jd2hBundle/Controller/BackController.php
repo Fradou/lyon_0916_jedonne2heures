@@ -41,4 +41,8 @@ class BackController extends Controller
             'entrepreneurs' => $entrepreneurs,
         ));
     }
+
+    public function userAction()
+    {
+    }
 }

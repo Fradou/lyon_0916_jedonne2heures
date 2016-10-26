@@ -1086,10 +1086,3 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	.ml_title{
 		text-align: center;
 	}
-
-/* LOGIN */
-
-.login_form {
-	padding: 100px;
-	margin-bottom: 250px;
-}

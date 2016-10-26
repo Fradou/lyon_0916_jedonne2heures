@@ -18,3 +18,8 @@ login:
 
 logout:
     path:     /logout
+
+back_user:
+    path: /user
+    defaults: { _controller: "Jd2hBundle:Back:user" }
+    methods: GET
