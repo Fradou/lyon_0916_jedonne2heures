@@ -1,4 +1,0 @@
-back_office:
-    path: /
-    defaults: { _controller: "Jd2hBundle:Security:consultation"}
-    methods: GET

@@ -67,7 +67,6 @@ class FrontController extends Controller {
                 'donneur' => $donneur,
                 'form' => $form->createView(),
             ));
-            // return $this->render('front/jedonne.html.twig');
         }
 
     public function jeproposeAction(Request $request)
@@ -88,7 +87,6 @@ class FrontController extends Controller {
                 'entrepreneur' => $entrepreneur,
                 'form' => $form->createView(),
             ));
-            // return $this->render('front/jepropose.html.twig');
         }
 
     public function mentionslegalesAction()

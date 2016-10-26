@@ -16,10 +16,10 @@ Jd2hBundle\Entity\Entrepreneur:
             type: string
             length: '50'
             column: first_name
-        mailAdress:
+        mailAddress:
             type: string
             length: '50'
-            column: mail_adress
+            column: mail_address
         town:
             type: string
             length: '50'

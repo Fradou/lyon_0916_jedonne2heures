@@ -28,7 +28,7 @@ class EntrepreneurController extends Controller
     }
 
     /**
-     * Creates a new entrepreneur entity.
+     * Creates a new entrepreneur entity, for back only !
      *
      */
     public function newAction(Request $request)

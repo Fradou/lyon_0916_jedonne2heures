@@ -7,3 +7,14 @@ back_donneur:
     path:     /donneur
     defaults: { _controller: "Jd2hBundle:Back:donneur" }
     methods:  GET
+
+admin:
+    path:     /admin
+    defaults: { _controller: "Jd2hBundle:Security:admin" }
+
+login:
+    path:     /login
+    defaults: { _controller: "Jd2hBundle:Security:login"}
+
+logout:
+    path:     /logout

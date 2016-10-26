@@ -25,7 +25,7 @@ class Donneur
     /**
      * @var string
      */
-    private $mailAdress;
+    private $mailAddress;
 
     /**
      * @var string
@@ -109,13 +109,13 @@ class Donneur
     /**
      * Set mailAdress
      *
-     * @param string $mailAdress
+     * @param string $mailAddress
      *
      * @return Donneur
      */
-    public function setMailAdress($mailAdress)
+    public function setMailAddress($mailAddress)
     {
-        $this->mailAdress = $mailAdress;
+        $this->mailAddress = $mailAddress;
 
         return $this;
     }
@@ -125,9 +125,9 @@ class Donneur
      *
      * @return string
      */
-    public function getMailAdress()
+    public function getMailAddress()
     {
-        return $this->mailAdress;
+        return $this->mailAddress;
     }
 
     /**
@@ -225,5 +225,33 @@ class Donneur
     {
         return $this->hour;
     }
-}
+    /**
+     * @var string
+     */
+    private $mailAdress;
 
+
+    /**
+     * Set mailAdress
+     *
+     * @param string $mailAdress
+     *
+     * @return Donneur
+     */
+    public function setMailAdress($mailAdress)
+    {
+        $this->mailAdress = $mailAdress;
+
+        return $this;
+    }
+
+    /**
+     * Get mailAdress
+     *
+     * @return string
+     */
+    public function getMailAdress()
+    {
+        return $this->mailAdress;
+    }
+}
