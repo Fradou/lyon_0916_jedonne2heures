@@ -40,21 +40,24 @@ class FrontController extends Controller {
                 /*
                  * Envoie mail-auto de validation d'inscription
                  */
+
                 $mailer = $this->container->get('mailer');
-                $message = \Swift_Message::newInstance()
-                    ->setSubject('Inscription à Je donne 2 heures')
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
-                    ->setTo($donneur->getMailAdress())
-                    ->setBody(
-                        '<html>' .
-                        '<head></head>' .
-                        '<body>' .
-                        '<h1>' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
-                        '</h1>' .
-                        '</body>' .
-                        '</html>',
-                        'text/html')
-                        ->addPart('<img src="/web/img/">Here is the message itself</img>', 'text/html');
+                $message = \Swift_Message::newInstance();
+                $message->setSubject('Inscription à Je donne 2 heures')
+                            ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
+                            ->setTo($donneur->getMailAdress())
+                            ->setBody(
+                            '<html>' .
+                            '<head></head>' .
+                            '<body>' .
+                            '<h1>' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
+                            '</h1>' .
+                            '</body>' .
+                            '</html>',
+                            'text/html');
+
+
+
 
                 $mailer->send($message);
 
