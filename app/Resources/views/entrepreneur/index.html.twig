@@ -1,20 +1,20 @@
-{% extends 'base.html.twig' %}
+{% extends 'back/baseback.html.twig' %}
 
 {% block body %}
-    <h1>Entrepreneurs list</h1>
+    <h1>Liste des entrepreneurs</h1>
 
     <table>
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Name</th>
-                <th>Firstname</th>
-                <th>Mailadress</th>
-                <th>Town</th>
-                <th>Country</th>
-                <th>Company</th>
-                <th>Position</th>
-                <th>Activity</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Adresse mail</th>
+                <th>Ville</th>
+                <th>Pays</th>
+                <th>Entreprise</th>
+                <th>Poste</th>
+                <th>Secteur</th>
                 <th>Actions</th>
             </tr>
         </thead>
@@ -24,7 +24,7 @@
                 <td><a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">{{ entrepreneur.id }}</a></td>
                 <td>{{ entrepreneur.name }}</td>
                 <td>{{ entrepreneur.firstName }}</td>
-                <td>{{ entrepreneur.mailAdress }}</td>
+                <td>{{ entrepreneur.mailAddress }}</td>
                 <td>{{ entrepreneur.town }}</td>
                 <td>{{ entrepreneur.country }}</td>
                 <td>{{ entrepreneur.company }}</td>
@@ -33,10 +33,10 @@
                 <td>
                     <ul>
                         <li>
-                            <a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">show</a>
+                            <a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">Voir</a>
                         </li>
                         <li>
-                            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">edit</a>
+                            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">Modifier</a>
                         </li>
                     </ul>
                 </td>
@@ -47,7 +47,7 @@
 
     <ul>
         <li>
-            <a href="{{ path('entrepreneur_new') }}">Create a new entrepreneur</a>
+            <a href="{{ path('entrepreneur_new') }}">Créer un nouvel entrepreneur</a>
         </li>
     </ul>
 {% endblock %}

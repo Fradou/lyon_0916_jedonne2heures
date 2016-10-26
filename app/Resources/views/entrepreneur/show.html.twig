@@ -1,4 +1,4 @@
-{% extends 'base.html.twig' %}
+{% extends 'back/baseback.html.twig' %}
 
 {% block body %}
     <h1>Entrepreneur</h1>
@@ -10,35 +10,35 @@
                 <td>{{ entrepreneur.id }}</td>
             </tr>
             <tr>
-                <th>Name</th>
+                <th>Nom</th>
                 <td>{{ entrepreneur.name }}</td>
             </tr>
             <tr>
-                <th>Firstname</th>
+                <th>Prénom</th>
                 <td>{{ entrepreneur.firstName }}</td>
             </tr>
             <tr>
-                <th>Mailadress</th>
-                <td>{{ entrepreneur.mailAdress }}</td>
+                <th>Adresse mail</th>
+                <td>{{ entrepreneur.mailAddress }}</td>
             </tr>
             <tr>
-                <th>Town</th>
+                <th>Ville</th>
                 <td>{{ entrepreneur.town }}</td>
             </tr>
             <tr>
-                <th>Country</th>
+                <th>Pays</th>
                 <td>{{ entrepreneur.country }}</td>
             </tr>
             <tr>
-                <th>Company</th>
+                <th>Entreprise</th>
                 <td>{{ entrepreneur.company }}</td>
             </tr>
             <tr>
-                <th>Position</th>
+                <th>Poste</th>
                 <td>{{ entrepreneur.position }}</td>
             </tr>
             <tr>
-                <th>Activity</th>
+                <th>Secteur</th>
                 <td>{{ entrepreneur.activity }}</td>
             </tr>
         </tbody>
@@ -46,14 +46,14 @@
 
     <ul>
         <li>
-            <a href="{{ path('entrepreneur_index') }}">Back to the list</a>
+            <a href="{{ path('entrepreneur_index') }}">Retour à la liste</a>
         </li>
         <li>
-            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">Edit</a>
+            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">Modifier</a>
         </li>
         <li>
             {{ form_start(delete_form) }}
-                <input type="submit" value="Delete">
+                <input type="submit" value="Supprimer entrée">
             {{ form_end(delete_form) }}
         </li>
     </ul>

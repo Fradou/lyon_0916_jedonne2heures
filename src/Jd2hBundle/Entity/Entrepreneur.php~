@@ -25,7 +25,7 @@ class Entrepreneur
     /**
      * @var string
      */
-    private $mailAdress;
+    private $mailAddress;
 
     /**
      * @var string
@@ -114,13 +114,13 @@ class Entrepreneur
     /**
      * Set mailAdress
      *
-     * @param string $mailAdress
+     * @param string $mailAddress
      *
      * @return Entrepreneur
      */
-    public function setMailAdress($mailAdress)
+    public function setMailAddress($mailAddress)
     {
-        $this->mailAdress = $mailAdress;
+        $this->mailAddress = $mailAddress;
 
         return $this;
     }
@@ -130,9 +130,9 @@ class Entrepreneur
      *
      * @return string
      */
-    public function getMailAdress()
+    public function getMailAddress()
     {
-        return $this->mailAdress;
+        return $this->mailAddress;
     }
 
     /**
@@ -254,5 +254,33 @@ class Entrepreneur
     {
         return $this->activity;
     }
-}
+    /**
+     * @var string
+     */
+    private $mailAdress;
 
+
+    /**
+     * Set mailAdress
+     *
+     * @param string $mailAdress
+     *
+     * @return Entrepreneur
+     */
+    public function setMailAdress($mailAdress)
+    {
+        $this->mailAdress = $mailAdress;
+
+        return $this;
+    }
+
+    /**
+     * Get mailAdress
+     *
+     * @return string
+     */
+    public function getMailAdress()
+    {
+        return $this->mailAdress;
+    }
+}

@@ -17,7 +17,7 @@ class BackController extends Controller
      * Lists all donneur entities.
      *
      */
-    public function donneurAction(Donneur $donneur)
+    public function donneurAction()
     {
         $em = $this->getDoctrine()->getManager();
 
@@ -31,7 +31,7 @@ class BackController extends Controller
      * Lists all entrepreneur entities.
      *
      */
-    public function entrepreneurAction(Entrepreneur $entrepreneur)
+    public function entrepreneurAction()
     {
         $em = $this->getDoctrine()->getManager();
 

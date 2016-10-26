@@ -1,0 +1,18 @@
+table {
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+th, td {
+    width: 10%;
+}
+
+tr {
+    border: solid black 1px;
+}
+
+label {
+    width: 100px;
+}
+
