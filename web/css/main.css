@@ -187,6 +187,7 @@ span {
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
+	border: 3px solid dimgrey;
 }
 
 .home_blimg_startup img {
@@ -203,6 +204,7 @@ span {
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
+
 }
 
 .home_blimg_startuplogo:hover{
@@ -231,11 +233,11 @@ span {
 }
 
 #home_blimg_startup1 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/Mutum-Fondateurs.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup2 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/food&you.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup3 {
@@ -243,7 +245,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup4 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/tikaway.png");
 	background-repeat: round;
 }
 #home_blimg_startup5 {
@@ -251,7 +253,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup6 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/2rivestv.jpg");
 	background-repeat: round;
 }
 
@@ -727,6 +729,7 @@ hr{
 .home_carousel_btn_lien:hover {
 	background-color: rgba(230, 15, 51, 0.51);
 	color: white;
+	text-decoration: none;
 }
 
 #home_carousel {
@@ -743,6 +746,10 @@ hr{
 	width: 100%;
 	height: 80vh;
 	z-index: 2;
+}
+.home_carousel_btn_lien {
+	margin: auto;
+	border-radius: 5px;
 }
 
 
@@ -795,14 +802,29 @@ hr{
 	color: white;
 }
 
+
 #home_carousel_slide1{
+	background:url("../img/food&you.jpg") no-repeat center top;
+	background-size:  cover;
+	overflow: hidden;
+}
+#home_carousel_slide2{
+	background:url("../img/COMMEUNEARMOIRETB.jpg") no-repeat center top;
+	background-size:  cover;
+	overflow: hidden;
+}
+#home_carousel_slide3{
+	background:url("../img/tikaway.png") no-repeat center;
+	background-size:  cover;
+	overflow: hidden;
+}
+#home_carousel_slide4{
 	background:url("../img/SKWAREJD2H.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
-
-#home_carousel_slide2{
-	background:url("../img/COMMEUNEARMOIRETB.jpg") no-repeat center top;
+#home_carousel_slide5{
+	background:url("../img/2rivestv.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
@@ -860,9 +882,13 @@ hr{
 	.home_carousel_title-over h1, h2{
 		font-size: 1em;
 	}
+	.home_carousel_jedonne-over a, .home_carousel_jepropose-over a{
+		font-size: 0.71em ;
+	}
+
 }
 
-@media screen and (min-width : 976px) {
+@media screen and (min-width : 976px) and (min-height: 550px) {
 	.home_carousel_inscription{
 		margin-top: -15px;
 	}
@@ -880,7 +906,7 @@ hr{
 
 	.home_carousel_logo-over {
 		position: absolute;
-		left: 40%;
+		left: 43.5%;
 		top: -50px;
 	}
 
@@ -929,13 +955,11 @@ hr{
 		flex-direction: column;
 	}
 
-	.home_carousel_btn_lien {
-		margin: auto;
-	}
+
 }
 
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 975px), screen and (max-height: 550px) {
 	.hr_video_hp{
 		margin-top: 28px;
 	}
@@ -977,12 +1001,26 @@ hr{
 
 
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 550px), screen and (max-height: 550px){
 	.home_carousel_presentation {
 		top: 55%;
 		height: 45%;
 	}
 
+}
+@media screen and (max-width: 350px), screen and (max-height: 450px){
+	.home_carousel_presentation {
+		top: 40%;
+		height: 60%;
+	}
+
+}
+@media screen and (max-width: 350px){
+
+.home_carousel_btn_lien {
+	font-size: 0.8em;
+	padding: 7px 20px;
+}
 }
 
 
@@ -1049,6 +1087,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 /* MENTIONS LÉGALES */
+
 	.ml_title{
 		text-align: center;
 	}
