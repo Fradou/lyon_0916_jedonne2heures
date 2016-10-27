@@ -697,7 +697,7 @@ hr{
 
 
 .home_carousel_slogan{
-	font-size: 1.4em;
+	font-size: 1.3em;
 	font-weight: 900;
 	color: #E60F33;
 }
@@ -1124,5 +1124,5 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 	}
     .row_lw{
-        margin-bottom: 8vh;
+        margin-bottom: 9vh;
     }
