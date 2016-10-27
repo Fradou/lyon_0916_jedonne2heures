@@ -22,7 +22,7 @@ security:
             anonymous: ~
             form_login:
                 login_path: back_login
-                check_path: login
+                check_path: back_login
                 target_path_parameter: redirect_url
             logout:
                 path: back_logout
