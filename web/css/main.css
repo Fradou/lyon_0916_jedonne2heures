@@ -404,20 +404,6 @@ hr{
 
 /* WHO */
 
-.how_je_donne {
-	background:url("../img/the-booster-je-boost-2.jpg") no-repeat center fixed;
-	height: 50vh;
-	position: relative;
-	background-size: cover;
-}
-
-.how_je_propose {
-	background:url("../img/the-boost-je-propose-2.jpg") no-repeat center fixed;
-	height: 50vh;
-	position: relative;
-	background-size: cover;
-}
-
 .who_blocimg {
     text-align: center;
     margin-top: 60px;
@@ -529,6 +515,19 @@ hr{
 
 /* HOW */
 
+.how_je_donne {
+	background:url("../img/the-booster-je-boost-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
+
+.how_je_propose {
+	background:url("../img/the-boost-je-propose-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
 
 .how_blocimg_ext {
 }
