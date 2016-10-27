@@ -1,6 +1,8 @@
 {% extends "base.html.twig" %}
 
-{%  block title %}Je propose | Je Donne 2 Heures{% endblock %}
+{% block title %}Je propose | Je Donne 2 Heures{% endblock %}
+
+{% block pageDescription %}Je suis Entrepreneur, j'ai besoin d'aide pour me lancer, développer mon activité et réaliser mes projets...{% endblock %}
 
 {%  block body %}
 
@@ -10,10 +12,10 @@
 
         <div class="row">
             <div class="how_bloctxt_int col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="howp_bltxt">
-                <h1 class="h1_toppage">JE PROPOSE UN PROJET <br/></h1>
+                <h1 class="h1_toppage">JE PROPOSE UN PROJET<br/></h1>
                 <hr>
-                <h2 class="h2_toppage"> Vous êtes porteur d'un projet ? Vous êtes entrepreneur et vous venez de démarrer ? Vous voulez faire grandir votre entreprise ?</h2>
-                <p class="p_toppage">Vous avez des envies, des idées, des rêves et des besoins, mais pas encore tous les moyens.<span>Je Donne 2 Heures</span> est fait pour Vous ! Grâce à notre plateforme, le monde entier est là pour vous apporter son soutien. Soyez les premiers à être tenus au courant du lancement de notre plateforme et donner vie à vos plus beaux projets. </p>
+                <h2 class="h2_toppage"> Vous êtes porteur d'un projet ? Vous êtes Entrepreneur et vous venez de démarrer ? Vous voulez faire grandir votre entreprise ?</h2>
+                <p class="p_toppage">Vous avez des envies, des idées, des rêves et des besoins mais pas encore tous les moyens. The Booster est fait pour Vous ! Grâce à notre plateforme, le monde entier est là pour vous aider. Soyez les premiers à être tenu au courant du lancement de notre plateforme et donner vie à vos plus beaux projets. </p>
             </div>
         </div>
 
@@ -35,7 +37,7 @@
         <!--
         <div class="row how_blocimg_ext">
             <div class="how_blocimg_int col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6">
-                <img class="how_blocimg_img" alt="Je propose un projet" src="{{ asset("/img/jepropose.jpg") }}">
+                <img class="how_blocimg_img" alt="Je propose un projet" src="{{ asset("/img/the-booster-je-propose.jpg") }}">
             </div>
         </div>
         -->
@@ -45,30 +47,30 @@
         <div class="row how_bloctxt_ext">
             <div class="how_bloctxt_int col-xs-offset-0 col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8" id="howp_bltxt">
                 <h2 class="who_h2"> Entrepreneurs</h2>
-                <h3 class="who_h3">Je Donne 2 Heures, comment ça va marcher ?</h3>
+                <h3 class="who_h3">The Booster, comment ça marche ?</h3>
 
                      <div class="block_icons_who">
                          <div class="row" id="1st_block_icon">
 
                              <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-6">
-                                 <img src="{{ asset('../img/icon-je-donne-2-heures-computer2.png') }}" class="img-responsive icon_je_donne">
-                                 <p class="txt_list margin_txt">L'inscription à <span>Je Donne 2 Heures</span> se fait en ligne sur le site et est gratuite.</p>
+                                 <img src="{{ asset('../img/icon-the-booster-computer2.png') }}" class="img-responsive icon_je_donne">
+                                 <p class="txt_list margin_txt">L'inscription sur The Booster se fait en ligne sur le site et est gratuite.</p>
                              </div>
 
                              <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-6">
-                                 <img src="{{ asset('../img/icon-je-donne-2-heures-presentation.png') }}" class="img-responsive icon_je_donne">
-                                 <p class="txt_list margin_txt">Vous accédez dès votre arrivée à un espace personnel dédié, afin de présenter librement votre projet ou votre entreprise (vidéo, photos et textes).</p>
+                                 <img src="{{ asset('../img/icon-the-booster-presentation.png') }}" class="img-responsive icon_je_donne">
+                                 <p class="txt_list margin_txt">Vous accédez dès votre arrivée à un espace personnel qui vous permet de présenter librement votre projet ou votre entreprise (vidéo, photos et textes). Cet espace vous sert à déposer vos demandes et donc à solliciter l'aide du grand public, la communauté des "Boosters".</p>
                              </div>
                          </div>
 
                          <div class="row">
                              <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-6">
-                                 <img src="{{ asset('../img/icon-je-donne-2-heures-conversation.png') }}" class="img-responsive icon_je_donne">
-                                 <p class="txt_list margin_txt">Cet espace vous sert également à proposer vos projets et donc à solliciter l'aide du grand public.<span> Je Donne 2 Heures</span> vous offre votre premier projet. Par la suite, différentes formules payantes vous serons proposées.</p>
+                                 <img src="{{ asset('../img/icon-the-booster-conversation.png') }}" class="img-responsive icon_je_donne">
+                                 <p class="txt_list margin_txt">Déposez gratuitement votre première demande de "Coup de Boost". Par la suite, différentes formules payantes vous seront proposées afin que vous puissiez déposer un nombre illimité de demandes et bénéficier d'autres services que The Booster vous proposera.</p>
                              </div>
                              <div class="col-xs-offset-1 col-xs-10 col-md-offset-0 col-md-6">
-                                 <img src="{{ asset('../img/icon-je-donne-2-heures-secured-matching.png') }}" class="img-responsive icon_je_donne">
-                                 <p class="txt_list margin_txt">Grâce à un processus de matching sécurisé, <span>Je Donne 2 Heures</span> vous met en relation avec les personnes qui désirent vous offrir de leur temps libre pour faire aboutir vos projets.</p>
+                                 <img src="{{ asset('../img/icon-the-booster-secured-matching.png') }}" class="img-responsive icon_je_donne">
+                                 <p class="txt_list margin_txt">Grâce à un processus de Matching sécurisé, The Booster vous met en relation avec l'ensemble des personnes qui désirent vous offrir leur temps libre pour faire grandir vos idées et les transformer en actions, en réalisations.</p>
                              </div>
                          </div>
 
