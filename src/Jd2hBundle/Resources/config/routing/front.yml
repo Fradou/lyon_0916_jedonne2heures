@@ -6,7 +6,7 @@ front_homepage:
 front_quisommesnous:
     path: /quisommesnous
     defaults: { _controller: "Jd2hBundle:Front:quisommesnous"}
-    methods: GET
+    methods: [GET, POST]
 
 front_jedonne:
     path: /jedonne
