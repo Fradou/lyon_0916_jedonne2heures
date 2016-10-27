@@ -249,7 +249,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup5 {
-	background-image:url("../img/SKWAREJD2H.jpg");
+	background-image:url("../img/SKWARE-the-booster.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup6 {
@@ -357,8 +357,8 @@ span {
 }
 
 .home_btn_jqbar {
-	margin-left: -15px;
-	margin-right: -15px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #home_video_ext {
@@ -405,20 +405,6 @@ hr{
 
 
 /* WHO */
-
-.how_je_donne {
-	background:url("../img/the-booster-je-boost-2.jpg") no-repeat center fixed;
-	height: 50vh;
-	position: relative;
-	background-size: cover;
-}
-
-.how_je_propose {
-	background:url("../img/the-boost-je-propose-2.jpg") no-repeat center fixed;
-	height: 50vh;
-	position: relative;
-	background-size: cover;
-}
 
 .who_blocimg {
     text-align: center;
@@ -512,6 +498,19 @@ hr{
 
 /* HOW */
 
+.how_je_donne {
+	background:url("../img/the-booster-je-boost-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
+
+.how_je_propose {
+	background:url("../img/the-boost-je-propose-2.jpg") no-repeat center fixed;
+	height: 50vh;
+	position: relative;
+	background-size: cover;
+}
 
 .how_blocimg_int img {
 	width: 85%;
@@ -821,7 +820,7 @@ hr{
 	overflow: hidden;
 }
 #home_carousel_slide4{
-	background:url("../img/SKWAREJD2H.jpg") no-repeat center;
+	background:url("../img/SKWARE-the-booster.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
