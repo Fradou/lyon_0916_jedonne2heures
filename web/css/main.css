@@ -186,6 +186,7 @@ span {
 	width: 250px;
 	height: 175px;
 	margin-bottom: 5vh;
+	border: 3px solid dimgrey;
 }
 
 .home_blimg_startup img {
@@ -202,6 +203,7 @@ span {
 	margin-left: -15px;
 	padding: 0;
 	background-color: rgba(255,255,255,0);
+
 }
 
 .home_blimg_startuplogo:hover{
@@ -230,11 +232,11 @@ span {
 }
 
 #home_blimg_startup1 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/Mutum-Fondateurs.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup2 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/food&you.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup3 {
@@ -242,7 +244,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup4 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/tikaway.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup5 {
@@ -250,7 +252,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup6 {
-	background-image:url("../img/teststartup.jpg");
+	background-image:url("../img/2rivestv.jpg");
 	background-repeat: round;
 }
 
@@ -830,14 +832,29 @@ hr{
 	color: white;
 }
 
+
 #home_carousel_slide1{
+	background:url("../img/food&you.jpg") no-repeat center top;
+	background-size:  cover;
+	overflow: hidden;
+}
+#home_carousel_slide2{
+	background:url("../img/COMMEUNEARMOIREJD2H.jpg") no-repeat center top;
+	background-size:  cover;
+	overflow: hidden;
+}
+#home_carousel_slide3{
+	background:url("../img/tikaway.jpg") no-repeat center;
+	background-size:  cover;
+	overflow: hidden;
+}
+#home_carousel_slide4{
 	background:url("../img/SKWAREJD2H.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
-
-#home_carousel_slide2{
-	background:url("../img/COMMEUNEARMOIREJD2H.jpg") no-repeat center top;
+#home_carousel_slide5{
+	background:url("../img/2rivestv.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
@@ -966,6 +983,7 @@ hr{
 
 	.home_carousel_btn_lien {
 		margin: auto;
+		border-radius: 5px;
 	}
 }
 
