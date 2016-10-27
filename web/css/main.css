@@ -377,7 +377,6 @@ span {
 	padding-bottom: 15px;
 }
 
-
 #home_partenaire_list{
 	text-align: center;
 }
@@ -415,12 +414,6 @@ hr{
     font-weight: bold;
 }
 
-#who_blocimg_pic1 {
-}
-
-#who_blocimg_pic2 {
-}
-
 .who_bltxt {
 	text-align: center;
 }
@@ -443,23 +436,13 @@ hr{
     margin-bottom: 50px;
 }
 
-
-#who_bltxt_title {
-}
-
 #who_form_title {
 	text-align: center;
-}
-
-#who_form_contact{
 }
 
 .who_form_ext{
     margin-bottom: 80px;
 	background-color: #EAEAEA;
-}
-
-.who_form_ext h3{
 }
 
 #who_form{
@@ -468,9 +451,6 @@ hr{
 
 .who_img_portrait{
 	margin-left: 15px;
-}
-
-#whoh1_toppage{
 }
 
 .who_h2{
@@ -529,9 +509,6 @@ hr{
 	background-size: cover;
 }
 
-.how_blocimg_ext {
-}
-
 .how_blocimg_int img {
 	width: 85%;
 	height:auto;
@@ -546,18 +523,12 @@ hr{
 	border-radius: 20px;
 }
 
-.how_bloctxt_ext {
-}
-
 .how_bloctxt_int {
 	height:100%
 }
 
 #howp_bltxt {
 	text-align: center;
-}
-
-#howb_bltxt {
 }
 
 .how_form_ext {
@@ -567,12 +538,6 @@ hr{
 
 .how_form_int {
 	height:100%;
-}
-
-#howp_form {
-}
-
-#howb_form {
 }
 
 .how_btn_inscript {
@@ -599,9 +564,6 @@ hr{
 	text-align:center;
 }
 
-.how_btn_inscript .btn {
-
-}
 .h1_toppage{
 	margin-top:10vh;
 	font-size: 37px;
@@ -857,6 +819,8 @@ hr{
 .home_carousel_container-fluid {
 	text-align: center;
 	margin-top: -30px;
+	padding-left: 0;
+	padding-right: 0;
 }
 .home_carousel_block-over {
 	position: relative;
@@ -929,7 +893,6 @@ hr{
 		height: 15%;
 	}
 
-
 	.home_carousel_jedonne-over {
 		position: absolute;
 		right: 22%;
@@ -961,7 +924,6 @@ hr{
 		display: block;
 	}
 
-
 	.home_carousel_jepropose-over, .home_carousel_jedonne-over {
 		display: flex;
 		flex-direction: column;
@@ -979,14 +941,14 @@ hr{
 	}
 
 	.how_je_donne {
-		background:url("../img/the-booster-jedonne-responsive.jpg") no-repeat center fixed;
+		background:url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
 		height: 50vh;
 		position: relative;
 		background-size: cover;
 	}
 
 	.how_je_propose {
-		background:url("../img/the-booster-je-propose-responsive.jpg") no-repeat center 10 fixed;
+		background:url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
 		height: 50vh;
 		position: relative;
 		background-size: cover;
@@ -1089,4 +1051,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 /* MENTIONS LÉGALES */
 	.ml_title{
 		text-align: center;
+	}
+
+	.body_ml{
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
