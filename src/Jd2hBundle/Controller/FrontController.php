@@ -3,6 +3,7 @@
 namespace Jd2hBundle\Controller;
 
 
+use Jd2hBundle\Entity\Contact;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Jd2hBundle\Entity\Donneur;
@@ -15,9 +16,61 @@ class FrontController extends Controller {
             return $this->render('front/homepage.html.twig');
         }
 
-    public function quisommesnousAction()
+    public function quisommesnousAction(Request $request)
         {
-            return $this->render('front/quisommesnous.html.twig');
+            $contact = new Contact();
+            $form = $this->createForm('Jd2hBundle\Form\ContactType', $contact);
+            $form->handleRequest($request);
+
+            if ($form->isSubmitted() && $form->isValid()){
+                $mailer = $this->container->get('mailer');
+                $message = \Swift_Message::newInstance()
+                    ->setSubject('The Booster - Demande de contact')
+                    ->setFrom(array('projet.jd2h@gmail.com' => 'Admin The Booster'))
+                    /**     Remplacer par adresse où envoyer les infos pour chaque inscription **/
+                    ->setTo("projet.jd2h@gmail.com")
+                    ->setBody(
+                        '<html>' .
+                        '<head></head>' .
+                        '<body>' .
+                        '<h4>Demande de contact'.
+                        '</h4>' .
+                        '<p>Nom et prénom : '.$contact->getName().
+                        '<br>Mail de contact : '.$contact->getMail().
+                        '<br><br>Entreprise : '.$contact->getCompany().
+                        '<br><br>Sujet : '.$contact->getSubject().
+                        '<br>Message :<br>'.
+                        $contact->getMessage().
+                        '</body>' .
+                        '</html>',
+                        'text/html');
+
+                $mailer->send($message);
+
+                $mailer = $this->container->get('mailer');
+                $message = \Swift_Message::newInstance()
+                    ->setSubject("Demande de contact envoyé")
+                    ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
+                    ->setTo($contact->getMail())
+                    ->setBody(
+                        '<html>' .
+                        '<head></head>' .
+                        '<body>' .
+                        '<h4>Bonjour' . ucfirst($contact->getName()) .
+                        '</h4>
+                        <p>Nous vous remercions de votre intérêt. <br> Nous avons bien reçu votre demande de contact concernant "'.$contact->getSubject(). '" et reviendrons vers vous dans les plus brefs délais.<br><br> À très vite.<br> L\'équipe The Booster</p>.
+                        </body></html>',
+                        'text/html');
+
+                $mailer->send($message);
+
+                return $this->redirectToRoute('front_homepage');
+            }
+
+            return $this->render('front/quisommesnous.html.twig', array(
+            'contact' => $contact,
+            'form' => $form->createView(),
+        ));
         }
 
     public function inscriptionokAction()
@@ -122,8 +175,8 @@ class FrontController extends Controller {
 
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance()
-                    ->setSubject('Inscription à Je donne 2 heures')
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
+                    ->setSubject("Confirmation d'inscription à The Booster")
+                    ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
                     ->setTo($entrepreneur->getMailAddress())
                     ->setBody(
                         '<html>' .
