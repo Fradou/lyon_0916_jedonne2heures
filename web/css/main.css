@@ -239,7 +239,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup3 {
-	background-image:url("../img/COMMEUNEARMOIREJD2H.jpg");
+	background-image:url("../img/COMMEUNEARMOIRETB.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup4 {
@@ -405,14 +405,14 @@ hr{
 /* WHO */
 
 .how_je_donne {
-	background:url("../img/je-donne-2-heures-je-donne-2.jpg") no-repeat center fixed;
+	background:url("../img/the-booster-je-boost-2.jpg") no-repeat center fixed;
 	height: 50vh;
 	position: relative;
 	background-size: cover;
 }
 
 .how_je_propose {
-	background:url("../img/je-donne-2-heures-je-propose-2.jpg") no-repeat center fixed;
+	background:url("../img/the-boost-je-propose-2.jpg") no-repeat center fixed;
 	height: 50vh;
 	position: relative;
 	background-size: cover;
@@ -841,7 +841,7 @@ hr{
 }
 
 #home_carousel_slide2{
-	background:url("../img/COMMEUNEARMOIREJD2H.jpg") no-repeat center top;
+	background:url("../img/COMMEUNEARMOIRETB.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
@@ -980,14 +980,14 @@ hr{
 	}
 
 	.how_je_donne {
-		background:url("../img/je-donne-2-heures-je-donne-responsive.jpg") no-repeat center fixed;
+		background:url("../img/the-booster-jedonne-responsive.jpg") no-repeat center fixed;
 		height: 50vh;
 		position: relative;
 		background-size: cover;
 	}
 
 	.how_je_propose {
-		background:url("../img/je-donne-2-heures-je-propose-responsive.jpg") no-repeat center 10 fixed;
+		background:url("../img/the-booster-je-propose-responsive.jpg") no-repeat center 10 fixed;
 		height: 50vh;
 		position: relative;
 		background-size: cover;
