@@ -32,4 +32,10 @@ class BackController extends Controller
     {
         return $this->render('back/consultation.html.twig');
     }
+
+    public function userAction()
+    {
+    }
 }
+
+
