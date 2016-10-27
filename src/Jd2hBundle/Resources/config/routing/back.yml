@@ -1,15 +1,16 @@
-admin:
+back_admin:
     path:     /admin
     defaults: { _controller: "Jd2hBundle:Back:admin" }
 
-login:
+back_login:
     path:     /login
     defaults: { _controller: "Jd2hBundle:Back:login"}
-
-logout:
-    path:     /logout
 
 back_user:
     path: /user
     defaults: { _controller: "Jd2hBundle:Back:user" }
     methods: GET
+
+back_logout:
+    path:     /logout
+
