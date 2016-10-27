@@ -864,10 +864,7 @@ hr{
 .home_carousel_over {
 	margin: -45px 0 0 0;
 }
-.row {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
+
 
 .home_carousel_presentation p {
 	text-align: center;
@@ -876,6 +873,7 @@ hr{
 
 
 @media screen and (max-width : 1310px) and (min-width: 976px)  {
+
 	.home_carousel_jepropose-over h2, .home_carousel_jedonne-over h2{
 		font-size: 0.9em;
 	}
@@ -1040,6 +1038,8 @@ hr{
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 1) {
+
+
 	.navbar-collapse.collapse {
 		display: none !important;
 	}
