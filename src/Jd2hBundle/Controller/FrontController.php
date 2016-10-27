@@ -50,9 +50,9 @@ class FrontController extends Controller {
                         '<html>' .
                         '<head></head>' .
                         '<body>' .
-                        '<h4>Bienvenue sur The Booster' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
+                        '<h4>Bienvenue sur The Booster ' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription. Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrêtement les Entrepreneurs et l'Économie. À très vite. L'équipe The Booster</p>".
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription. Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrêtement les Entrepreneurs et l'Économie.<br> À très vite.<br> L'équipe The Booster</p>".
                         '</body>' .
                         '</html>',
                         'text/html');
@@ -91,9 +91,9 @@ class FrontController extends Controller {
                         '<html>' .
                         '<head></head>' .
                         '<body>' .
-                        '<h4>Bienvenue sur The Booster!' . ucfirst($entrepreneur->getFirstName()) . ' ' .ucfirst($entrepreneur->getName()) .
+                        '<h4>Bienvenue sur The Booster ' . ucfirst($entrepreneur->getFirstName()) . ' ' .ucfirst($entrepreneur->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription. Découvrez très bientôt comment le monde entier, en vous offrant un peu de son temps libre, va vous aider à réaliser vos projets et à grandir. À très vite. L'équipe The Booster </p >".                       '</body>' .
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription. Découvrez très bientôt comment le monde entier, en vous offrant un peu de son temps libre, va vous aider à réaliser vos projets et à grandir.<br> À très vite.<br> L'équipe The Booster </p >".                       '</body>' .
                         '</html>',
                         'text/html');
                 $mailer->send($message);
