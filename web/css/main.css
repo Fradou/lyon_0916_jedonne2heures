@@ -1086,3 +1086,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		text-align: center;
 	}
 
+	.body_ml{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
