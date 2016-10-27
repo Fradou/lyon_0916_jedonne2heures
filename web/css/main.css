@@ -79,13 +79,14 @@ span {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-right: 20px;
 }
 
 .nav_networks img {
 	height: 32px;
 	opacity: 0.5;
 	margin-top: 3.5vh;
-	padding: 1px;
+	padding: 1px 3px 1px 3px;
 }
 
 .nav_networks img:hover {
@@ -238,7 +239,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup3 {
-	background-image:url("../img/COMMEUNEARMOIREJD2H.jpg");
+	background-image:url("../img/COMMEUNEARMOIRETB.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup4 {
@@ -339,7 +340,7 @@ span {
 
 #home_btn_jqbar1 {
 	background: #e60f33;
-	margin-top: 4vh;
+	margin-top: 30px;
 	height: 9vh;
 	color: white;
 	text-align: center;
@@ -352,6 +353,10 @@ span {
 #home_btn_jqbar2 {
 }
 
+.home_btn_jqbar {
+	margin-left: -15px;
+	margin-right: -15px;
+}
 
 #home_video_ext {
 	text-align: center;
@@ -399,14 +404,14 @@ hr{
 /* WHO */
 
 .how_je_donne {
-	background:url("../img/je-donne-2-heures-je-donne-2.jpg") no-repeat center fixed;
+	background:url("../img/the-booster-je-boost-2.jpg") no-repeat center fixed;
 	height: 50vh;
 	position: relative;
 	background-size: cover;
 }
 
 .how_je_propose {
-	background:url("../img/je-donne-2-heures-je-propose-2.jpg") no-repeat center fixed;
+	background:url("../img/the-boost-je-propose-2.jpg") no-repeat center fixed;
 	height: 50vh;
 	position: relative;
 	background-size: cover;
@@ -421,12 +426,6 @@ hr{
 .who_blocimg h2 {
     font-size: 20px;
     font-weight: bold;
-}
-
-#who_blocimg_pic1 {
-}
-
-#who_blocimg_pic2 {
 }
 
 .who_bltxt {
@@ -451,23 +450,13 @@ hr{
     margin-bottom: 50px;
 }
 
-
-#who_bltxt_title {
-}
-
 #who_form_title {
 	text-align: center;
-}
-
-#who_form_contact{
 }
 
 .who_form_ext{
     margin-bottom: 80px;
 	background-color: #EAEAEA;
-}
-
-.who_form_ext h3{
 }
 
 #who_form{
@@ -476,9 +465,6 @@ hr{
 
 .who_img_portrait{
 	margin-left: 15px;
-}
-
-#whoh1_toppage{
 }
 
 .who_h2{
@@ -524,9 +510,6 @@ hr{
 /* HOW */
 
 
-.how_blocimg_ext {
-}
-
 .how_blocimg_int img {
 	width: 85%;
 	height:auto;
@@ -541,18 +524,12 @@ hr{
 	border-radius: 20px;
 }
 
-.how_bloctxt_ext {
-}
-
 .how_bloctxt_int {
 	height:100%
 }
 
 #howp_bltxt {
 	text-align: center;
-}
-
-#howb_bltxt {
 }
 
 .how_form_ext {
@@ -562,12 +539,6 @@ hr{
 
 .how_form_int {
 	height:100%;
-}
-
-#howp_form {
-}
-
-#howb_form {
 }
 
 .how_btn_inscript {
@@ -594,9 +565,6 @@ hr{
 	text-align:center;
 }
 
-.how_btn_inscript .btn {
-
-}
 .h1_toppage{
 	margin-top:10vh;
 	font-size: 37px;
@@ -835,7 +803,7 @@ hr{
 }
 
 #home_carousel_slide2{
-	background:url("../img/COMMEUNEARMOIREJD2H.jpg") no-repeat center top;
+	background:url("../img/COMMEUNEARMOIRETB.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
@@ -974,14 +942,14 @@ hr{
 	}
 
 	.how_je_donne {
-		background:url("../img/je-donne-2-heures-je-donne-responsive.jpg") no-repeat center;
+		background:url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
 		height: 50vh;
 		position: relative;
 		background-size: cover;
 	}
 
 	.how_je_propose {
-		background:url("../img/je-donne-2-heures-je-propose-responsive.jpg") no-repeat center;
+		background:url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
 		height: 50vh;
 		position: relative;
 		background-size: cover;
