@@ -41,10 +41,10 @@ class FrontController extends Controller {
                  * Envoie mail-auto de validation d'inscription
                  */
 
-                $message = \Swift_Message::newInstance();
+ /*             $message = \Swift_Message::newInstance();
 
-                $mailer = $this->container->get('mailer');
-/*
+
+
                 $message->setSubject('Inscription à Je donne 2 heures')
                         ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
                         ->setTo($donneur->getMailAddress())
@@ -56,7 +56,7 @@ class FrontController extends Controller {
                         '</h1>'.
                          //<img src="'  .$message->embed(\Swift_Image::fromPath('localhost/Projets/lyon_jedonne2heures/web/img/je-donne-2-heures-logo-header2.png')) .
                          //'" alt="" />
-*/
+*/              $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance()
                     ->setSubject("Confirmation d'inscription à The Booster")
                     ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
