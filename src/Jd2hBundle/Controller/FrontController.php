@@ -44,7 +44,7 @@ class FrontController extends Controller {
                 $message = \Swift_Message::newInstance();
 
                 $mailer = $this->container->get('mailer');
-<<<<<<< HEAD
+/*
                 $message->setSubject('Inscription à Je donne 2 heures')
                         ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
                         ->setTo($donneur->getMailAddress())
@@ -56,7 +56,7 @@ class FrontController extends Controller {
                         '</h1>'.
                          //<img src="'  .$message->embed(\Swift_Image::fromPath('localhost/Projets/lyon_jedonne2heures/web/img/je-donne-2-heures-logo-header2.png')) .
                          //'" alt="" />
-=======
+*/
                 $message = \Swift_Message::newInstance()
                     ->setSubject("Confirmation d'inscription à The Booster")
                     ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
@@ -91,7 +91,6 @@ class FrontController extends Controller {
                         '<br>Adresse : '.$donneur->getTown().", ".$donneur->getCountry().
                         '<br>Statut : '.$donneur->getStatus().
                         '<br>Prêt à donner : '.$donneur->getHour().' heures'.
->>>>>>> 22e30b3a84a5d2649e407be61fd78ee03cf7265e
                         '</body>' .
                         '</html>',
                         'text/html');
