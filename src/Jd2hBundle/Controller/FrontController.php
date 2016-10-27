@@ -46,7 +46,16 @@ class FrontController extends Controller {
                     ->setSubject("Confirmation d'inscription à The Booster")
                     ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
                     ->setTo($donneur->getMailAddress())
-                    ->setBody($this->render('back/inscriptmail.html.twig', array('donneur' => $donneur)),'text/html');
+                    ->setBody(
+                        '<html>' .
+                        '<head></head>' .
+                        '<body>' .
+                        '<h4>Bienvenue sur The Booster ' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
+                        '</h4>' .
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br> L'équipe The Booster</p>".
+                        '</body>' .
+                        '</html>',
+                        'text/html');
 
                 $mailer->send($message);
 

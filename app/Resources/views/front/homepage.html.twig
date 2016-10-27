@@ -1,6 +1,10 @@
 {% extends "base.html.twig" %}
 
-{%  block title %}Je Donne 2 Heures, le 1er site de crowdtiming{% endblock %}
+{% block title %}Je Donne 2 Heures, le 1er site de crowdtiming{% endblock %}
+
+{% block pageDescription %}The Booster est le 1er site de CrowdTiming qui met en relation les Boostés, des entrepreneurs désireux de concrétiser leurs idées et projets, avec les Boosters, ces personnes désireuses d'offrir une partie de leur temps libre pour faire bouger l'économie.{% endblock %}
+
+
 {% block stylesheets %}
 <!-- Youtube load video on click script for index -->
 <script src="{{ asset('js/videoload.js')}}"></script>
@@ -43,7 +47,7 @@
 
         <div class="col-xs-12 home_carousel_block-over  bl home_carousel_title-over">
             <div class=" home_carousel_logo-over">
-                <img class="home_carousel_img-logo" src="{{ asset('img/clock-jd2h-white-border.png') }}" alt="Logo je donne 2 heures" >
+                <img class="home_carousel_img-logo" src="{{ asset('img/clock-tb-white-border.png') }}" alt="Logo je donne 2 heures" >
             </div>
             <h1 class="home_carousel_slogan">Je Donne 2 Heures<br/>le 1er site de crowdtiming arrive prochainement</h1>
             <h3 class="home_carousel_inscription">Inscrivez-vous aujourd'hui</h3>
@@ -65,7 +69,7 @@
 
 
     <!-- Transition row -->
-    <div class="row hidden-xs hidden-sm home_btn_jqbar" id="home_btn_jqbar1" >
+    <div class="row hidden-xs home_btn_jqbar" id="home_btn_jqbar1" >
         <div class="col-xs-offset-3 col-xs-1 animated bounce">
             <img src="{{ asset('/img/arrowdown.png') }}" class="fa fa-angle-double-down">
         </div>
