@@ -249,7 +249,7 @@ span {
 	background-repeat: round;
 }
 #home_blimg_startup5 {
-	background-image:url("../img/SKWAREJD2H.jpg");
+	background-image:url("../img/SKWARE-the-booster.jpg");
 	background-repeat: round;
 }
 #home_blimg_startup6 {
@@ -356,8 +356,8 @@ span {
 }
 
 .home_btn_jqbar {
-	margin-left: -15px;
-	margin-right: -15px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 #home_video_ext {
@@ -819,7 +819,7 @@ hr{
 	overflow: hidden;
 }
 #home_carousel_slide4{
-	background:url("../img/SKWAREJD2H.jpg") no-repeat center;
+	background:url("../img/SKWARE-the-booster.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
