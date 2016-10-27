@@ -32,19 +32,25 @@
 
         <link href="{{ asset('css/main.css')}}">
 
-        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-        <script type="text/javascript">
-            window.cookieconsent_options =
-            {
-                "message":"En poursuivant votre navigation sur le site, vous acceptez l’utilisation des cookies pour vous proposer des contenus et services adaptés à vos centres d’intérêt.",
-                "dismiss":"J'accepte",
-                "learnMore":"Plus d'informations",
-                "link":null,
-                "theme":"dark-bottom"
-            };
+        <!-- Cookie Banner -->
+        <script type="text/javascript" id="cookieinfo"
+                src="//cookieinfoscript.com/js/cookieinfo.min.js"
+                data-bg="#747475"
+                data-fg="#FFFFFF"
+                data-link="#FFFFFF"
+                data-linkmsg="Plus d'informations"
+                data-font-size="13px"
+                data-moreinfo="/mentionslegales"
+                data-cookie="CookieInfoScript"
+                data-text-align="left"
+                data-message="En poursuivant votre navigation sur le site, vous acceptez l’utilisation des cookies pour vous proposer des contenus et services adaptés à vos centres d’intérêts."
+                data-position="bottom"
+                data-divlink="#ffffff"
+                data-divlinkbg="#8e8e8e"
+                data-accept-on-scroll="false"
+                data-close-text="J'accepte">
         </script>
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-        <!-- End Cookie Consent plugin -->
+
 
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
