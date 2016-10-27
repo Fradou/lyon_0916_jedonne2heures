@@ -1,0 +1,27 @@
+Jd2hBundle\Entity\Contact:
+    type: entity
+    table: null
+    repositoryClass: Jd2hBundle\Repository\ContactRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '100'
+        company:
+            type: string
+            length: '50'
+            nullable: true
+        mail:
+            type: string
+            length: '50'
+        subject:
+            type: string
+            length: '50'
+        message:
+            type: text
+    lifecycleCallbacks: {  }
