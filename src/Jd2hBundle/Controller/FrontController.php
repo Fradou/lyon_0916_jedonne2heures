@@ -46,16 +46,7 @@ class FrontController extends Controller {
                     ->setSubject("Confirmation d'inscription à The Booster")
                     ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
                     ->setTo($donneur->getMailAddress())
-                    ->setBody(
-                        '<html>' .
-                        '<head></head>' .
-                        '<body>' .
-                        '<h4>Bienvenue sur The Booster ' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
-                        '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrêtement les Entrepreneurs et l'Économie.<br><br> À très vite.<br> L'équipe The Booster</p>".
-                        '</body>' .
-                        '</html>',
-                        'text/html');
+                    ->setBody($this->render('back/inscriptmail.html.twig', array('donneur' => $donneur)),'text/html');
 
                 $mailer->send($message);
 
@@ -107,8 +98,8 @@ class FrontController extends Controller {
 
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance()
-                    ->setSubject('Inscription à Je donne 2 heures')
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
+                    ->setSubject("Confirmation d'inscription à The Booster")
+                    ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
                     ->setTo($entrepreneur->getMailAddress())
                     ->setBody(
                         '<html>' .
