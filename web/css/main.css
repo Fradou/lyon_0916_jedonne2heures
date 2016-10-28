@@ -236,7 +236,7 @@ span {
 }
 
 #home_blimg_startup1 {
-	background-image:url("../img/Mutum-Fondateurs.jpg");
+	background-image:url("../img/MUTUM.png");
 	background-repeat: round;
 }
 #home_blimg_startup2 {
@@ -887,7 +887,7 @@ hr{
 }
 
 
-@media screen and (max-width : 1310px) and (min-width: 976px)  {
+@media screen and (max-width : 1500px) and (min-width: 976px)  {
 
 	.home_carousel_jepropose-over h2, .home_carousel_jedonne-over h2{
 		font-size: 0.9em;
@@ -1032,18 +1032,23 @@ hr{
 
 }
 @media screen and (max-height: 450px){
-	.home_carousel_presentation {
-		top: 40%;
-		height: 60%;
-	}
+	background:url("../img/MUTUM.png") no-repeat center top;
 
 }
+
 @media screen and (max-width: 350px){
 
 .home_carousel_btn_lien {
 	font-size: 0.8em;
 	padding: 7px 20px;
 }
+}
+
+@media screen and (min-width: 1300px){
+
+	#home_carousel_slide3{
+		background:url("../img/MUTUM.png") no-repeat center;
+	}
 }
 
 
