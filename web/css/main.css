@@ -816,13 +816,13 @@ hr{
 	color: white;
 }
 
-#home_carousel_slide3{
+#home_carousel_slide1{
 	background:url("../img/MUTUM.png") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
 
-#home_carousel_slide1{
+#home_carousel_slide3{
 	background:url("../img/food&you.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
@@ -1045,7 +1045,7 @@ hr{
 
 @media screen and (min-width: 1300px){
 
-	#home_carousel_slide3{
+	#home_carousel_slide1{
 		background:url("../img/MUTUM.png") no-repeat center;
 	}
 }
