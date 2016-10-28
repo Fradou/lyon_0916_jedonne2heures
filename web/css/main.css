@@ -403,6 +403,11 @@ hr{
 	text-align: center;
 }
 
+.home_time_booster {
+	width: 500px;
+	padding: 5vh;
+	display: unset;
+}
 
 /* WHO */
 
@@ -444,7 +449,6 @@ hr{
 }
 
 .who_form_ext{
-    margin-bottom: 80px;
 	background-color: #EAEAEA;
 }
 
@@ -1094,6 +1098,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	.navbar-collapse.in {
 		overflow-y: unset;
 		padding-bottom: 3vh;
+	}
+	.home_time_booster {
+		margin: auto;
 	}
 }
 
