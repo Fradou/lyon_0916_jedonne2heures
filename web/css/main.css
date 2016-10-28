@@ -816,13 +816,13 @@ hr{
 	color: white;
 }
 
-#home_carousel_slide3{
+#home_carousel_slide1{
 	background:url("../img/MUTUM.png") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
 
-#home_carousel_slide1{
+#home_carousel_slide3{
 	background:url("../img/food&you.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
@@ -908,6 +908,28 @@ hr{
 		font-size: 0.71em ;
 	}
 
+}
+
+@media screen and (min-width : 1300px) and (min-height: 750px)  {
+
+	.home_carousel_jepropose-over h2, .home_carousel_jedonne-over h2{
+		font-size: 1.2em;
+	}
+	.home_carousel_jedonne-over p, .home_carousel_jepropose-over p{
+		font-size: 1.2em;
+	}
+	.home_carousel_jedonne-over a, .home_carousel_jepropose-over a{
+		font-size: 1.5em ;
+	}
+	.home_carousel_title-over h1{
+		font-size: 1.2em;
+	}
+	.home_carousel_jedonne-over a, .home_carousel_jepropose-over a{
+		font-size: 1.3em ;
+	}
+	.home_carousel_presentation{
+		font-size: 1.2em;
+	}
 }
 
 @media screen and (min-width : 976px) and (min-height: 550px) {
