@@ -742,7 +742,7 @@ hr{
 }
 
 .home_carousel_btn_lien:hover {
-	background-color: rgba(230, 15, 51, 0.51);
+	background-color: rgb(255, 50, 80);
 	color: white;
 	text-decoration: none;
 }
@@ -867,6 +867,7 @@ hr{
 	position: relative;
 	background-color: white;
 	margin-top: -50px;
+	border: 1px solid gainsboro;
 
 }
 
