@@ -240,7 +240,7 @@ n d'inscription
     }
 
     public function errorAction()
-        {
-            return $this->render('front/error404.html.twig');
-        }
+    {
+        return $this->render('front/error404.html.twig');
+    }
 }
