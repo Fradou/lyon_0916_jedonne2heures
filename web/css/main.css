@@ -816,23 +816,23 @@ hr{
 	color: white;
 }
 
-#home_carousel_slide1{
+#home_carousel_slide3{
 	background:url("../img/MUTUM.png") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
 
-#home_carousel_slide2{
+#home_carousel_slide1{
 	background:url("../img/food&you.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
-#home_carousel_slide3{
+#home_carousel_slide4{
 	background:url("../img/COMMEUNEARMOIRETB.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
-#home_carousel_slide4{
+#home_carousel_slide2{
 	background:url("../img/tikaway.png") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
