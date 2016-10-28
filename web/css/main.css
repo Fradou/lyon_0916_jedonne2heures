@@ -1148,3 +1148,21 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .row_lw{
         margin-bottom: 9vh;
     }
+
+/* INSCRIPTION VALIDE */
+	.block_title_subs{
+		text-align: center;
+	}
+	
+	.link_subs{
+		color: dimgrey;
+	}
+
+    .link_subs_block{
+        text-align: center;
+    }
+
+/* ERROR 404 */
+    .block_error{
+        text-align: center;
+    }
