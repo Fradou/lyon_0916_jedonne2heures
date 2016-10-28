@@ -449,7 +449,6 @@ hr{
 }
 
 .who_form_ext{
-    margin-bottom: 80px;
 	background-color: #EAEAEA;
 }
 
@@ -735,6 +734,10 @@ hr{
 .home_carousel_btn_lien:hover {
 	background-color: rgba(230, 15, 51, 0.51);
 	color: white;
+	text-decoration: none;
+}
+
+.home_carousel_btn_lien a:visited {
 	text-decoration: none;
 }
 
@@ -1099,6 +1102,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	.navbar-collapse.in {
 		overflow-y: unset;
 		padding-bottom: 3vh;
+	}
+	.home_time_booster {
+		margin: auto;
 	}
 }
 
