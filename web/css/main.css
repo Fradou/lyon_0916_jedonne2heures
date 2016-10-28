@@ -405,11 +405,18 @@ hr{
 .hr_video_hp{
 	text-align: center;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
 
-    #home_startup_list a {
-      margin-left:-7%;
-    }
+	#home_startup_list a {
+		margin-left: -7%;
+	}
+}
+
+.home_time_booster {
+	width: 500px;
+	padding: 5vh;
+	display: unset;
+
 }
 
 /* WHO */
@@ -452,7 +459,6 @@ hr{
 }
 
 .who_form_ext{
-    margin-bottom: 80px;
 	background-color: #EAEAEA;
 }
 
@@ -598,8 +604,6 @@ hr{
 }
 
 /* CSS tempo */
-
-
 
 @media screen and (min-width: 1600px) {
 
@@ -1106,6 +1110,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	.navbar-collapse.in {
 		overflow-y: unset;
 		padding-bottom: 3vh;
+	}
+	.home_time_booster {
+		margin: auto;
 	}
 }
 

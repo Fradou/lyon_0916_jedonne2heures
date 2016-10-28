@@ -18,7 +18,7 @@ class EntrepreneurType extends AbstractType
             ->add('country', ChoiceType::class, array ('choices' => array('France'=>'France', 'Europe' => 'Europe', 'Reste du monde' => 'Reste du monde')))
             ->add('company')
             ->add('position', ChoiceType::class, array ('choices' => array('Fondateur'=>'Fondateur', 'Porteur de projet'=>'Porteur de projet', 'Dirigeant' => 'Dirigeant', 'Autre' => 'Autre')))
-            ->add('activity', ChoiceType::class, array ('choices' => array('Agroalimentaire' => 'Agroalimentaire','Automobile'=>'Automobile', 'Banque/Assurance' => 'Banque/Assurance', 'BTP'=>'BTP', 'Chimie'=>'Chimie', 'Commerce'=>'Commerce', 'Electronique'=>'Electronique', 'Industrie pharmaceutique'=>'Industrie pharmaceutique','Informatique / Télécoms'=>'Informatique / Télécoms', 'Métallurgie'=>'Métallurgie','Multimédia'=>'Multimédia','Service aux entreprises'=>'Service aux entreprises','Textiles'=>'Textiles', 'Autres...'=>'Autres...')))        ;
+            ->add('activity', ChoiceType::class, array ('choices' => array('Agroalimentaire' => 'Agroalimentaire','Automobile'=>'Automobile', 'Banque/Assurance' => 'Banque/Assurance', 'BTP'=>'BTP', 'Chimie'=>'Chimie', 'Commerce'=>'Commerce', 'Electronique'=>'Electronique', 'Industrie pharmaceutique'=>'Industrie pharmaceutique','Informatique / Télécoms'=>'Informatique / Télécoms', 'Métallurgie'=>'Métallurgie','Multimédia'=>'Multimédia','Service aux entreprises'=>'Service aux entreprises','Textiles'=>'Textiles', 'Autres'=>'Autres')))        ;
     }
     
     /**
