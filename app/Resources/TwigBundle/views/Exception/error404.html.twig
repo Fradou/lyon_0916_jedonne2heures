@@ -5,8 +5,10 @@
 {% block body %}
 
     <div class="row all_blsp"></div>
-
-    <h1>Page non trouvée</h1>
+        <div class="block_error">
+            <h1 class="h1_toppage">Page non trouvée</h1>
+            <hr>
+        </div>
 
     {% if is_granted('IS_AUTHENTICATED_FULLY') %}
         {# ... #}
