@@ -696,7 +696,7 @@ hr{
 
 
 .home_carousel_slogan{
-	font-size: 1.4em;
+	font-size: 1.3em;
 	font-weight: 900;
 	color: #E60F33;
 }
@@ -882,7 +882,7 @@ hr{
 	.home_carousel_jedonne-over a, .home_carousel_jepropose-over a{
 		font-size: 1em ;
 	}
-	.home_carousel_title-over h1, h2{
+	.home_carousel_title-over h1{
 		font-size: 1em;
 	}
 	.home_carousel_jedonne-over a, .home_carousel_jepropose-over a{
@@ -961,6 +961,21 @@ hr{
 
 }
 
+@media screen and (max-width: 1024px) {
+    .how_je_donne {
+        background: url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
+        height: 50vh;
+        position: relative;
+        background-size: cover;
+    }
+
+    .how_je_propose {
+        background: url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
+        height: 50vh;
+        position: relative;
+        background-size: cover;
+    }
+}
 
 @media screen and (max-width: 975px), screen and (max-height: 550px) {
 	#home_btn_jqbar1{
@@ -968,20 +983,6 @@ hr{
 	}
 	.hr_video_hp{
 		margin-top: 28px;
-	}
-
-	.how_je_donne {
-		background:url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
-		height: 50vh;
-		position: relative;
-		background-size: cover;
-	}
-
-	.how_je_propose {
-		background:url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
-		height: 50vh;
-		position: relative;
-		background-size: cover;
 	}
 
 	.home_carousel_presentation {
@@ -1106,3 +1107,24 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
+
+
+/* PLAN DU SITE */
+
+	.list_sm{
+		line-height: 35px;
+	}
+
+	.menu a{
+		color: black;
+		text-decoration: none;
+	}
+
+	.body_sm{
+		margin-top: 80px;
+		margin-bottom: 40px;
+
+	}
+    .row_lw{
+        margin-bottom: 9vh;
+    }
