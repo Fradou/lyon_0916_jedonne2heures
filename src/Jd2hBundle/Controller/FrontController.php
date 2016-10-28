@@ -64,7 +64,7 @@ class FrontController extends Controller {
 
                 $mailer->send($message);
 
-                return $this->redirectToRoute('front_homepage');
+                return $this->redirectToRoute('front_contactok');
             }
 
             return $this->render('front/quisommesnous.html.twig', array(
@@ -76,6 +76,11 @@ class FrontController extends Controller {
     public function inscriptionokAction()
         {
             return $this->render('front/inscriptionvalide.html.twig');
+        }
+
+    public function contactokAction()
+        {
+            return $this->render('front/demandecontact.html.twig');
         }
 
     public function jedonneAction(Request $request)
@@ -91,7 +96,8 @@ class FrontController extends Controller {
                 $em->flush($donneur);
 
                 /*
-                 * Envoie mail-auto de validation d'inscription
+                 * Envoie mail-auto de validatioInscription validée
+n d'inscription
                  */
 
  /*             $message = \Swift_Message::newInstance();
@@ -152,7 +158,7 @@ class FrontController extends Controller {
 
 
 
-                return $this->redirectToRoute('front_inscriptok', array('id' => $donneur->getId()));
+                return $this->redirectToRoute('front_inscriptok');
             }
 
             return $this->render('front/jedonne.html.twig', array(
@@ -214,7 +220,7 @@ class FrontController extends Controller {
                 $mailer->send($message);
 
 
-                return $this->redirectToRoute('front_inscriptok', array('id' => $entrepreneur->getId()));
+                return $this->redirectToRoute('front_inscriptok');
             }
 
             return $this->render('front/jepropose.html.twig', array(
