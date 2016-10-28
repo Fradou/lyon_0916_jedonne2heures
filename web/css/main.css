@@ -5,8 +5,11 @@
 
 body {
     padding-top: 11vh;
-}
 
+}
+html{
+
+}
 p {
  	text-align:justify;
  	font-family: 'Source Sans Pro', sans-serif;
@@ -233,7 +236,7 @@ span {
 }
 
 #home_blimg_startup1 {
-	background-image:url("../img/Mutum-Fondateurs.jpg");
+	background-image:url("../img/MUTUM.png");
 	background-repeat: round;
 }
 #home_blimg_startup2 {
@@ -402,11 +405,18 @@ hr{
 .hr_video_hp{
 	text-align: center;
 }
+@media screen and (max-width: 500px) {
+
+	#home_startup_list a {
+		margin-left: -7%;
+	}
+}
 
 .home_time_booster {
 	width: 500px;
 	padding: 5vh;
 	display: unset;
+
 }
 
 /* WHO */
@@ -595,8 +605,6 @@ hr{
 
 /* CSS tempo */
 
-
-
 @media screen and (min-width: 1600px) {
 
 	#home_startup_list a {
@@ -773,18 +781,17 @@ hr{
 .home_carousel_navi span {
 	opacity: 0.2;
 	background: Black;
-	color: #696969;
+	color: ghostwhite;
 	padding: 6px 6px;
 	margin-left: 5px;
 	width: 10px;
 	height: 10px;
 	border: solid 1px currentColor;
 	border-radius: 8px;
-
 }
 
 .home_carousel_navi span:hover, .home_carousel_navi span.active {
-	background: #696969;
+	background: whitesmoke;
 	color: black;
 	cursor: pointer;
 	opacity: 1;
@@ -807,28 +814,33 @@ hr{
 	color: white;
 }
 
+#home_carousel_slide3{
+	background:url("../img/MUTUM.png") no-repeat center top;
+	background-size:  cover;
+	overflow: hidden;
+}
 
 #home_carousel_slide1{
 	background:url("../img/food&you.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
-#home_carousel_slide2{
+#home_carousel_slide4{
 	background:url("../img/COMMEUNEARMOIRETB.jpg") no-repeat center top;
 	background-size:  cover;
 	overflow: hidden;
 }
-#home_carousel_slide3{
+#home_carousel_slide2{
 	background:url("../img/tikaway.png") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
-#home_carousel_slide4{
+#home_carousel_slide5{
 	background:url("../img/SKWARE-the-booster.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
 }
-#home_carousel_slide5{
+#home_carousel_slide6{
 	background:url("../img/2rivestv.jpg") no-repeat center;
 	background-size:  cover;
 	overflow: hidden;
@@ -875,7 +887,7 @@ hr{
 }
 
 
-@media screen and (max-width : 1310px) and (min-width: 976px)  {
+@media screen and (max-width : 1500px) and (min-width: 976px)  {
 
 	.home_carousel_jepropose-over h2, .home_carousel_jedonne-over h2{
 		font-size: 0.9em;
@@ -1020,18 +1032,23 @@ hr{
 
 }
 @media screen and (max-height: 450px){
-	.home_carousel_presentation {
-		top: 40%;
-		height: 60%;
-	}
+	background:url("../img/MUTUM.png") no-repeat center top;
 
 }
+
 @media screen and (max-width: 350px){
 
 .home_carousel_btn_lien {
 	font-size: 0.8em;
 	padding: 7px 20px;
 }
+}
+
+@media screen and (min-width: 1300px){
+
+	#home_carousel_slide3{
+		background:url("../img/MUTUM.png") no-repeat center;
+	}
 }
 
 
@@ -1134,4 +1151,22 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
     .row_lw{
         margin-bottom: 9vh;
+    }
+
+/* INSCRIPTION VALIDE */
+	.block_title_subs{
+		text-align: center;
+	}
+	
+	.link_subs{
+		color: dimgrey;
+	}
+
+    .link_subs_block{
+        text-align: center;
+    }
+
+/* ERROR 404 */
+    .block_error{
+        text-align: center;
     }
