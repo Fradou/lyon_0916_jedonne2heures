@@ -695,16 +695,6 @@ hr{
 	}
 }
 
-@media (max-width: 767px) {
-	.navbar-collapse {
-		padding-bottom: 2vh;
-		max-height: unset !important;
-	}
-	.navbar-collapse.in {
-		overflow-y: unset;
-	}
-}
-
 
 /* CAROUSEL */
 
@@ -1000,22 +990,6 @@ hr{
 	}
 }
 
-@media screen and (max-width: 1024px) {
-    .how_je_donne {
-        background: url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
-        height: 50vh;
-        position: relative;
-        background-size: cover;
-    }
-
-    .how_je_propose {
-        background: url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
-        height: 50vh;
-        position: relative;
-        background-size: cover;
-    }
-}
-
 @media screen and (max-width: 975px), screen and (max-height: 550px) {
 	#home_btn_jqbar1{
 		display: none;
@@ -1103,11 +1077,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	#myNavbar li {
 		width: 100% !important;
 	}
-	#myNavbar {
-		display: flex !important;
-		flex-flow: column wrap !important;
-		flex-wrap: wrap !important;
-	}
 	.navbar-right {
 		float: none !important;
 		margin-right: 0 !important;
@@ -1134,6 +1103,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
 	.home_time_booster {
 		margin: auto;
+	}
+	.how_je_donne {
+		background: url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
+		height: 50vh;
+		position: relative;
+		background-size: cover;
+	}
+
+	.how_je_propose {
+		background: url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
+		height: 50vh;
+		position: relative;
+		background-size: cover;
 	}
 }
 
