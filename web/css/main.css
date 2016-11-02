@@ -998,25 +998,8 @@ hr{
 		display: flex;
 		flex-direction: column;
 	}
-
-
 }
 
-@media screen and (max-width: 1024px) {
-    .how_je_donne {
-        background: url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
-        height: 50vh;
-        position: relative;
-        background-size: cover;
-    }
-
-    .how_je_propose {
-        background: url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
-        height: 50vh;
-        position: relative;
-        background-size: cover;
-    }
-}
 
 @media screen and (max-width: 975px), screen and (max-height: 550px) {
 	#home_btn_jqbar1{
@@ -1139,6 +1122,18 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	}
 	.home_time_booster {
 		margin: auto;
+	}
+	.how_je_donne {
+		background: url("../img/the-booster-jedonne-responsive.jpg") no-repeat center;
+		height: 50vh;
+		position: relative;
+		background-size: cover;
+	}
+	.how_je_propose {
+		background: url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
+		height: 50vh;
+		position: relative;
+		background-size: cover;
 	}
 }
 
