@@ -998,8 +998,6 @@ hr{
 		display: flex;
 		flex-direction: column;
 	}
-
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -1046,23 +1044,20 @@ hr{
 	.home_carousel_block-over{
 		margin-top: 30px;
 	}
-
-
 }
+
 @media screen and (max-width: 550px), screen and (max-height: 550px){
 	.home_carousel_presentation {
 		top: 55%;
 		height: 45%;
 	}
-
 }
 
 @media screen and (max-width: 350px){
-
-.home_carousel_btn_lien {
-	font-size: 0.8em;
-	padding: 7px 20px;
-}
+	.home_carousel_btn_lien {
+		font-size: 0.8em;
+		padding: 7px 20px;
+	}
 }
 
 @media screen and (min-width: 1300px){
@@ -1103,7 +1098,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		float: none;
 	}
 	.navbar-nav {
-		float: none!important;
+		float: none !important;
 	}
 	#myNavbar li {
 		width: 100% !important;
@@ -1118,7 +1113,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		margin-right: 0 !important;
 	}
 	.navbar-toggle {
-		display: block;
+		display: block !important;
 	}
 	.nav_networks {
 		margin-top: -2vh !important;
