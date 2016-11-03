@@ -1,10 +1,13 @@
 {% extends "back/baseback.html.twig" %}
 
-{%  block title %}Page admin{% endblock %}
+{%  block title %}Page admin | The Booster{% endblock %}
 
 {% block body %}
 
-    <h1>Administration</h1>
+    <div class="admin_list">
+        <h1>Administration</h1>
+        <hr>
+    </div>
 
     <ul>
         <li><a href="{{ path('donneur_index') }}">Repertoire Donneur</a></li>
