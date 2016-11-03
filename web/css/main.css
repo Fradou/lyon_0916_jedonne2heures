@@ -1110,7 +1110,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		position: relative;
 		background-size: cover;
 	}
-
 	.how_je_propose {
 		background: url("../img/the-booster-je-propose-responsive.jpg") no-repeat center;
 		height: 50vh;
