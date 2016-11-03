@@ -14,7 +14,7 @@
 
     <!-- Fichier CSS custom -->
     <link rel="stylesheet" href="{{ asset('/css/main.css')}}" >
-    <link rel="stylesheet" href="{{ asset('/css/back.css')}}" >
+
 
     <!-- Google Font title ROBOTO -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
@@ -27,8 +27,10 @@
     <link rel="icon" type="image/png" href="{{ asset('/the-booster-favicon-16X16.png')}}" />
 
 
-    <title>{% block title %}Welcome!{% endblock %}</title>
-    {% block stylesheets %}{% endblock %}
+    <title>{% block title %}Administration{% endblock %}</title>
+    {% block stylesheets %}
+        <link rel="stylesheet" href="{{ asset('css/back.css')}}" >
+    {% endblock %}
 </head>
 <body>
 
