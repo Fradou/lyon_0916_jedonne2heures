@@ -24,6 +24,7 @@ h1{
     font-size: 37px;
     letter-spacing: -2px;
 }
+
 .block_admin{
     text-align: center;
 }
@@ -33,12 +34,8 @@ hr{
     display: inline-block;
     width:90px;
     height:8px;
-    background: #E60F33;
-    margin: auto 10px;
-}
-
-.form_login {
-    margin-top: 50px;
+    background: darkgrey;
+    margin-bottom: 50px;
 }
 
 .login_button {

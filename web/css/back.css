@@ -10,6 +10,24 @@
     background-color: lightgrey;
 }
 
+h1{
+    margin-top:5vh;
+    font-size: 37px;
+    letter-spacing: -2px;
+}
+
+hr{
+    border:none;
+    display: inline-block;
+    width:90px;
+    height:8px;
+    background: darkgrey;
+    margin: auto 10px;
+}
+
+.admin_list{
+    text-align: center;
+}
 
 table {
     width:90%;
@@ -32,3 +50,4 @@ label {
 .navbar {
     background-color: black;
 }
+
