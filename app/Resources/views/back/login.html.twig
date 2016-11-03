@@ -1,5 +1,5 @@
 {% extends "base.html.twig" %}
-{%  block title %}Connexion admin | The booster{% endblock %}
+{%  block title %}Connexion administration | The booster{% endblock %}
 
   {% block stylesheets %}
       <link rel="stylesheet" href="{{ asset('css/login.css')}}" >
@@ -28,9 +28,9 @@
                     <div class="col-xs-12">
                     <input type="password" id="password" name="_password" />
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 login_button">
                     <input type="hidden" name="_target_path" value="/account"/>
-                    <button type="submit">login</button>
+                    <button type="submit">Connexion</button>
                 </div>
             </form>
         </div>
