@@ -1162,6 +1162,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .link_subs_block{
         text-align: center;
+		margin-top: 10vh;
+		margin-bottom: 15vh;
     }
 
 /* ERROR 404 */
