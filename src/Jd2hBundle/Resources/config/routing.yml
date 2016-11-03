@@ -13,3 +13,7 @@ jd2h_entrepreneur:
 jd2h_backoffice:
     resource: "@Jd2hBundle/Resources/config/routing/back.yml"
     prefix :  / #back
+
+jd2h_user:
+    resource: "@Jd2hBundle/Resources/config/routing/user.yml"
+    prefix:   /user
