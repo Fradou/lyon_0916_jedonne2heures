@@ -56,12 +56,14 @@ class FrontController extends Controller {
                         '<html>' .
                         '<head></head>' .
                         '<body>' .
-                        '<h4>Bonjour' . ucfirst($contact->getName()) .
+                        '<h4>Bonjour ' . ucfirst($contact->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt. <br> Nous avons bien reçu votre demande de contact concernant \"'.$contact->getSubject(). '\" et reviendrons vers vous dans les plus brefs délais.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
-                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
-                        '" alt="" />' .
+                        '<p>Nous vous remercions de votre intérêt. <br> Nous avons bien reçu votre demande de contact concernant  "'  .$contact->getSubject().
+                        '" et reviendrons vers vous dans les plus brefs délais.<br><br> À très vite.<br><br><strong> L\'équipe The Booster.</strong><br>' .
+
                         '</p>' .
+                        '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        '" alt="" />' .
                         '</body>' .
                         '</html>',
                         'text/html');
@@ -141,10 +143,6 @@ class FrontController extends Controller {
                         '<br>Adresse : '.$donneur->getTown().", ".$donneur->getCountry().
                         '<br>Statut : '.$donneur->getStatus().
                         '<br>Prêt à donner : '.$donneur->getHour().' heures'.
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
-                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
-                        '" alt="" />' .
-                        "</p>".
                         '</body>' .
                         '</html>',
                         'text/html');
@@ -185,7 +183,7 @@ class FrontController extends Controller {
                         '<body>' .
                         '<h4>Bienvenue sur The Booster ' . ucfirst($entrepreneur->getFirstName()) . ' ' .ucfirst($entrepreneur->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment le monde entier, en vous offrant un peu de son temps libre va vous aider à réaliser vos projets et à grandir.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
                         " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
                         '" alt="" />' .
                         "</p>".
@@ -213,10 +211,6 @@ class FrontController extends Controller {
                         '<br>Position : '.$entrepreneur->getPosition().
                         '<br>Entreprise : '.$entrepreneur->getCompany().
                         '<br>Dans le secteur : '    .$entrepreneur->getActivity().
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
-                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
-                        '" alt="" />' .
-                        "</p>".
                         '</body>' .
                         '</html>',
                         'text/html');
