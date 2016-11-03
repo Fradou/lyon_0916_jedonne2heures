@@ -6,11 +6,6 @@ back_login:
     path:     /login
     defaults: { _controller: "Jd2hBundle:Back:login"}
 
-back_user:
-    path: /user
-    defaults: { _controller: "Jd2hBundle:Back:user" }
-    methods: GET
-
 back_logout:
     path:     /logout
 
