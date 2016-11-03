@@ -423,6 +423,15 @@ hr{
 
 /* WHO */
 
+.sup{
+	vertical-align: sup;
+	position: relative;
+	bottom: 5px;
+	font-size: .8em;
+	line-height: .8em;
+	text-decoration:none;
+}
+
 .who_blocimg {
     text-align: center;
     margin-top: 60px;
@@ -1162,6 +1171,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .link_subs_block{
         text-align: center;
+		margin-top: 10vh;
+		margin-bottom: 15vh;
     }
 
 /* ERROR 404 */

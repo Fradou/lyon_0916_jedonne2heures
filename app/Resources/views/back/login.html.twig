@@ -1,4 +1,6 @@
 {% extends "base.html.twig" %}
+{%  block title %}Connexion administration | The booster{% endblock %}
+
   {% block stylesheets %}
       <link rel="stylesheet" href="{{ asset('css/back.css')}}" >
       <link rel="stylesheet" href="{{ asset('css/login.css')}}" >
@@ -10,25 +12,29 @@
 {% endif %}
 
 <div class="container">
-    <div class="row">
-        <form action="{{ path('back_login') }}" method="post">
-            <div class="col-xs-11">
-                <label for="username">Utilisateur :</label>
-            </div>
-            <div class="col-xs-11 input">
-                <input type="text" id="username" name="_username" value="{{ last_username }}" />
-            </div>
-            <div class="col-xs-11">
-                <label for="password">Mot de passe :</label>
-            </div>
-                <div class="col-xs-11">
-                <input type="password" id="password" name="_password" />
-            </div>
-            <div class="col-xs-11">
-                <input type="hidden" name="_target_path" value="/account" />
-                <button type="submit">login</button>
-            </div>
-        </form>
+    <div class="block_admin">
+        <div class="row">
+            <h1 class="h1_toppage">Administration</h1>
+            <hr>
+            <form action="{{ path('back_login') }}" method="post" class="form_login">
+                <div class="col-xs-12">
+                    <label for="username">Utilisateur :</label>
+                </div>
+                <div class="col-xs-12 input">
+                    <input type="text" id="username" name="_username" value="{{ last_username }}" />
+                </div>
+                <div class="col-xs-12">
+                    <label for="password">Mot de passe :</label>
+                </div>
+                    <div class="col-xs-12">
+                    <input type="password" id="password" name="_password" />
+                </div>
+                <div class="col-xs-12 login_button">
+                    <input type="hidden" name="_target_path" value="/account"/>
+                    <button type="submit">Connexion</button>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
 
