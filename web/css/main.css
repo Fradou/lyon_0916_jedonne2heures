@@ -408,6 +408,7 @@ hr{
 .hr_video_hp{
 	text-align: center;
 }
+
 @media screen and (max-width: 375px) {
 
 	#home_startup_list a {
