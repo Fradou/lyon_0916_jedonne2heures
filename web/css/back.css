@@ -1,6 +1,15 @@
 
 /* CSS BACK */
 
+.navbar {
+    background-color: lightgrey;
+    box-shadow: 0 3px 0px rgba(105,105,105,1);
+}
+
+.navbar-collapse{
+    background-color: lightgrey;
+}
+
 
 table {
     width:90%;
