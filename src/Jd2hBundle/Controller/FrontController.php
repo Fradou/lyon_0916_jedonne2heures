@@ -48,8 +48,8 @@ class FrontController extends Controller {
                 $mailer->send($message);
 
                 $mailer = $this->container->get('mailer');
-                $message = \Swift_Message::newInstance()
-                    ->setSubject("Demande de contact envoyé")
+                $message = \Swift_Message::newInstance();
+                $message->setSubject("Demande de contact envoyé")
                     ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
                     ->setTo($contact->getMail())
                     ->setBody(
@@ -57,9 +57,13 @@ class FrontController extends Controller {
                         '<head></head>' .
                         '<body>' .
                         '<h4>Bonjour' . ucfirst($contact->getName()) .
-                        '</h4>
-                        <p>Nous vous remercions de votre intérêt. <br> Nous avons bien reçu votre demande de contact concernant "'.$contact->getSubject(). '" et reviendrons vers vous dans les plus brefs délais.<br><br> À très vite.<br> L\'équipe The Booster</p>.
-                        </body></html>',
+                        '</h4>' .
+                        "<p>Nous vous remercions de votre intérêt. <br> Nous avons bien reçu votre demande de contact concernant \"'.$contact->getSubject(). '\" et reviendrons vers vous dans les plus brefs délais.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        '" alt="" />' .
+                        '</p>' .
+                        '</body>' .
+                        '</html>',
                         'text/html');
 
                 $mailer->send($message);
@@ -96,28 +100,12 @@ class FrontController extends Controller {
                 $em->flush($donneur);
 
                 /*
-                 * Envoie mail-auto de validatioInscription validée
-n d'inscription
+                 * Envoie mail-auto de validation d'Inscription
                  */
 
- /*             $message = \Swift_Message::newInstance();
-
-
-
-                $message->setSubject('Inscription à Je donne 2 heures')
-                        ->setFrom(array('projet.jd2h@gmail.com' => 'Je donne 2 heures'))
-                        ->setTo($donneur->getMailAddress())
-                        ->setBody(
-                        '<html>' .
-                        '<head></head>' .
-                        '<body>' .
-                        '<h1>' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
-                        '</h1>'.
-                         //<img src="'  .$message->embed(\Swift_Image::fromPath('localhost/Projets/lyon_jedonne2heures/web/img/je-donne-2-heures-logo-header2.png')) .
-                         //'" alt="" />
-*/              $mailer = $this->container->get('mailer');
-                $message = \Swift_Message::newInstance()
-                    ->setSubject("Confirmation d'inscription à The Booster")
+                $mailer = $this->container->get('mailer');
+                $message = \Swift_Message::newInstance();
+                $message->setSubject("Confirmation d'inscription à The Booster")
                     ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
                     ->setTo($donneur->getMailAddress())
                     ->setBody(
@@ -126,7 +114,10 @@ n d'inscription
                         '<body>' .
                         '<h4>Bienvenue sur The Booster ' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br> L'équipe The Booster</p>".
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        '" alt="" />' .
+                        "</p>".
                         '</body>' .
                         '</html>',
                         'text/html');
@@ -134,8 +125,8 @@ n d'inscription
                 $mailer->send($message);
 
                 $mailer = $this->container->get('mailer');
-                $message = \Swift_Message::newInstance()
-                    ->setSubject('The Booster - Inscription Donneur : '.$donneur->getFirstName().' '.$donneur->getName())
+                $message = \Swift_Message::newInstance();
+                $message->setSubject('The Booster - Inscription Donneur : '.$donneur->getFirstName().' '.$donneur->getName())
                     ->setFrom(array('projet.jd2h@gmail.com' => 'Admin The Booster'))
                /**     Remplacer par adresse où envoyer les infos pour chaque inscription **/
                     ->setTo("projet.jd2h@gmail.com")
@@ -150,6 +141,10 @@ n d'inscription
                         '<br>Adresse : '.$donneur->getTown().", ".$donneur->getCountry().
                         '<br>Statut : '.$donneur->getStatus().
                         '<br>Prêt à donner : '.$donneur->getHour().' heures'.
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        '" alt="" />' .
+                        "</p>".
                         '</body>' .
                         '</html>',
                         'text/html');
@@ -180,24 +175,29 @@ n d'inscription
 
 
                 $mailer = $this->container->get('mailer');
-                $message = \Swift_Message::newInstance()
-                    ->setSubject("Confirmation d'inscription à The Booster")
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
-                    ->setTo($entrepreneur->getMailAddress())
-                    ->setBody(
+                $message = \Swift_Message::newInstance();
+                $message->setSubject("Confirmation d'inscription à The Booster")
+                        ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
+                        ->setTo($entrepreneur->getMailAddress())
+                        ->setBody(
                         '<html>' .
                         '<head></head>' .
                         '<body>' .
                         '<h4>Bienvenue sur The Booster ' . ucfirst($entrepreneur->getFirstName()) . ' ' .ucfirst($entrepreneur->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment le monde entier, en vous offrant un peu de son temps libre, va vous aider à réaliser vos projets et à grandir.<br><br> À très vite.<br> L'équipe The Booster </p >".                       '</body>' .
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        '" alt="" />' .
+                        "</p>".
+                        '</body>' .
                         '</html>',
                         'text/html');
+
                 $mailer->send($message);
 
                 $mailer = $this->container->get('mailer');
-                $message = \Swift_Message::newInstance()
-                    ->setSubject('The Booster - Inscription Entrepreneur : '.$entrepreneur->getFirstName().' '.$entrepreneur->getName())
+                $message = \Swift_Message::newInstance();
+                $message->setSubject('The Booster - Inscription Entrepreneur : '.$entrepreneur->getFirstName().' '.$entrepreneur->getName())
                     ->setFrom(array('projet.jd2h@gmail.com' => 'Admin The Booster'))
                     /**     Remplacer par adresse où envoyer les infos pour chaque inscription **/
                     ->setTo("projet.jd2h@gmail.com")
@@ -213,12 +213,15 @@ n d'inscription
                         '<br>Position : '.$entrepreneur->getPosition().
                         '<br>Entreprise : '.$entrepreneur->getCompany().
                         '<br>Dans le secteur : '    .$entrepreneur->getActivity().
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        '" alt="" />' .
+                        "</p>".
                         '</body>' .
                         '</html>',
                         'text/html');
 
                 $mailer->send($message);
-
 
                 return $this->redirectToRoute('front_inscriptok');
             }
