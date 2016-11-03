@@ -50,3 +50,4 @@ security:
             - { path: ^/admin, roles: ROLE_ADMIN }
             - { path: ^/donneur, roles: ROLE_ADMIN }
             - { path: ^/entrepreneur, roles: ROLE_ADMIN }
+            - { path: ^/user, roles: ROLE_ADMIN }
