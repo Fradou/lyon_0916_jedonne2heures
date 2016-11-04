@@ -1132,7 +1132,11 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		background-size: cover;
 	}
 }
-
+/* PLAN DU SITE */
+.menu .list_sm a:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
 /* MENTIONS LÉGALES */
 
 	.ml_title{
