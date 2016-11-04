@@ -164,6 +164,10 @@ span {
 	padding-right: 10px;
 }
 
+.foo_mention a:hover  {
+	text-decoration: underline;
+	text-decoration-color: rgba(255,255,255,0.7);
+}}
 
 /* HOME */
 
@@ -426,9 +430,8 @@ hr{
 /* WHO */
 
 .sup{
-	vertical-align: sup;
+	vertical-align: super;
 	position: relative;
-	bottom: 5px;
 	font-size: .8em;
 	line-height: .8em;
 	text-decoration:none;
