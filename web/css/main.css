@@ -164,6 +164,10 @@ span {
 	padding-right: 10px;
 }
 
+.foo_mention a:hover  {
+	text-decoration: underline;
+	text-decoration-color: rgba(255,255,255,0.7);
+}
 
 /* HOME */
 
