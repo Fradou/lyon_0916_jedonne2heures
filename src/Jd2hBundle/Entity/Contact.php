@@ -2,6 +2,8 @@
 
 namespace Jd2hBundle\Entity;
 
+use EWZ\Bundle\RecaptchaBundle\Validator\Constraints as Recaptcha;
+
 /**
  * Contact
  */
@@ -167,5 +169,10 @@ class Contact
     {
         return $this->message;
     }
+
+    /**
+     * @Recaptcha\IsTrue
+     */
+    public $recaptcha;
 }
 

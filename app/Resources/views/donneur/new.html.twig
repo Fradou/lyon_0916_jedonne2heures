@@ -25,6 +25,20 @@
 
             <p class="p_txt_form">En m'inscrivant, j'accepte de recevoir des nouvelles de The Booster.</p>
 
+            <div class="row all_blsp_xs"></div>
+
+            {% form_theme form 'EWZRecaptchaBundle:Form:ewz_recaptcha_widget.html.twig' %}
+
+            {{ form_widget(form.recaptcha, { 'attr': {
+                    'options' : {
+                            'theme': 'red',
+                            'type': 'image',
+                            'size': 'normal'
+                    },
+            } }) }}
+
+            <div class="row all_blsp_xs"></div>
+
             <input type="submit" value="S'inscrire" />
         {{ form_end(form) }}
             <div class="row all_blsp"></div>

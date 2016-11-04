@@ -2,6 +2,8 @@
 
 namespace Jd2hBundle\Entity;
 
+use EWZ\Bundle\RecaptchaBundle\Validator\Constraints as Recaptcha;
+
 /**
  * Entrepreneur
  */
@@ -283,4 +285,9 @@ class Entrepreneur
     {
         return $this->mailAdress;
     }
+
+    /**
+     * @Recaptcha\IsTrue
+     */
+    public $recaptcha;
 }

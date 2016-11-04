@@ -5,6 +5,7 @@ namespace Jd2hBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use EWZ\Bundle\RecaptchaBundle\Form\Type\EWZRecaptchaType;
 
 class ContactType extends AbstractType
 {
@@ -13,7 +14,7 @@ class ContactType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('name')->add('company')->add('mail')->add('subject')->add('message')        ;
+        $builder->add('name')->add('company')->add('mail')->add('subject')->add('message')->add('recaptcha', EWZRecaptchaType::class, array('language' => 'fr'));
     }
     
     /**
