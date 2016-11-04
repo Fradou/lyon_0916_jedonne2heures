@@ -140,7 +140,8 @@ class FrontController extends Controller {
                         '<body>' .
                         '<h4>Inscription Donneur'.
                         '</h4>' .
-                        '<p>Nom et prénom : '.$donneur->getName().' '.$donneur->getFirstName().
+                        '<p>Numéro d\'inscrit (ID) : '.$donneur->getId().
+                        '<br>Nom et prénom : '.$donneur->getName().' '.$donneur->getFirstName().
                         '<br>Adresse mail : '.$donneur->getMailAddress().
                         '<br>Adresse : '.$donneur->getTown().", ".$donneur->getCountry().
                         '<br>Statut : '.$donneur->getStatus().
@@ -207,7 +208,8 @@ class FrontController extends Controller {
                         '<body>' .
                         '<h4>Inscription Entrepreneur'.
                         '</h4>' .
-                        '<p>Nom et prénom : '.$entrepreneur->getName().' '.$entrepreneur->getFirstName().
+                        '<p>Numéro d\'inscrit (ID) : '.$entrepreneur->getId().
+                        '<br>Nom et prénom : '.$entrepreneur->getName().' '.$entrepreneur->getFirstName().
                         '<br>Adresse mail : '.$entrepreneur->getMailAddress().
                         '<br>Adresse : '.$entrepreneur->getTown().", ".$entrepreneur->getCountry().
                         '<br>Position : '.$entrepreneur->getPosition().
