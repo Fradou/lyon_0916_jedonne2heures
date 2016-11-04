@@ -429,9 +429,10 @@ hr{
 
 /* WHO */
 
-.sup{
+.sup {
 	vertical-align: super;
 	position: relative;
+	top: 2px;
 	font-size: .8em;
 	line-height: .8em;
 	text-decoration:none;
