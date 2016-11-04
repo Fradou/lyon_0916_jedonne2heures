@@ -76,6 +76,21 @@
                             'attr':{ 'class' : 'form-control','rows' : '5'}
                         })}}
                     </div>
+
+                <div class="row all_blsp_xs"></div>
+
+                {% form_theme form 'EWZRecaptchaBundle:Form:ewz_recaptcha_widget.html.twig' %}
+
+                {{ form_widget(form.recaptcha, { 'attr': {
+                    'options' : {
+                        'theme': 'light',
+                        'type': 'image',
+                        'size': 'normal'
+                    },
+                } }) }}
+
+                <div class="row all_blsp_xs"></div>
+
                 <input type="submit" value="Envoyer la demande de contact" />
                 {{ form_end(form) }}
                 <div class="row all_blsp"></div>

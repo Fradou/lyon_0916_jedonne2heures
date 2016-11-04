@@ -2,6 +2,9 @@
 
 namespace Jd2hBundle\Entity;
 
+use EWZ\Bundle\RecaptchaBundle\Validator\Constraints as Recaptcha;
+
+
 /**
  * Donneur
  */
@@ -254,4 +257,9 @@ class Donneur
     {
         return $this->mailAdress;
     }
+
+    /**
+     * @Recaptcha\IsTrue
+     */
+    public $recaptcha;
 }

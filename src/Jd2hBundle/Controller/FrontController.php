@@ -5,9 +5,11 @@ namespace Jd2hBundle\Controller;
 
 use Jd2hBundle\Entity\Contact;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\Form\FormBuilder;
 use Symfony\Component\HttpFoundation\Request;
 use Jd2hBundle\Entity\Donneur;
 use Jd2hBundle\Entity\Entrepreneur;
+
 
 class FrontController extends Controller {
 
