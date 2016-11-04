@@ -169,10 +169,5 @@ class Contact
     {
         return $this->message;
     }
-
-    /**
-     * @Recaptcha\IsTrue
-     */
-    public $recaptcha;
 }
 
