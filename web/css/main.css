@@ -425,10 +425,10 @@ hr{
 
 /* WHO */
 
-.sup{
-	vertical-align: sup;
+.sup {
+	vertical-align: super;
 	position: relative;
-	bottom: 5px;
+	top: 2px;
 	font-size: .8em;
 	line-height: .8em;
 	text-decoration:none;
