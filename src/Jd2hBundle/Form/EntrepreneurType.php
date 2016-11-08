@@ -6,7 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
-/*use EWZ\Bundle\RecaptchaBundle\Form\Type\EWZRecaptchaType;*/
+use EWZ\Bundle\RecaptchaBundle\Form\Type\EWZRecaptchaType;
 
 class EntrepreneurType extends AbstractType
 {
@@ -20,7 +20,7 @@ class EntrepreneurType extends AbstractType
             ->add('company')
             ->add('position', ChoiceType::class, array ('choices' => array('Fondateur'=>'Fondateur', 'Porteur de projet'=>'Porteur de projet', 'Dirigeant' => 'Dirigeant', 'Autre' => 'Autre')))
             ->add('activity', ChoiceType::class, array ('choices' => array('Agroalimentaire' => 'Agroalimentaire','Automobile'=>'Automobile', 'Banque/Assurance' => 'Banque/Assurance', 'BTP'=>'BTP', 'Chimie'=>'Chimie', 'Commerce'=>'Commerce', 'Electronique'=>'Electronique', 'Industrie pharmaceutique'=>'Industrie pharmaceutique','Informatique / Télécoms'=>'Informatique / Télécoms', 'Métallurgie'=>'Métallurgie','Multimédia'=>'Multimédia','Service aux entreprises'=>'Service aux entreprises','Textiles'=>'Textiles', 'Autres'=>'Autres')))
-            /*->add('recaptcha', EWZRecaptchaType::class, array('language' => 'fr'))*/;
+            ->add('recaptcha', EWZRecaptchaType::class, array('language' => 'fr'));
     }
     
     /**

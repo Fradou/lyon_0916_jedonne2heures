@@ -6,7 +6,7 @@ use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-/*use EWZ\Bundle\RecaptchaBundle\Form\Type\EWZRecaptchaType;*/
+use EWZ\Bundle\RecaptchaBundle\Form\Type\EWZRecaptchaType;
 
 class DonneurType extends AbstractType
 {
@@ -19,7 +19,7 @@ class DonneurType extends AbstractType
             ->add('country', ChoiceType::class, array ('choices' => array('France'=>'France', 'Europe' => 'Europe', 'Reste du monde' => 'Reste du monde')))
             ->add('status', ChoiceType::class, array ('choices' => array('Etudiant'=>'Etudiant', 'Entrepreneur' => 'Entrepreneur', 'Salarié' => 'Salarié', 'Entre 2 jobs' => 'Entre 2 jobs', 'Indépendant' => 'Indépendant', 'A la retraite' => 'A la retraite'),))
             ->add('hour', ChoiceType::class, array('choices' => array(1=>1,2=>2,3=>3,4=>4,5=>5,6=>6,7=>7,8=>8,)))
-            /*->add('recaptcha', EWZRecaptchaType::class, array('language' => 'fr'))*/;
+            ->add('recaptcha', EWZRecaptchaType::class, array('language' => 'fr'));
     }
     
     /**
