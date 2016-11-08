@@ -13,7 +13,7 @@ The Booster is a brand new French startup, that wants to revolutionize our econo
 The team was in charge of developing the first version of the website. 
 The objectives of this website version were to:  
 1. Introduce the concept,  
-2. Use it as a communication and promotional tool,   
+2. Use it as a communication and promotional tool,     
 3. Get qualified leads and contacts.   
 
 A V2 with all the features, is expected for the beginning of 2017.  
