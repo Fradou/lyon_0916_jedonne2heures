@@ -69,6 +69,6 @@ swiftmailer:
     spool:     { type: memory }
 
 # EWZRecaptchaBundle
-# ewz_recaptcha:
-#    public_key: 6LenAQsUAAAAADIzPqfQyen9j7GbLkVEXJ0gzBAj
-#   private_key: 6LenAQsUAAAAAJyrhrOPHuTt0GBVQqpVFrWwYRwn
+ewz_recaptcha:
+    public_key: 6LenAQsUAAAAADIzPqfQyen9j7GbLkVEXJ0gzBAj
+    private_key: 6LenAQsUAAAAAJyrhrOPHuTt0GBVQqpVFrWwYRwn
