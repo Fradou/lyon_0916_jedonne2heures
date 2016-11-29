@@ -645,8 +645,11 @@ hr{
 	.navbar {
 		min-height: 10vh;
 	}
-	.navbar-brand img {
-		margin-top: -0.5vh;
+
+	#navbar-logo img {
+		width: 200px;
+		height: auto;
+		padding-top: 10px;
 	}
 	body {
 		padding-top: 10vh;
