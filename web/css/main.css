@@ -160,10 +160,6 @@ span {
 	padding-left: 10px;
 }
 
-#foo_mentionsl {
-	padding-right: 10px;
-}
-
 .foo_mention a:hover  {
 	text-decoration: underline;
 	text-decoration-color: rgba(255,255,255,0.7);
@@ -645,8 +641,11 @@ hr{
 	.navbar {
 		min-height: 10vh;
 	}
-	.navbar-brand img {
-		margin-top: -0.5vh;
+
+	#navbar-logo img {
+		width: 200px;
+		height: auto;
+		padding-top: 10px;
 	}
 	body {
 		padding-top: 10vh;
@@ -719,8 +718,6 @@ hr{
 	font-weight: 900;
 	color: #E60F33;
 }
-
-
 
 #home_carousel h2, .home_carousel_over h2{
 	font-size: 1.4em;
