@@ -372,6 +372,7 @@ span {
 #home_video_int{
 	margin-top: 5vh;
 	height: 60vh;
+	margin-bottom:10vh;
 }
 #home_video_ext iframe{
 	width: 100% !important;
