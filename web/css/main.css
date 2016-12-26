@@ -410,10 +410,41 @@ hr{
 	text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+
+	#home_startup_list a {
+		margin-left: -2%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	#home_startup_list a {
+		margin-left: -3%;
+	}
+}
+@media screen and (max-width: 525px) {
+
+	#home_startup_list a {
+		margin-left: -5%;
+	}
+}
+@media screen and (max-width: 475px) {
+
+	#home_startup_list a {
+		margin-left: -7%;
+	}
+}
+@media screen and (max-width: 425px) {
+
+	#home_startup_list a {
+		margin-left: -9%;
+	}
+}
 @media screen and (max-width: 375px) {
 
 	#home_startup_list a {
-		margin-left: -12%;
+		margin-left: -11%;
 	}
 }
 
