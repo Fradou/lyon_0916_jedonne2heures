@@ -1,0 +1,41 @@
+Jd2hBundle\Entity\Entrepreneur:
+    type: entity
+    table: null
+    repositoryClass: Jd2hBundle\Repository\EntrepreneurRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '50'
+        firstName:
+            type: string
+            length: '50'
+            column: first_name
+        mailAddress:
+            type: string
+            length: '50'
+            column: mail_address
+        town:
+            type: string
+            length: '50'
+            nullable: true
+        country:
+            type: string
+            length: '50'
+        company:
+            type: string
+            length: '50'
+            nullable: true
+        position:
+            type: string
+            length: '50'
+            nullable: true
+        activity:
+            type: string
+            length: '50'
+    lifecycleCallbacks: {  }

@@ -1,0 +1,53 @@
+{% extends 'back/baseback.html.twig' %}
+
+{%  block title %}Admin - Liste donneur | The Booster{% endblock %}
+
+{% block body %}
+    <h1>Liste des donneurs</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Adresse mail</th>
+                <th>Ville</th>
+                <th>Pays</th>
+                <th>Statut</th>
+                <th>Heures</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for donneur in donneurs %}
+            <tr>
+                <td><a href="{{ path('donneur_show', { 'id': donneur.id }) }}">{{ donneur.id }}</a></td>
+                <td>{{ donneur.name }}</td>
+                <td>{{ donneur.firstName }}</td>
+                <td>{{ donneur.mailAddress }}</td>
+                <td>{{ donneur.town }}</td>
+                <td>{{ donneur.country }}</td>
+                <td>{{ donneur.status }}</td>
+                <td>{{ donneur.hour }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('donneur_show', { 'id': donneur.id }) }}">Voir</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('donneur_edit', { 'id': donneur.id }) }}">Modifier</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('donneur_new') }}">Créer un nouveau donneur</a>
+        </li>
+    </ul>
+{% endblock %}

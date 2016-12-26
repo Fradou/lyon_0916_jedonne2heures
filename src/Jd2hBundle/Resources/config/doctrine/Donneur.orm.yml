@@ -1,0 +1,35 @@
+Jd2hBundle\Entity\Donneur:
+    type: entity
+    table: null
+    repositoryClass: Jd2hBundle\Repository\DonneurRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '50'
+        firstName:
+            type: string
+            length: '50'
+            column: first_name
+        mailAddress:
+            type: string
+            length: '50'
+            column: mail_address
+        town:
+            type: string
+            length: '50'
+            nullable: true
+        country:
+            type: string
+            length: '50'
+        status:
+            type: string
+            length: '20'
+        hour:
+            type: integer
+    lifecycleCallbacks: {  }

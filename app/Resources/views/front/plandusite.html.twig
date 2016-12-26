@@ -1,0 +1,40 @@
+{% extends "base.html.twig" %}
+
+{%  block title %}Plan du site | The Booster{% endblock %}
+
+{%  block body %}
+    <div class="ml_title">
+        <h1 class="h1_toppage">PLAN DU SITE</h1>
+        <hr>
+    </div>
+
+    <div class="container body_sm">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-10">
+               <ul class="menu">
+                   <li class="list_sm">
+                       <a href="{{ path('front_homepage') }}">Homepage - The Booster, le 1er site de crowdtiming</a>
+                   </li>
+                   <li class="list_sm">
+                       <a href="{{ path('front_jedonne') }}">Je donne </a>
+                   </li>
+                   <li class="list_sm">
+                       <a href="{{ path('front_jepropose') }}">Je propose</a>
+                   </li>
+                   <li class="list_sm">
+                       <a href="{{ path('front_quisommesnous') }}">Contactez-nous/Qui sommes-nous</a>
+                   </li>
+               </ul>
+
+                <div class="row row_lw"> </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+{%  endblock %}

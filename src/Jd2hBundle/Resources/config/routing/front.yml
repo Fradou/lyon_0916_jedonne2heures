@@ -1,0 +1,39 @@
+front_homepage:
+    path: /
+    defaults: { _controller: "Jd2hBundle:Front:homepage"}
+    methods: GET
+
+front_quisommesnous:
+    path: /qui-sommes-nous
+    defaults: { _controller: "Jd2hBundle:Front:quisommesnous"}
+    methods: [GET, POST]
+
+front_jedonne:
+    path: /je-donne
+    defaults: { _controller: "Jd2hBundle:Front:jedonne"}
+    methods: [GET, POST]
+
+front_jepropose:
+    path: /je-propose
+    defaults: { _controller: "Jd2hBundle:Front:jepropose"}
+    methods: [GET, POST]
+
+front_inscriptok:
+    path: /inscription-validee
+    defaults: { _controller: "Jd2hBundle:Front:inscriptionok"}
+    methods: GET
+
+front_mentionslegales:
+    path: /mentions-legales
+    defaults: { _controller: "Jd2hBundle:Front:mentionslegales"}
+    methods: GET
+
+front_plandusite:
+    path: /plan-du-site
+    defaults: { _controller: "Jd2hBundle:Front:plandusite"}
+    methods: GET
+
+front_contactok:
+    path: /demande-contact-envoyee
+    defaults: { _controller: "Jd2hBundle:Front:contactok"}
+

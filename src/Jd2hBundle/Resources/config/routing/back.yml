@@ -1,0 +1,11 @@
+back_admin:
+    path:     /admin
+    defaults: { _controller: "Jd2hBundle:Back:admin" }
+
+back_login:
+    path:     /login
+    defaults: { _controller: "Jd2hBundle:Back:login"}
+
+back_logout:
+    path:     /logout
+

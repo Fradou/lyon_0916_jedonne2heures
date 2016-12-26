@@ -1,0 +1,19 @@
+Jd2hBundle\Entity\User:
+    type: entity
+    table: null
+    repositoryClass: Jd2hBundle\Repository\UserRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        username:
+            type: string
+            length: '25'
+            unique: true
+        password:
+            type: string
+            length: '64'
+    lifecycleCallbacks: {  }

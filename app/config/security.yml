@@ -1,0 +1,53 @@
+# To get started with security, check out the documentation:
+# http://symfony.com/doc/current/book/security.html
+security:
+
+    # http://symfony.com/doc/current/book/security.html#where-do-users-come-from-user-providers
+    providers:
+        in_memory:
+            memory: ~
+
+        our_db_provider:
+            entity:
+                class: Jd2hBundle:User
+                property: username
+
+    firewalls:
+        # disables authentication for assets and the profiler, adapt it according to your needs
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+        main:
+            anonymous: ~
+            form_login:
+                login_path: back_login
+                check_path: back_login
+                target_path_parameter: redirect_url
+            logout:
+                path: back_logout
+                target: /
+            pattern:    ^/
+            http_basic: ~
+            provider: our_db_provider
+
+            # activate different ways to authenticate
+            # http_basic: ~
+            # http://symfony.com/doc/current/book/security.html#a-configuring-how-your-users-will-authenticate
+
+            # form_login: ~
+            # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+    encoders:
+        Symfony\Component\Security\Core\User\User:
+            algorithm: bcrypt
+            cost: 12
+        Jd2hBundle\Entity\User:
+            algorithm: bcrypt
+            cost: 12
+
+    access_control:
+            # require ROLE_ADMIN for /admin*
+            - { path: ^/admin, roles: ROLE_ADMIN }
+            - { path: ^/donneur, roles: ROLE_ADMIN }
+            - { path: ^/entrepreneur, roles: ROLE_ADMIN }
+            - { path: ^/user, roles: ROLE_ADMIN }

@@ -1,0 +1,55 @@
+{% extends 'back/baseback.html.twig' %}
+
+{%  block title %}Admin - Liste entrepreneur | The Booster{% endblock %}
+
+{% block body %}
+    <h1>Liste des entrepreneurs</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Adresse mail</th>
+                <th>Ville</th>
+                <th>Pays</th>
+                <th>Entreprise</th>
+                <th>Poste</th>
+                <th>Secteur</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for entrepreneur in entrepreneurs %}
+            <tr>
+                <td><a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">{{ entrepreneur.id }}</a></td>
+                <td>{{ entrepreneur.name }}</td>
+                <td>{{ entrepreneur.firstName }}</td>
+                <td>{{ entrepreneur.mailAddress }}</td>
+                <td>{{ entrepreneur.town }}</td>
+                <td>{{ entrepreneur.country }}</td>
+                <td>{{ entrepreneur.company }}</td>
+                <td>{{ entrepreneur.position }}</td>
+                <td>{{ entrepreneur.activity }}</td>
+                <td>
+                    <ul>
+                        <li>
+                            <a href="{{ path('entrepreneur_show', { 'id': entrepreneur.id }) }}">Voir</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('entrepreneur_edit', { 'id': entrepreneur.id }) }}">Modifier</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('entrepreneur_new') }}">Créer un nouvel entrepreneur</a>
+        </li>
+    </ul>
+{% endblock %}
