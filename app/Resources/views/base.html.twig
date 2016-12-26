@@ -32,7 +32,7 @@
 
         <link href="{{ asset('css/main.css')}}">
 
-        <!-- Cookie Banner -->
+        <!-- Cookie Banner
         <script type="text/javascript" id="cookieinfo"
                 src="//cookieinfoscript.com/js/cookieinfo.min.js"
                 data-bg="#747475"
@@ -48,9 +48,9 @@
                 data-divlink="#555656"
                 data-divlinkbg="#FFFFFF"
                 data-accept-on-scroll="false"
-                data-close-text="J'accepte">
+                data-close-text="Fermer">
         </script>
-
+        -->
 
         <title>{% block title %}Welcome!{% endblock %}</title>
         <meta name="description" content="{% block pageDescription %}{% endblock %}"/>
@@ -108,8 +108,8 @@
                     </a>
                 </div>
                 <div class="row foo_mention">
+                    <p><a href="{{ path('front_mentionslegales') }}" id="foo_mentionsl">Mentions légales</a></p>
                     <p><a href="{{ path('front_quisommesnous') }}">Nous contacter</a></p>
-                    <p><a href="{{ path('front_mentionslegales') }}" id="foo_mentionsl">Mentions légales</a> | <a href="{{ path('front_plandusite') }}" id="foo_sitemap">Plan du site</a> </p>
                     <p class="foo_copyright"><small>Copyright © 2016 - The Booster. Tous droits réservés.<br/>Réalisé par les élèves de la <a href="{{ 'http://www.wildcodeschool.fr' }}" target="_blank"> Wild Code School.</a></small></p>
                 </div>
             </div>
