@@ -61,10 +61,10 @@ class FrontController extends Controller {
                         '<h4>Bonjour ' . ucfirst($contact->getName()) .
                         '</h4>' .
                         '<p>Nous vous remercions de votre intérêt. <br> Nous avons bien reçu votre demande de contact concernant  "'  .$contact->getSubject().
-                        '" et reviendrons vers vous dans les plus brefs délais.<br><br> À très vite.<br><br><strong> L\'équipe The Booster.</strong><br>' .
+                        '" et reviendrons vers vous dans les plus brefs délais.<br><br> Dès Janvier, vous pourrez grâce à votre pré-inscription utiliser la plateforme The Booster en avant-première.<br><br> À très vite.<br><br><strong> L\'équipe The Booster.</strong><br>' .
 
                         '</p>' .
-                        '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img15.hostingpics.net/pics/610545theboosterlogo.png')) .
                         '" alt="" />' .
                         '</body>' .
                         '</html>',
@@ -118,8 +118,8 @@ class FrontController extends Controller {
                         '<body>' .
                         '<h4>Bienvenue sur The Booster ' . ucfirst($donneur->getFirstName()) . ' ' .ucfirst($donneur->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
-                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment en offrant un peu de votre temps libre vous allez pouvoir aider concrètement les Entrepreneurs et l'Économie.<br><br> Dès Janvier, vous pourrez grâce à votre pré-inscription utiliser la plateforme The Booster en avant-première.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img15.hostingpics.net/pics/610545theboosterlogo.png')) .
                         '" alt="" />' .
                         "</p>".
                         '</body>' .
@@ -186,8 +186,8 @@ class FrontController extends Controller {
                         '<body>' .
                         '<h4>Bienvenue sur The Booster ' . ucfirst($entrepreneur->getFirstName()) . ' ' .ucfirst($entrepreneur->getName()) .
                         '</h4>' .
-                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment le monde entier, en vous offrant un peu de son temps libre va vous aider à réaliser vos projets et à grandir.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
-                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img4.hostingpics.net/pics/667429theboosterlogo.png')) .
+                        "<p>Nous vous remercions de votre intérêt et de votre inscription.<br> Découvrez très bientôt comment le monde entier, en vous offrant un peu de son temps libre va vous aider à réaliser vos projets et à grandir.<br><br> Dès Janvier, vous pourrez grâce à votre pré-inscription utiliser la plateforme The Booster en avant-première.<br><br> À très vite.<br><br><strong> L'équipe The Booster.</strong><br>
+                        " .  '<img src="'  .$message->embed(\Swift_Image::fromPath('http://img15.hostingpics.net/pics/610545theboosterlogo.png')) .
                         '" alt="" />' .
                         "</p>".
                         '</body>' .

@@ -372,6 +372,7 @@ span {
 #home_video_int{
 	margin-top: 5vh;
 	height: 60vh;
+	margin-bottom:10vh;
 }
 #home_video_ext iframe{
 	width: 100% !important;
@@ -409,10 +410,41 @@ hr{
 	text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+
+	#home_startup_list a {
+		margin-left: -2%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	#home_startup_list a {
+		margin-left: -3%;
+	}
+}
+@media screen and (max-width: 525px) {
+
+	#home_startup_list a {
+		margin-left: -5%;
+	}
+}
+@media screen and (max-width: 475px) {
+
+	#home_startup_list a {
+		margin-left: -7%;
+	}
+}
+@media screen and (max-width: 425px) {
+
+	#home_startup_list a {
+		margin-left: -9%;
+	}
+}
 @media screen and (max-width: 375px) {
 
 	#home_startup_list a {
-		margin-left: -12%;
+		margin-left: -11%;
 	}
 }
 
@@ -709,6 +741,14 @@ hr{
 	}
 }
 
+.p_add{
+	margin-top: 3vh ;
+	margin-bottom: 3vh;
+	font-weight: 900;
+}
+.p_add_booster{
+	text-align: center;
+}
 
 /* CAROUSEL */
 
