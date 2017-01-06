@@ -28,9 +28,9 @@ class FrontController extends Controller {
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance()
                     ->setSubject('The Booster - Demande de contact')
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'Admin The Booster'))
+                    ->setFrom(array('inscriptions@the-booster.com' => 'Admin The Booster'))
                     /**     Remplacer par adresse où envoyer les infos pour chaque inscription **/
-                    ->setTo("projet.jd2h@gmail.com")
+                    ->setTo("inscriptions@the-booster.com")
                     ->setBody(
                         '<html>' .
                         '<head></head>' .
@@ -52,7 +52,7 @@ class FrontController extends Controller {
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance();
                 $message->setSubject("Demande de contact envoyé")
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
+                    ->setFrom(array('inscriptions@the-booster.com' => 'The Booster'))
                     ->setTo($contact->getMail())
                     ->setBody(
                         '<html>' .
@@ -110,7 +110,7 @@ class FrontController extends Controller {
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance();
                 $message->setSubject("Confirmation d'inscription à The Booster")
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
+                    ->setFrom(array('inscriptions@the-booster.com' => 'The Booster'))
                     ->setTo($donneur->getMailAddress())
                     ->setBody(
                         '<html>' .
@@ -131,9 +131,9 @@ class FrontController extends Controller {
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance();
                 $message->setSubject('The Booster - Inscription Donneur : '.$donneur->getFirstName().' '.$donneur->getName())
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'Admin The Booster'))
+                    ->setFrom(array('inscriptions@the-booster.com' => 'Admin The Booster'))
                /**     Remplacer par adresse où envoyer les infos pour chaque inscription **/
-                    ->setTo("projet.jd2h@gmail.com")
+                    ->setTo("inscriptions@the-booster.com")
                     ->setBody(
                         '<html>' .
                         '<head></head>' .
@@ -178,7 +178,7 @@ class FrontController extends Controller {
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance();
                 $message->setSubject("Confirmation d'inscription à The Booster")
-                        ->setFrom(array('projet.jd2h@gmail.com' => 'The Booster'))
+                        ->setFrom(array('inscriptions@the-booster.com' => 'The Booster'))
                         ->setTo($entrepreneur->getMailAddress())
                         ->setBody(
                         '<html>' .
@@ -199,9 +199,9 @@ class FrontController extends Controller {
                 $mailer = $this->container->get('mailer');
                 $message = \Swift_Message::newInstance();
                 $message->setSubject('The Booster - Inscription Entrepreneur : '.$entrepreneur->getFirstName().' '.$entrepreneur->getName())
-                    ->setFrom(array('projet.jd2h@gmail.com' => 'Admin The Booster'))
+                    ->setFrom(array('inscriptions@the-booster.com' => 'Admin The Booster'))
                     /**     Remplacer par adresse où envoyer les infos pour chaque inscription **/
-                    ->setTo("projet.jd2h@gmail.com")
+                    ->setTo("inscriptions@the-booster.com")
                     ->setBody(
                         '<html>' .
                         '<head></head>' .
